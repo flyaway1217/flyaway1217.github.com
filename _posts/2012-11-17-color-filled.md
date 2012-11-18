@@ -57,7 +57,7 @@ void CTestView::Fill(CDC *pDC,POINT Seed,COLORREF BoundaryColor,COLORREF FillCol
 	{
 		POINT p=Q.front();
 		Q.pop();
-		COLORREF pColor = pDC->GetPixel(p);	//当前点像素色
+		COLORREF pColor = pDC->GetPixel(p);	//当前点像
 		if(pColor==FillColor||pColor==BoundaryColor)  {continue;}
     pDC->SetPixel(p,FillColor); // 填色
     POINT ps[4]={{p.x-1,p.y},{p.x+1,p.y},   // 左右邻接点
