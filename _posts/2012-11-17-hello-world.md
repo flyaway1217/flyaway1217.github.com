@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Hello world
-description: hello_world 
-keywords: GitHub
+layout:	post
+title:	Hello world
+description:	hello_world 
+keywords:	GitHub
 ---
 忘记了多早之前，我就开始喜欢折腾，喜欢写博客。于是，在 2010 年 4 月份的时候，用一个星期的时间完成了自己的 wordpress 主题，并在<a href="http://www.pizn.net" target="_blank">pizn.net</a>域名上开始写博客。时隔一年有多，如今已经有接近 90 篇文章在那儿，我自己也步入了工作岗位。
 
