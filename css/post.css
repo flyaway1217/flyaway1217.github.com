@@ -112,6 +112,24 @@
 	float:right;
 }
 
+#post #time a:link {
+	color:hsl(207,100%,54%);
+}
+
+#post #time a:active {
+	color:hsl(207,100%,54%);
+}
+
+#post #time a:visited {
+	color:hsl(207,100%,54%);
+}
+
+#post #time a:hover {
+	color:hsl(207,100%,54%);
+	text-decoration:underline;
+}
+
+
 #post  a:link {
 	color:hsl(0,0%,33%);
 }
