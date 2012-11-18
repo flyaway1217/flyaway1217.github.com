@@ -1,0 +1,149 @@
+#post{
+	display:-moz-box;
+	display:-o-box;
+	display:-webkit-box;
+	display:box;
+	-moz-box-orient:vertical;
+	-o-box-orient:vertical;
+	-webkit-box-orient:vertical;
+	box-orient:vertical;
+	background-color:hsla(0,0%,100%,0.8);
+	height:auto;
+	width;90%;
+}
+#post #blank{
+	height:20px;
+}
+
+
+
+#post #path{
+	width:90%;
+	height:20px;
+	font-size:1.2em;
+	margin:0 0 0 20px;
+}
+
+
+
+#post #article{
+	display:-moz-box;
+	display:-o-box;
+	display:-webkit-box;
+	display:box;
+	-moz-box-orient:vertical;
+	-o-box-orient:vertical;
+	-webkit-box-orient:vertical;
+	box-orient:vertical;
+	word-warp:break-word;
+}
+
+#post #title{
+	text-align:center;
+	font-size:2em;
+	margin:0 0 0 0;
+}
+
+
+
+#post #time{
+	text-align:center;
+	margin:5px 0 0 0;
+	font-weight:bold;
+
+}
+
+
+#post #description{
+	font-style:oblique;
+	/*background:red;*/
+	margin:10px 50px 0 50px;
+	text-align:center;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:hsl(0,0%,80%);
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:hsl(0,0%,80%);
+	font-size:0.9em;
+	padding:0 50px 10px 50px;
+
+}
+
+
+#post #content{
+	padding:20px 50px 20px 50px;
+}
+#post #content p{
+	text-indent:2em;
+	margin:0 0 0 0;
+}
+
+#post #declare{
+	padding:0 0 0 50px;
+	background:hsl(207,75%,78%);
+	margin:0 50px 0 50px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	font-weight:bold;
+}
+
+
+#post nav{
+	/*background:red;*/
+	margin:20px 50px 50px 50px;
+	height:40px;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:hsl(0,0%,80%);
+	padding-top:15px;
+
+}
+
+#post nav a{
+	padding:0 10px 0 10px;
+}
+
+#post #previous{
+	float:left;
+}
+#post #next{
+	float:right;
+}
+
+#post  a:link {
+	color:hsl(0,0%,33%);
+}
+#post  a:active {
+	color:hsl(0,0%,33%);
+}
+#post  a:visited {
+	color:hsl(0,0%,33%);
+}
+#post #path a:hover {
+	color:hsl(207,100%,54%);
+	text-decoration:underline;
+}
+#post #declare a:link {
+	color:hsl(0,0%,100%);
+}
+#post #declare a:active {
+	color:hsl(0,0%,100%);
+}
+#post #declare a:visited {
+	color:hsl(0,0%,100%);
+}
+#post #declare a:hover {
+	color:hsl(0,0%,100%);
+	text-decoration:underline;
+}
+#post nav a:hover {
+	background-color:hsl(0,0%,71%);
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	}
+
+
+

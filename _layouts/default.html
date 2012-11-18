@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>
+		{%if page.title%}
+			{{page.title}}
+		{% else %}
+			{{site.title}}
+		{% endif %}
+	</title>
+	<meta name="generator" content="Jekyll"/>
+	<meta name="author" content="{{ site.author.name }}"/>
+	<meta name="description" content="{{ page.description }}"/>
+	<meta name="keywords" content="{{ page.keywords | join: ',' }}"/>
+	<link rel="stylesheet" href="/css/style.css" type="text/css"/>
+	<link rel="stylesheet" href="/css/index.css" type="text/css"/>
+	<link rel="stylesheet" href="/css/post.css" type="text/css"/>
+</head>
+<body>
+
+
+	<!--头部开始-->
+	<header id="head">
+		<h1>
+			<a href="#" title="逸世界">逸世界</a>
+		</h1>
+		<nav id="menu">
+			<ul class="menu" id="nav_menu">
+				<li class="current"><a href="#">网站首页</a></li>
+				<li ><a href="#">心路历程</a></li>
+				<li ><a href="#">后台技术</a></li>
+				<li ><a href="#">编程算法</a></li>
+				<li ><a href="#">文章归档</a></li>
+				<li ><a href="#">关于作者</a></li>
+			</ul>
+			</nav>
+	</header>
+	<!--头部结束-->
+
+
+
+	
+	<div id="wrap">
+		<section id="left">
+		
+		</section>
+
+
+
+
+
+
+
+		<!--中间部分-->
+		<section id="container">
+
+
+		{{ content }}
+		</section>
+		<!--中间结束-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<section id="right">
+		
+			<aside id="about" class = "shadow">
+				<h1>Flyaway</h1>
+				<p>爱好：电影&Coding</p>
+				<p>生日：1990年12月17日</p>
+				<p>学历：本科大四（在读）</p>
+				<p>邮箱：<a href="mailto:flyaway1217@gmail.com" title="flyaway1217@gmail.com">flyaway1217@gmail.com</a></p>
+				<p>QQ：370313621</p>
+			</aside>
+			<aside id="links" class = "shadow">
+				<h1>友情链接</h1>
+				<ul>
+					<li><a href="http://www.zhutouren.com" title="猪头任，在这里！"target="_blank">猪头任</a></li>
+				</ul>
+			</aside>
+
+		</secton>
+	</div>
+
+
+
+
+	</body>
+</html>

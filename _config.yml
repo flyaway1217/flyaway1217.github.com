@@ -1,0 +1,9 @@
+auto: true
+markdown: rdiscount
+pygments: true
+author: 
+    name: Flyaway
+    email: flyaway1217@gmail.com
+    qq: 370313621
+title: 逸世界
+description: 这是Flyaway的新Blog，它是基于Jekyll搭建的，所有页面元素效果全是自主完成的。在这里，这是一块快速记录工作，学习，生活一点一滴的地方。

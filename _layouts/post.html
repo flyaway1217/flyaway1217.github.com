@@ -1,0 +1,38 @@
+---
+layout: default
+isPost: true
+---
+
+
+
+
+	<div id="post" class="shadow">
+				<div id="blank"></div>
+				<aside id="path">
+					<strong><a href="\" rel="nofollow">Home</a></strong>
+					<span>&#9830</span>
+					<strong><a href="\" rel="nofollow">Archive</a></strong>
+					<span>&#9830</span>
+					<em>{{ page.title }}</em>
+				</aside>
+				<hr/>
+				<article id="article">
+					<p id="title">{{ page.title  }}</p>
+					<p id="time"><time pubtime="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">  {{ page.date | date_to_utc | date: "%Y-%m-%d" }}  </time>by<a href="/contact.html" title="author" class="author">  Flyaway  </a></p>
+					<div id="description">
+						{{ page.description }}
+					</div>
+					<div id="content">
+						{{ content }}
+					</div><!--content结束-->
+				<p id="declare">声明: 本文采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow" title="署名-非商业性使用-相同方式共享">BY-NC-SA</a> 协议进行授权. 转载请注明转自: <a href="{{ page.url }}" title="{{ page.title }}" rel="nofollow">曹操与康熙</a></p>
+			</article>	
+
+			<nav id="foot">
+				{% if page.previous %}
+				<a href="{{ page.previous.url }}" id="previous" title="上一篇文章">&laquo;{{ page.previous.title | truncatewords:5 }}</a>
+				{% endif %}
+				{% if page.next %}
+				<a href="{{ page.next.url }}" id="next" title="下一篇文章">{{ page.next.title | truncatewords:5 }}&raquo;</a>
+			</nav>
+		</div><!--post结束-->
