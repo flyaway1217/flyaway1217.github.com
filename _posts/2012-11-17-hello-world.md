@@ -1,5 +1,5 @@
 ---
-layout:	post
+layout: default	
 title:	Hello world
 description:	hello_world 
 keywords:	GitHub
