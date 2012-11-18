@@ -47,27 +47,8 @@ description: 图形学课上学到的图形颜色填充算法，列举了三种�
 
 这个算法有多种实现方法，其中最常见的就是深度遍历和广度遍历。分别对应着栈和堆的特性。这里我就再多说了。直接给出代码：
 
-{% highlight C++ linenos %}
-void CTestView::Fill(CDC *pDC, POINT Seed, 
-					 COLORREF BoundaryColor, 
-					 COLORREF FillColor)
-{
-	queue<POINT> Q;
-	int maxsize=0;    // 队列的最大长度
-	Q.push(Seed);
-	while(Q.size()>0) 
-  { 
-    POINT p=Q.front();    Q.pop();
-    COLORREF pColor=pDC->GetPixel(p); // 当前点像素色
-    if(pColor==FillColor||pColor==BoundaryColor)  continue;
-    pDC->SetPixel(p,FillColor); // 填色
-    POINT ps[4]={{p.x-1,p.y},{p.x+1,p.y},   // 左右邻接点
-				{p.x,p.y+1},{p.x,p.y-1}};  // 上下邻接点
-    for(int i=0; i<4; i++)
-	{ pColor=pDC->GetPixel(ps[i]);
-      if(pColor!=BoundaryColor && pColor!=FillColor)
-             Q.push(ps[i]);
-	}
-  }
-}
-{% ednhighlight %}
+{% highlight ruby %}
+def foo
+	puts 'foo'
+end
+{% endhighlight %}
