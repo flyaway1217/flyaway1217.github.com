@@ -112,6 +112,13 @@
 	float:right;
 }
 
+
+#post .highlight {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
 #post #time a:link {
 	color:hsl(207,100%,54%);
 }
