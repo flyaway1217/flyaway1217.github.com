@@ -47,7 +47,7 @@ description: 图形学课上学到的图形颜色填充算法，列举了三种�
 
 这个算法有多种实现方法，其中最常见的就是深度遍历和广度遍历。分别对应着栈和堆的特性。这里我就再多说了。直接给出代码：
 
-{% highlight c++ linenos %}
+{% highlight C++ linenos %}
 void CTestView::Fill(CDC *pDC, POINT Seed, 
 					 COLORREF BoundaryColor, 
 					 COLORREF FillColor)
