@@ -60,7 +60,6 @@ void CTestView::Fill(CDC *pDC,POINT Seed,COLORREF BoundaryColor,COLORREF FillCol
 		COLORREF pColor = pDC->GetPixel(p);	//当前点象素色
 		if(pColor == FillColor || pColor == BoundaryColor) continue;
 		pDC->SetPixel(p,FillColor);//填色
-		POINT ps[4]={{p.x-1,p.y},{p.x+1,p.y},{p.x,p.y+1},{p.x,p.y-1}};
 	}
 }
 {% endhighlight %}
