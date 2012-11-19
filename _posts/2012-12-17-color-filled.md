@@ -70,4 +70,5 @@ void CTestView::Fill(CDC *pDC,POINT Seed,COLORREF BoundaryColor,COLORREF FillCol
 			}
 		}
 	}
+}
 {% endhighlight %}
