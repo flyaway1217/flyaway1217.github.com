@@ -48,21 +48,27 @@ description: 图形学课上学到的图形颜色填充算法，列举了三种�
 这个算法有多种实现方法，其中最常见的就是深度遍历和广度遍历。分别对应着栈和堆的特性。这里我就再多说了。直接给出代码：
 
 {% highlight cpp linenos %}
-int main()
+void CTestView::Fill(CDC *pDC,POINT Seed,COLORREF BoundaryColor,COLORREF FillColor)
 {
-	while(true)
+	queue<POINT> Q;
+	int maxsize = 0;
+	Q.push(Seed);
+	while(Q.size() > 0)
 	{
-		cout<<Q.pop();
-	}
-	while(true)
-	{
-		cout<<Q.pop();
-	}while(true)
-	{
-		cout<<Q.pop();
-	}while(true)
-	{
-		cout<<Q.pop();
+		POINT q=Q.front();
+		Q.pop();
+		COLORREF pColor = pDC->GetPixel(p);	//当前点象素色
+		if(pColor == FillColor || pColor == BoundaryColor) continue;
+		pDC->SetPixel(p,FillColor);//填色
+		POINT ps[4]={{p.x-1,p.y},{p.x+1,p.y},{p.x,p.y+1},{p.x,p.y-1}};
+		for(int i = 0; i < 4; ++i)
+		{
+			pColor=pDC->GetPixel(ps[i]);
+			if(pColor != BoundaryColor && pColor != FillColor)
+			{
+				Q.push(ps[i]);
+			}
+		}
 	}
 }
 {% endhighlight %}
