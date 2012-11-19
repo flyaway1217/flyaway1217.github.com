@@ -55,20 +55,7 @@ void CTestView::Fill(CDC *pDC,POINT Seed,COLORREF BoundaryColor,COLORREF FillCol
 	Q.push(Seed);
 	while(Q.size() > 0)
 	{
-		POINT q=Q.front();
-		Q.pop();
-		COLORREF pColor = pDC->GetPixel(p);	//当前点象素色
-		if(pColor == FillColor || pColor == BoundaryColor) continue;
-		pDC->SetPixel(p,FillColor);//填色
-		POINT ps[4]={{p.x-1,p.y},{p.x+1,p.y},{p.x,p.y+1},{p.x,p.y-1}};
-		for(int i = 0; i < 4; ++i)
-		{
-			pColor=pDC->GetPixel(ps[i]);
-			if(pColor != BoundaryColor && pColor != FillColor)
-			{
-				Q.push(ps[i]);
-			}
-		}
+		cout<<Q.pop();
 	}
 }
 {% endhighlight %}
