@@ -54,5 +54,15 @@ int main()
 	{
 		cout<<Q.pop();
 	}
+	while(true)
+	{
+		cout<<Q.pop();
+	}while(true)
+	{
+		cout<<Q.pop();
+	}while(true)
+	{
+		cout<<Q.pop();
+	}
 }
 {% endhighlight %}
