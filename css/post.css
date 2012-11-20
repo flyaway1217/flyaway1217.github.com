@@ -122,6 +122,26 @@
 	
 }
 
+#post #content code:not([class]){
+	margin: 0 3px;
+ 	padding: 0 3px;
+ 	background: #a0a0a0;
+ 	font: 12px Monaco,serif;
+ 	color: #f8f8f8;
+	border-radius: 2px 2px;
+}	
+#post #content strong{
+	font-size:1.1em;
+	font-weight:bolder;
+}
+
+#post #content a{
+	color:hsl(204,41%,50%);
+}
+#post #content a:hover {
+	text-decoration:underline;
+	color:hsl(295,89%,29%);
+}
 
 #post #eof{
 	/*background:red;*/
@@ -194,7 +214,7 @@
 }
 
 
-#post  a:link {
+#post   a:link {
 	color:hsl(0,0%,33%);
 }
 #post  a:active {
@@ -225,7 +245,6 @@
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	}
-
+}
 
 
