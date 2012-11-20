@@ -7,11 +7,11 @@ description: 图形学课上学到的图形颜色填充算法，列举了三种�
 ###1、算法思想
 
 简单的来说，就是计算出屏幕上有哪些像素点是在多边形内部的，重复利用多变形内部区域的连续性。算出每一条水平线上有哪些点是在该多边形内的，然后改变这些点的像素值。如图所示：
-<img src="/resources/autopage-step-4.png" alt="color-filled"></img>
+<img src="/resources/color-filled-1.png" alt="color-filled"></img>
 ###2、算法步骤
-1. 确定多边形顶点的最小和最大y值（ymin和ymax）。
-2. 从y=ymin到y=ymax，每次用一条扫描线进行填充。
-3. 对一条扫描线填充的过程可分为三个步骤：
+1. 确定多边形顶点的**最小**和**最大**y值（ymin和ymax）。
+2. 从`y=ymin`到`y=ymax`，每次用一条扫描线进行填充。
+3. 对一条扫描线填充的过程可分为<a href="#">三个步骤</a>：
 <p></p>
  - 求交(能否只对有效边求交？)
 	<p>有效边(Active Edge)：与当前扫描线相交的多边形边。</p>
