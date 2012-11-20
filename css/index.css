@@ -79,7 +79,7 @@
 
 #index .more{
 	display:block;
-	background-color:hsla(0,0%,0%,0.85);
+	background-color:hsl(29,74%,55%);
 	width:90px;
 	text-align:center;
 	margin:10px 0 0 200px;
@@ -91,16 +91,16 @@
 
 
 #index a:link {
-	color:hsl(0,0%,0%);
+	color:hsl(100,65%,36%);
 }
 #index a:active {
-	color:hsl(0,0%,0%);
+	color:hsl(100,65%,36%);
 }
 #index a:visited {
-	color:hsl(0,0%,0%);
+	color:hsl(100,65%,36%);
 }
 #index a:hover {
-	color:hsl(207,100%,54%);
+	color:hsl(100,90%,20%);
 }
 
 
@@ -114,7 +114,7 @@
 	color:hsl(0,0%,100%);
 }
 #index .info a:hover {
-	background:hsl(207,100%,54%);
+	background:hsl(332,100%,47%);
 }	
 
 .article_info:hover {
