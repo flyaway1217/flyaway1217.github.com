@@ -9,6 +9,7 @@ description: 图形学课上学到的图形颜色填充算法，列举了三种�
 简单的来说，就是计算出屏幕上有哪些像素点是在多边形内部的，重复利用多变形内部区域的连续性。算出每一条水平线上有哪些点是在该多边形内的，然后改变这些点的像素值。如图所示：
 <img src="/resources/color-filled-1.png" alt="color-filled"></img>
 ###2、算法步骤
+\(J_\alpha(x) = \sum\limits_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha}\)
 1. 确定多边形顶点的最小和最大y值（ymin和ymax）。
 2. 从y=ymin到y=ymax，每次用一条扫描线进行填充。
 3. 对一条扫描线填充的过程可分为三个步骤：
