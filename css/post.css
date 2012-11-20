@@ -112,6 +112,17 @@
 	-o-border-radius:5px;
 	border-radius:5px;
 }
+
+#post #content img {
+	margin: 5px auto;
+  display: block;
+  padding: 3px 3px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 0 4px #d0d0d0;
+	
+}
+
+
 #post #eof{
 	/*background:red;*/
 	font-size:1em;
@@ -132,6 +143,7 @@
 
 	/*font-weight:bold;*/
 }
+
 
 
 #post nav{
