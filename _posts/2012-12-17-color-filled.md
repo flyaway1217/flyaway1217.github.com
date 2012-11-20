@@ -10,7 +10,7 @@ description: 图形学课上学到的图形颜色填充算法，列举了三种�
 <img src="/resources/color-filled-1.png" alt="color-filled"></img>
 ###2、算法步骤
 
-\\[\frac{1}{2}\\]
+\[\sum_{i=1}^n i \prod_{i=1}^n \lim_{x\to0}x^2 \int_a^b x^2 dx\]
 
 1. 确定多边形顶点的最小和最大y值（ymin和ymax）。
 2. 从y=ymin到y=ymax，每次用一条扫描线进行填充。
