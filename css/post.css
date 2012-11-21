@@ -143,6 +143,54 @@
 	color:hsl(295,89%,29%);
 }
 
+#post #content table td{
+	text-align:center;
+	padding:0 10px 0 10px;
+}
+
+#post #content table tr:nth-of-type(even) {
+	background-color:hsla(210,70%,82%,.5);
+}
+#post #content table tr:nth-of-type(odd) {
+	background-color:hsla(110,44%,76%,.5);
+}
+
+
+#post #content blockquote {
+	padding: 0.5em 1em 0.1em 1em; 
+	margin-bottom: 1em; 
+	background: rgba(214, 214, 214, 0.5); 
+	border-width: 1px 1px 1px 0.4em; 
+	border-color:#d8d8d8 #d8d8d8 #d8d8d8 #d0d0d0; 
+	border-style: solid; 
+	vertical-align: middle; 
+	border-radius: 0px 2px 2px 0;
+	margin-left:0px;
+}
+
+
+#post #content blockquote:before {
+    content: "“";
+    font-size: 38px;
+    line-height: 18px;
+    position: relative;
+    color: #c8c8c8;
+    overflow: hidden;
+    top: 18px;
+}
+
+#post #content blockquote:after {
+    content: "”";
+    font-size: 38px;
+    line-height: 18px;
+    position: relative;
+    color: #c8c8c8;
+    overflow: hidden;
+    top: 14px;
+}
+
+
+
 #post #eof{
 	/*background:red;*/
 	font-size:1em;

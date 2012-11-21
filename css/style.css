@@ -8,6 +8,24 @@ body{
 	line-height: 180%;
 	font-family: "Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti;
 }
+
+
+#back{
+	margin:0 0 0 0;
+	display:-moz-box;
+	display:-o-box;
+	display:-webkit-box;
+	display:box;
+	-moz-box-orient:horizontal;
+	-o-box-orient:horizontal;
+	-webkit-box-orient:horizontal;
+	-moz-box-pack:center;
+	-o-box-pack:center;
+	-webkit-box-pack:center;
+	box-pack:center;
+
+}
+
 /*头部开始*/
 #head{
 	  top:0;
@@ -104,6 +122,8 @@ body{
 	display:-webkit-box;
 	display:box;
 	background-color:hsl(0,0%,91%);
+	max-width:1300px;
+	vertical-align:middle;
 }
 
  #left{
@@ -125,7 +145,7 @@ body{
 	-o-box-orient:vertical;
 	-webkit-box-orient:vertical;
 	box-orient:vertical;
-
+	min-width:250px;
 }
 
 #container{
@@ -153,6 +173,7 @@ body{
 	-o-box-orient:vertical;
 	-webkit-box-orient:vertical;
 	box-orient:vertical;
+	min-width:250px;
 }
 
 
@@ -160,7 +181,6 @@ body{
 		height:250px;
 		margin:60px 20px 20px 10px; 
 		width:90%;
-		min-width:240px;
 }
 
 #right h1{
