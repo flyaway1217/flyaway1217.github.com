@@ -169,10 +169,10 @@
 }
 
 #post #content blockquote p{
-	display:inline;
+	/*display:inline;*/
 }
 
-#post #content blockquote:before {
+#post #content blockquote p:before {
     content: "“";
     font-size: 38px;
     line-height: 18px;
@@ -182,7 +182,7 @@
     top: 18px;
 }
 
-#post #content blockquote:after {
+#post #content blockquote p:after {
     content: "”";
     font-size: 38px;
     line-height: 18px;

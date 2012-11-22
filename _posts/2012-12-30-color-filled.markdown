@@ -93,9 +93,7 @@ void CTestView::Fill(CDC *pDC,POINT Seed,COLORREF BoundaryColor,COLORREF FillCol
 
 
 > www.flyaway1217.com
-
 > www.flyaway1217.com
-
 > www.flyaway1217.com
 
 
