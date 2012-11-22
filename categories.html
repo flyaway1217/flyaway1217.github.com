@@ -4,6 +4,9 @@ title: Categories
 ---
 
 <ul>
+{% for p in site.categories.class2 %}
 <li>
-    </li>
+{{ p.title }}
+</li>
+{% endfor %}
 </ul>
