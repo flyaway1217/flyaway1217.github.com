@@ -4,9 +4,9 @@ title: Categories
 ---
 
 <ul>
-{\% for category in site.categories %\}
-    <li><a href="/categories/{\{ category | first }\}/" title="view all
-6posts">{\{ category | first }\} {\{ category | last | size }\}</a>
+{% for category in site.categories %}
+<li>
+{{ category }}
     </li>
   {\% endfor %\}
 </ul>
