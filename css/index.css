@@ -1,5 +1,5 @@
 #index_content{
-	width:90%;
+	/*width:90%;*/
 	/*background:red;*/
   display:-moz-box;
 	display:-o-box;
@@ -9,7 +9,7 @@
 	-o-box-orient:vertical;
 	-webkit-box-orient:vertical;
 	box-orient:vertical;
-	margin:10px 20px 0 40px ;
+	/*margin:10px 20px 0 40px ;*/
 	background-color:hsla(0,0%,100%,0.8);
 }
 #index #blank{
