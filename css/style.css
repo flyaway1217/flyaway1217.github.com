@@ -149,13 +149,13 @@ body{
 }
 
 #container{
-	width:60%;
+	/*width:60%;*/
 	/*background:yellow;*/
 	-moz-box-ordinal-group:2;
   -o-box-ordinal-group:2;
 	-wenkit-box-ordinal-group:2;
 	box-ordinal-group:2;
-	min-width:800px;
+	width:800px;
 }
 
 /*右边侧边栏开始*/
