@@ -122,7 +122,7 @@ body{
 	display:-webkit-box;
 	display:box;
 	background-color:hsl(0,0%,91%);
-	max-width:1300px;
+	width:1260px;
 	vertical-align:middle;
 }
 
