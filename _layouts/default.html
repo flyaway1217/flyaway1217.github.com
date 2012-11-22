@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="/css/post.css" type="text/css"/>
 	<link rel="stylesheet" href="/css/syntax.css" type="text/css"/>
 	<link rel="stylesheet" href="/css/direction.css" type="text/css"/>
+	{% if page.math %}
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -34,7 +35,6 @@
       }
     });
 </script>
-
 <script type="text/x-mathjax-config">
     MathJax.Hub.Queue(function() {
         var all = MathJax.Hub.getAllJax(), i;
@@ -47,7 +47,7 @@
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>	
-</script>
+{% endif %}
 </head>
 <body>
 	<!--头部开始-->
