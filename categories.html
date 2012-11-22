@@ -2,14 +2,11 @@
 layout: default
 title: Categories
 ---
-{% for mycategory in site.categories.CATEGORY %}
 
 <ul>
-	<li>mycategory</li>
+{\% for category in site.categories %\}
+    <li><a href="/categories/{\{ category | first }\}/" title="view all
+6posts">{\{ category | first }\} {\{ category | last | size }\}</a>
+    </li>
+  {\% endfor %\}
 </ul>
-{% endfor %}
-
-<p>{{ site.categories.CATEGORY }}</p>
-<div>{% site.categories.CATEGORY %}</div>
-
-
