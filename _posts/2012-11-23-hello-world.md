@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello world
+title: Hello World
 description: 这是我正式发布在github上的第一篇博客。和学习所有编程语言一样，第一个实例总是Hello World!
 keywords: GitHub,Jekyll,HelloWorld,WordPress
 category: 心路历程
