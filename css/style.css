@@ -156,6 +156,7 @@ body{
 	-wenkit-box-ordinal-group:2;
 	box-ordinal-group:2;
 	width:800px;
+	min-height:610px;
 }
 
 /*右边侧边栏开始*/
