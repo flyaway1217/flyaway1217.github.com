@@ -98,22 +98,7 @@
 
 		<!--中间部分-->
 		<section id="container">
-			<div id="archive" class="shadow">
-				<h1 id="post_title">All posts is here<span>({{ site.posts | size }} posts.)</span></h1>
-				{% for mypost in site.posts  %}
-					<article class="article_info">
-						<div class="title" >
-							<div class="center"><h2><a href="{{ mypost.url }}" title="{{ mypost.title }}">{{ mypost.title }}</a></h2></div>
-							<time class="time" pubdate="{{ mypost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ mypost.date | date_to_utc | date: '%Y-%m-%d' }}</time>
-						</div>
-						<div class="info">
-							<p>{{ mypost.description }}</p>
-							
-						</div>
-						</article>
-
-
-			</div>
+		{{ content }}
 		</section>
 		<!--中间结束-->
 
