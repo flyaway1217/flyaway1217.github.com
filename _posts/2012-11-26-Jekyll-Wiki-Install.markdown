@@ -78,7 +78,7 @@ markdown: rdiscount
 
 如果你希望在你的文章中通过` highlight `标签实现代码高亮，你需要安装[Pygments](http://pygments.org/)。
 
-###在OS X Leopard和Snow Leopard上:###
+**在OS X Leopard和Snow Leopard上:**
 
 它和Python2.6已经预装了：
 
@@ -103,7 +103,7 @@ pip install pygments
 
 **注意**：Homebrew并不会为你链接到可执行文件。对于Homebrew默认的Cellar路径和Python2.7来说，确保把`/usr/local/share/python`添加到你的`PATH`中。想要了解更多信息，请查看[这里](https://github.com/mxcl/homebrew/wiki/Homebrew-and-Python)
 
-### 在Archlinux上：###
+**Archlinux上：**
 
 {% highlight ruby %}
 sudo pacman -S python-pygments
@@ -117,19 +117,19 @@ sudo pacman -S python2-pygments
 
 **注意**:python2版本的pygments创建一个名为`pygmentize2`的可执行文件，然而Jekyll尝试寻找的是`pygmentize`。创建一个执行链接`# ln -s /usr/bin/pygments2 /usr/bin/pygmentize`或者使用python3版的pygments都是可以的。(这条建议似乎已经过时了，因为python2版的pygments现在确实安装pygmentize)
 
-### 在Unbutu和Debian上:###
+**在Unbutu和Debian上:**
 
 {% highlight ruby %}
 sudo pat-get install python-pygments
 {% endhighlight %}
 
-### 在Fedora和CentOS上:###
+**在Fedora和CentOS上:**
 
 {% highlight ruby %}
 sudo yum install python-pygments
 {% endhighlight %}
 
-### 在Gentoo上:###
+**在Gentoo上:**
 
 {% highlight ruby %}
 sudo emerge -av dev-python/pygments
