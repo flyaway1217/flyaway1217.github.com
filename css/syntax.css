@@ -1,4 +1,7 @@
-.highlight { background-color: #404040 }
+.highlight { 
+	background-color: #404040;
+	padding:0 10px 0 10px;
+}
 .c { color: #999999; font-style: italic } /* Comment */
 .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .g { color: #d0d0d0 } /* Generic */
