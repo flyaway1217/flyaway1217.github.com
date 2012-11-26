@@ -18,7 +18,7 @@ Jekyll最好的安装法师就是通过RubyGems:
 gem install jekyll
 {% endhighlight %}
 
-Jekyll需要以下的gems:`directory\_watcher`,`liquid`,`open4`,`maruku`和`classifier`。这些组件将会在gem的安装命令之后自动安装。
+Jekyll需要以下的gems:`directory_watcher`,`liquid`,`open4`,`maruku`和`classifier`。这些组件将会在gem的安装命令之后自动安装。
 
 如果你在gem的安装过程中遇到错误，你可能需要安装ruby1.9.1的编译扩展组件的头文件。如果是Debian系统，你可以这样做：
 
@@ -69,7 +69,7 @@ sudo gem install rdiscount
 jekyll --rdiscount
 {%  endhighlight %}
 
-或者，如果你不想指定标志的话，你可以在你的 `\_config.yml`中写入如下代码：
+或者，如果你不想指定标志的话，你可以在你的 `_config.yml`中写入如下代码：
 
 {% highlight ruby linenos %}
 markdown: rdiscount
@@ -78,7 +78,7 @@ markdown: rdiscount
 
 ##Pygments##
 
-如果你希望在你的文章中通过`\{% highlight %\}`标签实现代码高亮，你需要安装[Pygments](http://pygments.org/)。
+如果你希望在你的文章中通过`{% highlight %}`标签实现代码高亮，你需要安装[Pygments](http://pygments.org/)。
 
 ###在OS X Leopard和Snow Leopard上###
 
@@ -97,7 +97,7 @@ sudo port install python25 py25-pygments
 
 {% highlight ruby linenos %}
 brew install python
-# export PATH="/usr/local/share/python:$(PATH)"
+/#export PATH="/usr/local/share/python:$(PATH)"
 easy_install pip
 pip install --upgrade distribute
 pip install pygments
