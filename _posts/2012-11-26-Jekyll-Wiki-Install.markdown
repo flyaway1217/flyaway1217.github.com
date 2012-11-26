@@ -10,7 +10,7 @@ category: 翻译
 
 ##安装##
 
-Jekyll最好的安装法师就是通过RubyGems:
+Jekyll最好的安装方法就是通过RubyGems来安装:
 
 {% highlight ruby %}
 gem install jekyll
