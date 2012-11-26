@@ -14,7 +14,7 @@ RB_USER_INSTALL=true gem install jekyll
 
 {% highlight ruby linenos %}
 brew install python
-/#export PATH="/usr/local/share/python:$(PATH)"
+#export PATH="/usr/local/share/python:$(PATH)"
 easy_install pip
 pip install --upgrade distribute
 pip install pygments
