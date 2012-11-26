@@ -49,7 +49,7 @@ sudo gem update --system
 
 ##从LaTex到PNG##
 
-Maruku本身是对从LaTex到PNG的转换是可选的，它是通过blahtex(Version 0.6)完成的。但是，blahtex必须和`dvips`一起在你的`$PATH`中。
+Maruku本身对从LaTex到PNG的转换是可选的，它是通过blahtex(Version 0.6)完成的。但是，blahtex必须和`dvips`一起在你的`$PATH`中。
 
 （**注意**：你需要自己设置dvips的位置，因为[remi's fork of Maruku](http://github.com/remi/maruku/tree/master)不会固定它的位置）
 
