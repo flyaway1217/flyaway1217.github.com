@@ -6,7 +6,7 @@ keywords: Jekyll,Install,Ruby,Linux,Wiki
 category: 翻译
 ---
 
-> 原文地址:[Install](https://github.com/mojombo/jekyll/wiki/Install,"Install")
+> 原文地址:[https://github.com/mojombo/jekyll/wiki/Install](https://github.com/mojombo/jekyll/wiki/Install,"Install")
 
 ##安装##
 
@@ -97,7 +97,7 @@ sudo port install python25 py25-pygments
 
 {% highlight ruby linenos %}
 brew install python
-/#export PATH="/usr/local/share/python:$(PATH)"
+#export PATH="/usr/local/share/python:$(PATH)"
 easy_install pip
 pip install --upgrade distribute
 pip install pygments
