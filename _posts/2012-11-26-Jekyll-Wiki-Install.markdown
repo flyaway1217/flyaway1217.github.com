@@ -6,7 +6,7 @@ keywords: Jekyll,Install,Ruby,Linux,Wiki
 category: 翻译
 ---
 
-> 原文地址:[https://github.com/mojombo/jekyll/wiki/Install](https://github.com/mojombo/jekyll/wiki/Install,"Install")
+> 原文地址:[https://github.com/mojombo/jekyll/wiki/Install](https://github.com/mojombo/jekyll/wiki/Install "Install")
 
 ##安装##
 
@@ -30,13 +30,13 @@ sudo apt-get install ruby1.9.1-dev
 sudo yum install ruby-devel
 {% endhighlight %}
 
-在[NearlyFreeSpeech](https://www.nearlyfreespeech.net/,"NearlyFreeSpeech")上，你需要：
+在[NearlyFreeSpeech](https://www.nearlyfreespeech.net/ "NearlyFreeSpeech")上，你需要：
 
 {% highlight ruby %}
 RB_USER_INSTALL=true gem install jekyll
 {% endhighlight %}
 
-如果你在Windows操作系统上遇到像`Faild to build gem native extension`这样的错误，你可能需要安装[RubyInstaller DevKit](https://github.com/oneclick/rubyinstaller/wiki/development-kit,"RubyInstaller DevKit")
+如果你在Windows操作系统上遇到像`Faild to build gem native extension`这样的错误，你可能需要安装[RubyInstaller DevKit](https://github.com/oneclick/rubyinstaller/wiki/development-kit "RubyInstaller DevKit")
 
 在OSX上，你可能需要升级RubyGems:
 
