@@ -6,6 +6,8 @@ keywords: Jekyll,Install,Ruby,Linux,Wiki
 category: 翻译
 ---
 
+`directory_watcher`
+
 {% highlight ruby linenos %}
 RB_USER_INSTALL=true gem install jekyll
 {% endhighlight %}
