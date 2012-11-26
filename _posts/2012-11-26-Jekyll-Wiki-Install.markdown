@@ -51,7 +51,9 @@ sudo gem update --system
 
 Maruku本身是对从LaTex到PNG的转换是可选的，它是通过blahtex(Version 0.6)完成的。但是，blahtex必须和`dvips`一起在你的`$PATH`中。
 
-（**注意**：[remi's fork of Maruku](http://github.com/remi/maruku/tree/master)并不会固定`dvips`的位置，除非你需要将它固定）
+（**注意**：你需要自己设置dvips的位置，因为[remi's fork of Maruku](http://github.com/remi/maruku/tree/master)不会固定它的位置）
+
+
 
 ##RDiscount##
 
@@ -67,7 +69,7 @@ sudo gem install rdiscount
 jekyll --rdiscount
 {%  endhighlight %}
 
-或者，如果你不想指定标志的话，你可以在你的`_config.yml`中写入如下代码：
+你可以在你的`_config.yml`中写入如下代码，从而不必指定标志
 
 {% highlight ruby %}
 markdown: rdiscount
@@ -101,7 +103,7 @@ pip install --upgrade distribute
 pip install pygments
 {% endhighlight %}
 
-**注意**：Homebrew并不会为你链接到可执行文件。对于Homebrew默认的Cellar路径和Python2.7来说，确保把`/usr/local/share/python`添加到你的`PATH`中。想要了解更多信息，请查看[这里](https://github.com/mxcl/homebrew/wiki/Homebrew-and-Python)
+**注意**：Homebrew并不会为你自动链接到可执行文件。对于Homebrew默认的Cellar路径和Python2.7来说，确保把`/usr/local/share/python`添加到你的`PATH`中。想要了解更多信息，请查看[这里](https://github.com/mxcl/homebrew/wiki/Homebrew-and-Python)
 
 **Archlinux上：**
 
