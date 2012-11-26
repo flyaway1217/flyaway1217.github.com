@@ -10,9 +10,7 @@ category: 翻译
 
 ##安装##
 
-Jekyll最好的安装法师就是通过RubyGems:
-
-> (RubyGems一个用于对Rails组建进行打包的Ruby打包系统——译者注)
+Jekyll最好的安装法师就是通过RubyGems:(RubyGems一个用于对Rails组建进行打包的Ruby打包系统——译者注)
 
 {% highlight ruby linenos %}
 gem install jekyll
