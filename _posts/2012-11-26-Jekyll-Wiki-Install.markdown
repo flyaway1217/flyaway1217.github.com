@@ -55,3 +55,4 @@ Maruku本身是对从LaTex到PNG的转换是可选的，它是通过blahtex(Vers
 
 （**注意**：[remi's fork of Maruku](http://github.com/remi/maruku/tree/master)并不会固定`dvips`的位置，除非你需要将它固定）
 
+`{% highlight %}`
