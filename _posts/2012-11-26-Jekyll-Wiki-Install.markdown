@@ -18,7 +18,7 @@ Jekyll最好的安装法师就是通过RubyGems:
 gem install jekyll
 {% endhighlight %}
 
-Jekyll需要以下的gems:`directory\_watcher`,`liquid`,`open4`,`maruku`和`classifier`。这些组件将会在gem的安装命令之后自动安装。
+Jekyll需要以下的gems:`directory_watcher`,`liquid`,`open4`,`maruku`和`classifier`。这些组件将会在gem的安装命令之后自动安装。
 
 如果你在gem的安装过程中遇到错误，你可能需要安装ruby1.9.1的编译扩展组件的头文件。如果是Debian系统，你可以这样做：
 
@@ -32,10 +32,10 @@ sudo apt-get install ruby1.9.1-dev
 sudo yum install ruby-devel
 {% endhighlight %}
 
-在[NearlyFreeSpeech](http:nearlyfreespeech.net,"NearlyFreeSpeech")上，你需要：
+在[NearlyFreeSpeech](http://nearlyfreespeech.net,"NearlyFreeSpeech")上，你需要：
 
 {% highlight ruby linenos %}
-RB\_USER\_INSTALL=true gem install jekyll
+RB_USER_INSTALL=true gem install jekyll
 {% endhighlight %}
 
 如果你在Windows操作系统上遇到像`Faild to build gem native extension`这样的错误，你可能需要安装[RubyInstaller DevKit](https://github.com/oneclick/rubyinstaller/wiki/development-kit,"RubyInstaller DevKit")
@@ -69,7 +69,7 @@ sudo gem install rdiscount
 jekyll --rdiscount
 {%  endhighlight %}
 
-或者，如果你不想指定标志的话，你可以在你的`\_config.yml`中写入如下代码：
+或者，如果你不想指定标志的话，你可以在你的`_config.yml`中写入如下代码：
 
 {% highlight ruby linenos %}
 markdown: rdiscount
@@ -85,7 +85,7 @@ markdown: rdiscount
 它和Python2.6已经预装了：
 
 {% highlight ruby linenos %}
-sudo easy\_install Pygments
+sudo easy_install Pygments
 {% endhighlight %}
 
 或者在OS X中使用MacPorts:
@@ -98,7 +98,7 @@ sudo port install python25 py25-pygments
 {% highlight ruby linenos %}
 brew install python
 /#export PATH="/usr/local/share/python:$(PATH)"
-easy\_install pip
+easy_install pip
 pip install --upgrade distribute
 pip install pygments
 {% endhighlight %}
