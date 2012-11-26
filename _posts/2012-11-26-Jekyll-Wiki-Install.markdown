@@ -1,18 +1,18 @@
 ---
 layout: post
-title: 译文:Jekyll的安装
+title: [译文]Jekyll的安装
 description: Jekyll安装方法的官方说明，学习的使用Jekyll的起点。这篇文章译自Jekyll的官方Wiki，希望能对不熟悉英文的朋友们有所帮助。
 category: 翻译
 keywords:Jekyll,Install,Ruby,Linux,Wiki
 ---
 
-- 原文地址:[Install](https://github.com/mojombo/jekyll/wiki/Install,"Install")
+> 原文地址:[Install](https://github.com/mojombo/jekyll/wiki/Install,"Install")
 
 ##安装##
 
 Jekyll最好的安装法师就是通过RubyGems:
 
-- (RubyGems一个用于对Rails组建进行打包的Ruby打包系统——译者注)
+> (RubyGems一个用于对Rails组建进行打包的Ruby打包系统——译者注)
 
 {% highlight ruby linenos %}
 gem install jekyll
