@@ -49,7 +49,7 @@ sudo gem update --system
 
 ##从LaTex到PNG##
 
-Maruku本身对从LaTex到PNG的转换是可选的，它是通过blahtex(Version 0.6)完成的。但是，blahtex必须和`dvips`一起在你的`$PATH`中。
+Maruku本身对从LaTex到PNG的转换是可选的，它是通过blahtex(Version 0.6)完成的。但是，blahtex必须和`dvips`一起放在你的`$PATH`中。
 
 （**注意**：你需要自己设置dvips的位置，因为[remi's fork of Maruku](http://github.com/remi/maruku/tree/master)不会固定它的位置）
 
@@ -117,7 +117,7 @@ sudo pacman -S python-pygments
 sudo pacman -S python2-pygments
 {% endhighlight %}
 
-**注意**:python2版本的pygments创建一个名为`pygmentize2`的可执行文件，然而Jekyll尝试寻找的是`pygmentize`。创建一个执行链接`# ln -s /usr/bin/pygments2 /usr/bin/pygmentize`或者使用python3版的pygments都是可以的。(这条建议似乎已经过时了，因为python2版的pygments现在确实安装pygmentize)
+**注意**:python2版本的pygments创建一个名为`pygmentize2`的可执行文件，而Jekyll会尝试寻找`pygmentize`。创建一个执行链接`# ln -s /usr/bin/pygments2 /usr/bin/pygmentize`或者使用python3版的pygments都是可以的。(这条建议似乎已经过时了，因为python2版的pygments现在确实安装pygmentize)
 
 **在Unbutu和Debian上:**
 
