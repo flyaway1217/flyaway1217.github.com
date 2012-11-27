@@ -73,9 +73,9 @@ Jekyll将会转换头部拥有[YAML Front Matter](https://github.com/mojombo/jek
 
 通常这是通过跟随gem一起安装的可执行文件`jekyll`来运行的。为了运行你的网站服务，你需要运行：
 
-{% highlight ruby  %}
+{% highlight ruby %}
 jekyll --server
-{%  endhighlight %}
+{% endhighlight %}
 
 如果你打算在前端开发中使用**jekyll**服务，你也会需要`--auto`选项（既可以通过命令行设置也可以将其写入_config.yml配置文件）来查看文件改动。
 
