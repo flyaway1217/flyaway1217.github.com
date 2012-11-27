@@ -45,7 +45,7 @@ Jekyll的核心是一个文本转换引擎。它是基于这样的思路：把�
 
 ### \_includes ###
 
-这个目录存放能够被你的\_layouts和\_posts合并、匹配的文件，用来提高重用率。liquid 标签`include file.ext`能够用来引入局部模板文件\_include/file.ext。|
+这个目录存放能够被你的_layouts和_posts合并、匹配的文件，用来提高重用率。liquid 标签`include file.ext`能够用来引入局部模板文件_include/file.ext。
 
 ### \_layouts ###
 该目录用来存放博库文章将会插入的网页布局模板，页面布局基于类似博客平台的“一个接一个”的原则，通过[YAML](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)的前置数据来选择模板。liquid标签`{{ content }}`用于在布局页面中插入博客文章内容。
