@@ -4,7 +4,7 @@ title: 【译文】Jekyll的配置
 description: Jekyll配置方法的官方Wiki文档，希望对大家有帮助。
 category: 翻译
 keywords: Jekyll,Configuration,Wiki,Jekyll配置,翻译
-tags:Jekyll,Github
+tags: Jekyll,Github
 ---
 
 > 原文地址:[https://github.com/mojombo/jekyll/wiki/configuration](https://github.com/mojombo/jekyll/wiki/configuration)
