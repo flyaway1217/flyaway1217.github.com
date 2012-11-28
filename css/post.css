@@ -101,7 +101,7 @@
 
 #post #content h3{
 	/*color:hsl(207,100%,54%);*/
-	font-weight:1000;
+	/*font-weight:1000;*/
 	/*background-color:red;*/
 	margin:0 10px 0 10px;
 	padding:5px 0 5px 10px;
@@ -153,7 +153,8 @@
 }
 
 #post #content table th {
-	text-align:center;
+	background-color:hsl(85,100%,17%);
+	color: white;
 }
 
 #post #content table tr:nth-of-type(even) {
