@@ -148,6 +148,13 @@
 	padding:0 10px 0 10px;
 }
 
+#post #content table {
+	margin:0 10px 0 10px;
+}
+
+#post #content table th {
+}
+
 #post #content table tr:nth-of-type(even) {
 	background-color:hsla(210,70%,82%,.5);
 }
