@@ -2,6 +2,7 @@
 	background-color: #404040;
 	margin:0 25px 0 45px;
 	padding:0 0 0 10px;
+	word-wrap:break-word;
 }
 .c { color: #999999; font-style: italic } /* Comment */
 .err { color: #a61717; background-color: #e3d2d2 } /* Error */
