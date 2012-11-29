@@ -9,9 +9,8 @@ tags: Jekyll,Github
 
 > 原文地址:[https://github.com/mojombo/jekyll/wiki/How-Jekyll-works](https://github.com/mojombo/jekyll/wiki/How-Jekyll-works)
 
-## Jekyll是如何工作的 ##
 
-### Jekyll的执行 ###
+## Jekyll的执行 ##
 
 命令行参数，默认设置和`_config.yml`都能被用来创建一个`options`散列表，然后一个新的站点实例将被建立：
 
@@ -35,7 +34,7 @@ end
 
 在`Jekyll::Site`类中有一个叫做`site.process`的主方法，整个站点就是通过这个主方法来生成的。最后，如果`--server`选项被指定，它就将会运行本地服务。
 
-### 真实的过程 ###
+## 真实的过程 ##
 
 将源文件转换成站点文件所需要的全部工作都是由`site.process`的函数负责完成的。在`lib/jekyll/site.rb`中：
 
