@@ -109,7 +109,7 @@ $ ruby -rubygems -e 'require "jekyll/migrators/mephisto"; Jekyll::Mephisto.postg
 
 [ngauthier](https://github.com/ngauthier)制作了[另一个转换器](https://gist.github.com/1506614)用来导入评论，这是通过博客的归档来实现的而不是RSS。
 
-[juniorz](https://github.com/juniorz)为[Octopress](http://octopress.org/)制作了[另一个转换器](https://gist.github.com/1564581)。这个工具和[juniorz](https://github.com/juniorz)为[Octopress](http://octopress.org/)制作了[另一个转换器](https://gist.github.com/1564581)的版本一样，但是它把文章和草稿分开了，导入了标签和永久链接。
+[juniorz](https://github.com/juniorz)为[Octopress](http://octopress.org/)制作了[另一个转换器](https://gist.github.com/1564581)。这个工具和[ngauthier](https://github.com/ngauthier)的版本一样，但是它把文章和草稿分开了，导入了标签和永久链接。
 
 [kcargile](https://github.com/kcargile)制作了一个Windows命令行[转换](https://github.com/kcargile/blogger2jekyll)工具，它使用博客平台XML格式的归档文件和XSLT来生成文章、标签和永久链接。
 
