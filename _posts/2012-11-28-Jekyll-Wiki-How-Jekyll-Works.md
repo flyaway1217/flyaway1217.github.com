@@ -12,7 +12,7 @@ tags: Jekyll,Github
 
 ## Jekyll的执行 ##
 
-命令行参数，默认设置和`_config.yml`都能被用来创建一个`options`散列表，然后一个新的站点实例将被建立：
+命令行参数，默认设置和`_config.yml`(通过`Jekyll::configuration`方法)都能被用来创建一个`options`散列表，然后一个新的站点实例将被建立：
 
 {% highlight ruby linenos %}
 # Create the Site
@@ -36,7 +36,7 @@ end
 
 ## 真实的过程 ##
 
-将源文件转换成站点文件所需要的全部工作都是由`site.process`的函数负责完成的。在`lib/jekyll/site.rb`中：
+将源文件转换成站点文件所需要的全部工作都是由`site.process`这个函数负责完成的。在`lib/jekyll/site.rb`中：
 
 {% highlight ruby linenos %}
 def initialize(config)
@@ -59,7 +59,7 @@ end
 {% endhighlight %}
 
 
-`reset`和`setup`方法在站点初始化过程中被调用，用来重置它的内部数据结构，分别独立地载入库函数，插件，生成器和转化器。`process`将这些工作分派给以下6个办法：
+`reset`和`setup`方法在站点初始化过程中被调用，用来重置它的内部数据结构，分别独立地载入库函数，插件，生成器和转换器。`process`将这些工作分派给以下6个办法：
 
 - **reset**:初始化布局、分类和标签的哈希表，同时初始化文章、页面和静态文件的数组。
 - **read**:从文件系统中获取站点数据，存放到站点的内部数据结构中。载入生成器和转换器。

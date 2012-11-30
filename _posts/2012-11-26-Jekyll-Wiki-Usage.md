@@ -13,13 +13,13 @@ tags: Jekyll,Github
 一旦[安装](http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/26/Jekyll-Wiki-Install.html)好**jekyll**，建立一个**Jekyll**网站通常有以下几个步骤：
 
 1. 建立网站的基本结构
-2. 创建几篇文章，或者从你以前的博客平台[导入](https://github.com/mojombo/jekyll/wiki/Blog-Migrations)
+2. 创建几篇文章，或者从你以前的博客平台[导入](http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Blog-Migrations.html)
 3. 在本地运行并查看你的网站效果
 4. 部署你的网站
 
 ## 基础结构 ##
 
-**Jekyll**的核心是一个文本转换引擎。它是基于这样的思路：把用你最喜欢的文本标记语言书写的文本提交给这个系统，在此处，文本标记语言可以是**Markdown**,**Textile**或者甚至是纯**HTML**语言，它将会把文本和一个或多个布局文件合并。在这个过程中，你可以修改你站点的URL路径，可以决定什么样的数据将出现在你的博客布局中和也可以完成一些其他事情。这是严格地按照正在编辑的文件中的设置完成的，最终的结果是面向网络的Web界面，即HTML文件。
+**Jekyll**的核心是一个文本转换引擎。它是基于这样的思路：把用你最喜欢的文本标记语言书写的文本提交给这个系统，在此处，文本标记语言可以是**Markdown**,**Textile**或者甚至是纯**HTML**语言，它将会把文本和一个或多个布局文件合并。在这个过程中，你可以修改你站点的URL路径，可以决定什么样的数据将出现在你的博客布局中，同时也可以完成一些其他事情。这是严格地按照正在编辑的文件中的设置完成的，最终的结果是面向网络的Web界面，即HTML文件。
 
 一个基本的**Jekyll**站点结构通常如下所示：
 {% highlight ruby %}
@@ -41,7 +41,7 @@ tags: Jekyll,Github
 
 ### \_config.yml ###
 
-这个文件用来存储[配置](https://github.com/mojombo/jekyll/wiki/Configuration)文件的数据，其中的大多数选项都能通过命令行中的指令来执行，但是把它们写入配置文件中，你就可以不必去记忆它们了。
+这个文件用来存储[配置](http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html)文件的数据，其中的大多数选项都能通过命令行中的指令来执行，但是把它们写入配置文件中，你就可以不必去记忆它们了。
 
 ### \_includes ###
 
@@ -49,7 +49,7 @@ tags: Jekyll,Github
 
 ### \_layouts ###
 
-该目录用来存放博客文章将会插入的网页布局模板，页面布局基于类似博客平台的“一个接一个”的原则，通过[YAML](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)的前置数据来选择模板。liquid标签`\{{ content \}}`用于在布局页面中插入博客文章的内容。
+该目录用来存放博客文章将会插入的网页布局模板，页面布局基于类似博客平台的“一个接一个”的原则，通过[YAML](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)的前置数据来选择模板。liquid标签` content `用于在布局页面中插入博客文章的内容。
 
 ### \_posts ###
 
@@ -61,7 +61,7 @@ tags: Jekyll,Github
 
 ### index.html页面文件和其他的HTML/Markdown/Textile文件 ###
 
-Jekyll将会转换头部拥有[YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)数据的所有文件。这对于站点根目录和所有其他目录下的`.html`，`markdown`，`.md`文件都适用。
+Jekyll将会转换头部拥有[YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)数据的所有文件。这个规则对于站点根目录和所有其他目录下的`.html`，`markdown`，`.md`文件都适用。
 
 ### 其他文件/目录 ###
 
@@ -79,7 +79,7 @@ jekyll --server
 
 如果你打算在前端开发中使用**jekyll**服务，你也会需要`--auto`选项（既可以通过命令行设置也可以将其写入_config.yml配置文件）来查看文件改动。
 
-然后，在浏览器中访问[http://0.0.0.0:4000](http://0.0.0.0:4000)。[这里](https://github.com/mojombo/jekyll/wiki/Configuration)还有更多为你提供的参数选项。
+然后，在浏览器中访问[http://0.0.0.0:4000](http://0.0.0.0:4000)。[这里](http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html)还有更多为你提供的参数选项。
 
 在**Debian**或**Ubuntu**上，你需要将`/var/lib/gems/1.8/bin/`添加到你的`path`路径中。
 

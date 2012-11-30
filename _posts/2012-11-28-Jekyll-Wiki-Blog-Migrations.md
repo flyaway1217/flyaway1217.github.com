@@ -31,7 +31,7 @@ tags: Jekyll,Github
 $ ruby -rubygems -e 'require "jekyll/migrators/wordpress";Jekyll::WordPress.process("database","user","pass")'
 {% endhighlight %}
 
-如果你使用的是Webfaction，必须设置一个[SSH 通道](http://docs.webfaction.com/user-guide/databases.html?highlight=mysql#starting-an-ssh-tunnel-with-ssh)，确保主机名(127.0.0.1)是明确的，否则MySQL可能会阻止你基于本地主机的访问，127.0.0.1也不会在授权系统中具有等效的效果：
+如果你使用的是Webfaction，必须设置一个[SSH 通道](http://docs.webfaction.com/user-guide/databases.html?highlight=mysql#starting-an-ssh-tunnel-with-ssh)，确保主机名是(127.0.0.1)，否则MySQL可能会阻止你基于本地主机的访问，127.0.0.1也不会在授权系统中具有等效的效果：
 
 {% highlight ruby %}
 $ ruby -rubygems -e 'require "jekyll/migrators/wordpress";Jekyll::WordPress.process("database","user","pass","127.0.0.1")'
@@ -57,7 +57,7 @@ $ ruby -rubygems -e 'require "jekyll/migrators/wordpress";jekyll::WordPress.proc
 
 ## 从Drupal迁移 ##
 
-注意：文本是为**Drupal6.1**写得，如果需要请进行升级。
+注意：文本是为**Drupal6.1**写的，如果需要请进行升级。
 
 {% highlight ruby %}
 $ ruby -rubygems -e 'require "jekyll/migrators/drupal"; Jekyll::Drupal.process("database", "user", "pass")'
@@ -109,7 +109,7 @@ $ ruby -rubygems -e 'require "jekyll/migrators/mephisto"; Jekyll::Mephisto.postg
 
 [ngauthier](https://github.com/ngauthier)制作了[另一个转换器](https://gist.github.com/1506614)用来导入评论，这是通过博客的归档来实现的而不是RSS。
 
-[juniorz](https://github.com/juniorz)为[Octopress](http://octopress.org/)制作了[另一个转换器](https://gist.github.com/1564581)。这个工具和[ngauthier](https://github.com/ngauthier)的版本一样，但是它把文章和草稿分开了，导入了标签和永久链接。
+[juniorz](https://github.com/juniorz)为[Octopress](http://octopress.org/)制作了[另一个转换器](https://gist.github.com/1564581)。这个工具和[ngauthier](https://github.com/ngauthier)的版本很像，但是它把文章和草稿分开了，导入了标签和永久链接。
 
 [kcargile](https://github.com/kcargile)制作了一个Windows命令行[转换](https://github.com/kcargile/blogger2jekyll)工具，它使用博客平台XML格式的归档文件和XSLT来生成文章、标签和永久链接。
 
@@ -139,7 +139,7 @@ $ ruby -rubygems -e 'require "jekyll/migrators/tumblr"; Jekyll::Tumblr.process("
 
 [这里](https://github.com/stephenmcd/jekyll/blob/master/lib/jekyll/migrators/tumblr.rb)是一个修改过的Tumblr迁移工具，它能将文章输出为**Markdown**文档，包括文章的标签。
 
-如果需要json gem和用Python写的html2text:
+它需要json gem和用Python写的html2text:
 
 {% highlight ruby %}
 $ gem install json
@@ -151,10 +151,5 @@ $ pip install html2text
 {% highlight ruby %}
 $ ruby -rubygems -e 'require "jekyll/migrators/tumblr"; Jekyll::Tumblr.process("http://www.your_blog_url.com", format="md")'
 {% endhighlight %}
-
-
-
-
-
 
 

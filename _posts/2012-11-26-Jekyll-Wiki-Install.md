@@ -44,7 +44,7 @@ RB_USER_INSTALL=true gem install jekyll
 sudo gem update --system 
 {% endhighlight %}
 
-如果你见到`missing headers`这样的错误，你可能还需要为Xcode安装命令行工具你可以从[这里](https://developer.apple.com/downloads/index.action)下载。
+如果你见到`missing headers`这样的错误，你可能还需要为Xcode安装命令行工具，你可以从[这里](https://developer.apple.com/downloads/index.action)下载。
 
 
 ##从LaTex到PNG##
