@@ -7,6 +7,8 @@ category: 翻译
 tags: Jekyll,YAML,Wiki,翻译
 ---
 
+> 原文地址:[https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)
+
 所有包含[YAML](http://yaml.org/)前置数据块的文件都会被**Jekyll**当做特殊文件来处理。这些前置数据必须存在于文件的首部，他们的格式是这样的：
 
 {% highlight c++ %}
@@ -39,7 +41,7 @@ title: Blogging Like a Hacker
 在转换过程中，所有在前置数据中的非预定义变量都会被一起提交给**Liquid**模板引擎。举例来说，如果你设置了变量:title，你可以在你的布局模板文件中使用这个变量来设置页面的标题：
 
 {% highlight html %}
-<title>{{ page.title }}</title>
+<title> { { page.title } } </title>
 {% endhighlight %}
 
 ##为文章预定义的前置数据##
