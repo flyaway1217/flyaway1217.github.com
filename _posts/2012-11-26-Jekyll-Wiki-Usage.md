@@ -19,10 +19,10 @@ tags: Jekyll,Github
 
 ## 基础结构 ##
 
-**Jekyll**的核心是一个文本转换引擎。它是基于这样的思路：把用你最喜欢的文本标记语言书写的文本提交给这个系统，在此处，文本标记语言可以是**Markdown**,**Textile**或者甚至是纯**HTML**语言，它将会把文本和一个或多个布局文件合并。在这个过程中，你可以修改你站点的URL路径，可以决定什么样的数据将出现在你的博客布局中，同时也可以完成一些其他事情。这是严格地按照正在编辑的文件中的设置完成的，最终的结果是面向网络的Web界面，即HTML文件。
+**Jekyll** 的核心是一个文本转换引擎。它是基于这样的思路：把用你最喜欢的文本标记语言书写的文本提交给这个系统，在此处，文本标记语言可以是 **Markdown** , **Textile** 或者甚至是纯 **HTML** 语言，它将会把文本和一个或多个布局文件合并。在这个过程中，你可以修改你站点的URL路径，可以决定什么样的数据将出现在你的博客布局中，同时也可以完成一些其他事情。这是严格地按照正在编辑的文件中的设置完成的，最终的结果是面向网络的Web界面，即HTML文件。
 
 一个基本的**Jekyll**站点结构通常如下所示：
-{% highlight ruby %}
+{% highlight bash %}
 .
 |-- _config.yml
 |-- _includes
@@ -73,7 +73,7 @@ Jekyll将会转换头部拥有[YAML Front Matter](https://github.com/mojombo/jek
 
 通常这是通过跟随gem一起安装的可执行文件`jekyll`来运行的。为了运行你的网站服务，你需要运行：
 
-{% highlight ruby %}
+{% highlight bash %}
 jekyll --server
 {% endhighlight %}
 
@@ -87,7 +87,7 @@ jekyll --server
 
 如果你像这样使用base-url选项：
 
-{%  highlight ruby %}
+{%  highlight bash %}
 jekyll --server --base-url '/blog'
 {% endhighlight  %}
 

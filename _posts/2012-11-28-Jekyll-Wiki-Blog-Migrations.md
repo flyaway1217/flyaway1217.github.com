@@ -27,13 +27,13 @@ tags: Jekyll,Github
 
 ### 使用Jekyll和Mysql服务的链接 ###
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/wordpress";Jekyll::WordPress.process("database","user","pass")'
 {% endhighlight %}
 
 如果你使用的是Webfaction，必须设置一个[SSH 通道](http://docs.webfaction.com/user-guide/databases.html?highlight=mysql#starting-an-ssh-tunnel-with-ssh)，确保主机名是(127.0.0.1)，否则MySQL可能会阻止你基于本地主机的访问，127.0.0.1也不会在授权系统中具有等效的效果：
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/wordpress";Jekyll::WordPress.process("database","user","pass","127.0.0.1")'
 {% endhighlight %}
 
@@ -41,7 +41,7 @@ $ ruby -rubygems -e 'require "jekyll/migrators/wordpress";Jekyll::WordPress.proc
 
 如果hpricot还没有被安装，请先运行`gem install hpricot`。导出你的博客：[https://YOUR-USER-NAME.wordpress.com/wp-admin/export.php](https://YOUR-USER-NAME.wordpress.com/wp-admin/export.php)，假设这个文件叫做wordpress.xml:
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/wordpress";jekyll::WordPress.process("wordpress.xml")'
 {% endhighlight %}
 
@@ -59,20 +59,20 @@ $ ruby -rubygems -e 'require "jekyll/migrators/wordpress";jekyll::WordPress.proc
 
 注意：文本是为**Drupal6.1**写的，如果需要请进行升级。
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/drupal"; Jekyll::Drupal.process("database", "user", "pass")'
 {% endhighlight %}
 
 ## Movable Type迁移  ##
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/mt"; Jekyll::MT.process("database", "user", "pass")'
 {% endhighlight %}
 
 
 ## 从Typo 4+迁移 ##
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/typo"; Jekyll::Typo.process("database", "user", "pass")'
 {% endhighlight %}
 
@@ -81,7 +81,7 @@ $ ruby -rubygems -e 'require "jekyll/migrators/typo"; Jekyll::Typo.process("data
 
 ## 从TextPattern 迁移##
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/textpattern"; Jekyll::TextPattern.process("database_name", "username", "password", "hostname")'
 {% endhighlight %}
 
@@ -89,13 +89,13 @@ $ ruby -rubygems -e 'require "jekyll/migrators/textpattern"; Jekyll::TextPattern
 
 ## 从Mephisto迁移 ##
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/mephisto"; Jekyll::Mephisto.process("database", "user", "password")'
 {% endhighlight %}
 
 如果你的数据在系统表中，你可以这样做：
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/mephisto"; Jekyll::Mephisto.postgres({:database => "database", :username=>"username", :password =>"password"})'
 {% endhighlight %}
 
@@ -117,13 +117,13 @@ $ ruby -rubygems -e 'require "jekyll/migrators/mephisto"; Jekyll::Mephisto.postg
 
 对于你原来的博客:
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/posterous"; Jekyll::Posterous.process("my_email", "my_pass")'
 {% endhighlight %}
 
 对于其他博客:
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/posterous"; Jekyll::Posterous.process("my_email", "my_pass", "blog_id")'
 {% endhighlight %}
 
@@ -133,7 +133,7 @@ $ ruby -rubygems -e 'require "jekyll/migrators/posterous"; Jekyll::Posterous.pro
 
 从Tumblr迁移同样需要nokogiri:`gem install nokogiri`
 
-{% highlight ruby %}
+{% highlight bash  %}
 $ ruby -rubygems -e 'require "jekyll/migrators/tumblr"; Jekyll::Tumblr.process("http://www.your_blog_url.com", true)'
 {% endhighlight %}
 
@@ -141,14 +141,14 @@ $ ruby -rubygems -e 'require "jekyll/migrators/tumblr"; Jekyll::Tumblr.process("
 
 它需要json gem和用Python写的html2text:
 
-{% highlight ruby %}
+{% highlight bash %}
 $ gem install json
 $ pip install html2text
 {% endhighlight %}
 
 一旦安装好之后，只要简单地使用格式化的参数:
 
-{% highlight ruby %}
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll/migrators/tumblr"; Jekyll::Tumblr.process("http://www.your_blog_url.com", format="md")'
 {% endhighlight %}
 

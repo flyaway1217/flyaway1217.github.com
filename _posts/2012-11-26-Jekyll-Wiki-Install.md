@@ -12,7 +12,7 @@ category: 翻译
 
 Jekyll最好的安装方法就是通过RubyGems来安装:
 
-{% highlight ruby %}
+{% highlight bash %}
 gem install jekyll
 {% endhighlight %}
 
@@ -20,19 +20,19 @@ Jekyll需要以下的gems:`directory_watcher`,`liquid`,`open4`,`maruku`和`class
 
 如果你在gem的安装过程中遇到错误，你可能需要安装ruby1.9.1的编译扩展组件的头文件。如果是Debian系统，你可以这样做：
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo apt-get install ruby1.9.1-dev
 {% endhighlight %}
 
 如果是Red Hat、CentOS或Fedora系统，你可以这样做：
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo yum install ruby-devel
 {% endhighlight %}
 
 在[NearlyFreeSpeech](https://www.nearlyfreespeech.net/ "NearlyFreeSpeech")上，你需要：
 
-{% highlight ruby %}
+{% highlight bash %}
 RB_USER_INSTALL=true gem install jekyll
 {% endhighlight %}
 
@@ -40,7 +40,7 @@ RB_USER_INSTALL=true gem install jekyll
 
 在OSX上，你可能需要升级RubyGems:
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo gem update --system 
 {% endhighlight %}
 
@@ -59,19 +59,19 @@ Maruku本身对从LaTex到PNG的转换是可选的，它是通过blahtex(Version
 
 如果你希望使用[RDiscount](http://github.com/rtomayko/rdiscount/tree/master)来渲染markdown，而不是[Maruku](http://maruku.rubyforge.org/),只要确保RDiscount被正确地安装：
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo gem install rdiscount
 {%  endhighlight %}
 
 然后运行Jekyll，并使用以下的参数选项：
 
-{% highlight ruby %}
+{% highlight bash %}
 jekyll --rdiscount
 {%  endhighlight %}
 
 你可以在你的`_config.yml`中写入如下代码，从而不必指定标志
 
-{% highlight ruby %}
+{% highlight bash %}
 markdown: rdiscount
 {%  endhighlight %}
 
@@ -84,18 +84,18 @@ markdown: rdiscount
 
 它和Python2.6已经预装了：
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo easy_install Pygments
 {% endhighlight %}
 
 或者在OS X中使用MacPorts:
-{% highlight ruby %}
+{% highlight bash %}
 sudo port install python25 py25-pygments
 {% endhighlight %}
 
 或者在OS X中使用HomeBrew
 
-{% highlight ruby linenos %}
+{% highlight bash linenos %}
 brew install python
 #export PATH="/usr/local/share/python:$(PATH)"
 easy_install pip
@@ -107,13 +107,13 @@ pip install pygments
 
 **Archlinux上：**
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo pacman -S python-pygments
 {% endhighlight %}
 
 或者使用python2版的pygments:
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo pacman -S python2-pygments
 {% endhighlight %}
 
@@ -121,19 +121,19 @@ sudo pacman -S python2-pygments
 
 **在Unbutu和Debian上:**
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo pat-get install python-pygments
 {% endhighlight %}
 
 **在Fedora和CentOS上:**
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo yum install python-pygments
 {% endhighlight %}
 
 **在Gentoo上:**
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo emerge -av dev-python/pygments
 {% endhighlight %}
 

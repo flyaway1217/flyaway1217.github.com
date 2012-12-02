@@ -11,7 +11,7 @@ tags: Jekyll,YAML,Wiki,翻译
 
 所有包含[YAML](http://yaml.org/)前置数据块的文件都会被**Jekyll**当做特殊文件来处理。这些前置数据必须存在于文件的首部，他们的格式是这样的：
 
-{% highlight c++ %}
+{% highlight yaml %}
 ---
 layout: post
 title: Blogging Like a Hacker
