@@ -112,9 +112,9 @@ end
 
 如果你想要在一篇文章中加入一个链接，你可以使用`post_tag`标签。
 
-`{% post_url 2010-07-21-name-of-post %}`
+`{ % post_url 2010-07-21-name-of-post % }`
 
 可以通过以下的方式来创建一个链接：
 
-`[Name of Link]({% post_url 2010-07-21-name-of-post %})`
+`[Name of Link]({ % post_url 2010-07-21-name-of-post % })`
 
