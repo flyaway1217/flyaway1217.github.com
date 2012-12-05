@@ -17,4 +17,4 @@ Jekyll使用[Liquid](http://liquidmarkup.org/)来处理模板数据。除了[标
 
 将时间转换成XML格式
 
-`{{ site.time | date_to_xmlschema }}` => `2008-11-17T13:07:54-08:00`
+`{ { site.time | date_to_xmlschema } }` => `2008-11-17T13:07:54-08:00`
