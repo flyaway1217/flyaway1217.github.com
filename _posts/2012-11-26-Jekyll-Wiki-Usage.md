@@ -86,8 +86,8 @@ jekyll --server
 ### base-url选项 ###
 
 如果你像这样使用base-url选项：
-
 {%  highlight bash %}
+
 jekyll --server --base-url '/blog'
 {% endhighlight  %}
 
