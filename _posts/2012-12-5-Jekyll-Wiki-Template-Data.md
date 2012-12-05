@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 【翻译】Jekyll模板数据
+title: 【译文】Jekyll模板数据
 description: Jekyll模板数据的官方Wiki文档，希望对大家有帮助
-cateory: 翻译
+category: 翻译
 keywords: Template Data,Jekyll,Variable
 tags: Jekyll,Github
 ---
