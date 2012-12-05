@@ -65,7 +65,7 @@ CGI会在URL中将一个字符串转义。用正确的%XX替换所有特殊字�
 
 将一个Markdown格式的文件转换成HTML格式。
 
-{ { page.excerpt | markdownify } }
+`{ { page.excerpt | markdownify } }`
 
 ##标签##
 
