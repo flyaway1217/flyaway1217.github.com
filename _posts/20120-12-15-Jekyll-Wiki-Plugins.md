@@ -22,9 +22,9 @@ Jekyll的插件系统允许你创建自己的定制内容，在不修改jekyll�
 
 ##生成器##
 
-当你需要Jekyll创建基于你自己的规则的额外内容时，你可以自己制作一个生成器。举例来说，一个生成器如下所示：
+当你需要Jekyll创建基于你自己的规则的额外内容时，你可以自己制作一个生成器。举例来说，一个生成器如下所示
 
-{% highlight ruby  %}
+{% highlight ruby %}
 module Jekyll
 class CategoryPage < Page
     def initialize(site, base, dir, category)
@@ -32,7 +32,6 @@ class CategoryPage < Page
       @base = base
       @dir = dir
       @name = 'index.html'
-
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
       self.data['category'] = category
@@ -41,10 +40,8 @@ class CategoryPage < Page
       self.data['title'] = "#{category_title_prefix}#{category}"
     end
   end
-
   class CategoryPageGenerator < Generator
     safe true
-    
     def generate(site)
       if site.layouts.key? 'category_index'
         dir = site.config['category_dir'] || 'categories'
