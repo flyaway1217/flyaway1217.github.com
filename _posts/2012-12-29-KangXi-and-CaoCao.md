@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 康熙与曹操
-description: 千古一帝与乱世枭雄引起的思考
+description: 这是很早之前写的文章，特意将它移到新博客上来，时刻提醒自己不能太过安逸。
 category: MISC
 tags: 康熙,曹操,人生
 keywords: 康熙,曹操,人生
