@@ -15,7 +15,7 @@ tagline: 旁收杂学无事忙,情通天下日月长
 author :
   name : Flyaway
   email : flyaway1217@gmail.com
-  github : flyaway
+  github : flyaway1217
   twitter : 
   feedburner :
 
@@ -80,7 +80,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
