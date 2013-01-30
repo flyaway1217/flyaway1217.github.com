@@ -1,19 +1,10 @@
 ---
-layout: default
-title: Archive
+layout: page
+title : Archive
+header : Post Archive
+group: navigation
 ---
-<div id="archive" class="shadow">
-				<h1 id="post_title">All posts is here<span>({{ site.posts | size }} posts.)</span></h1>
-				{% for mypost in site.posts  %}
-					<article class="article_info">
-						<div class="title" >
-							<div class="center"><h2><a href="{{ mypost.url }}" title="{{ mypost.title }}">{{ mypost.title }}</a></h2></div>
-							<time class="time" pubdate="{{ mypost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ mypost.date | date_to_utc | date: '%Y-%m-%d' }}</time>
-						</div>
-						<div class="info">
-							<p>{{ mypost.description }}</p>
-							
-						</div>
-						</article>
-						{% endfor %}
-					</div>
+{% include JB/setup %}
+
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}

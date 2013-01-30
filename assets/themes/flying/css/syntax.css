@@ -1,9 +1,9 @@
 .highlight { 
 	background-color: #404040;
-	margin:0 25px 0 45px;
 	padding:0 0 0 10px;
 	word-wrap:break-word;
-	color: #D0D0D0;
+	color:#D0D0D0;
+	border-radius:5px 5px 5px 5px;
 }
 .c { color: #999999; font-style: italic } /* Comment */
 .err { color: #a61717; background-color: #e3d2d2 } /* Error */

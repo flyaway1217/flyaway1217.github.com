@@ -83,7 +83,7 @@ Jekyll通过[Pygments](http://pygments.org/)内建支持了代码高亮，支持
 
 为了表示一个需要高亮的代码块，你需要：
 
-{% highlight bash %}
+{% highlight ruby %}
 { % highlight ruby % }
 def foo
 	puts 'foo'
@@ -98,7 +98,7 @@ end
 
 `highlight`有第二个叫做`linenos`的参数，这是一个可选的选项，使用这个选项可以使高亮的代码加入行号。举例来说，下面的代码段块将会在每行的行首加入行号。
 
-{% highlight bash %}
+{% highlight ruby %}
 { % highlight ruby linenos % }
 def foo
 	puts 'foo'
