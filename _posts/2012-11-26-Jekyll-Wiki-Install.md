@@ -8,7 +8,7 @@ category: 翻译
 
 > 原文地址:[https://github.com/mojombo/jekyll/wiki/Install](https://github.com/mojombo/jekyll/wiki/Install "Install")
 
-##安装##
+#安装#
 
 Jekyll最好的安装方法就是通过RubyGems来安装:
 
@@ -47,7 +47,7 @@ sudo gem update --system
 如果你见到`missing headers`这样的错误，你可能还需要为Xcode安装命令行工具，你可以从[这里](https://developer.apple.com/downloads/index.action)下载。
 
 
-##从LaTex到PNG##
+#从LaTex到PNG#
 
 Maruku本身对从LaTex到PNG的转换是可选的，它是通过blahtex(Version 0.6)完成的。但是，blahtex必须和`dvips`一起放在你的`$PATH`中。
 
@@ -55,7 +55,7 @@ Maruku本身对从LaTex到PNG的转换是可选的，它是通过blahtex(Version
 
 
 
-##RDiscount##
+#RDiscount#
 
 如果你希望使用[RDiscount](http://github.com/rtomayko/rdiscount/tree/master)来渲染markdown，而不是[Maruku](http://maruku.rubyforge.org/),只要确保RDiscount被正确地安装：
 
@@ -76,7 +76,7 @@ markdown: rdiscount
 {%  endhighlight %}
 
 
-##Pygments##
+#Pygments#
 
 如果你希望在你的文章中通过` highlight `标签实现代码高亮，你需要安装[Pygments](http://pygments.org/)。
 

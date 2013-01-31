@@ -148,7 +148,8 @@ table tr:nth-of-type(even){
 	background-color:rgb(248,248,248);
 }
 table,th,td{
-	border:1px solid rgb(238,238,238);
+	border:1px solid rgb(204,204,204);
+	/*border:1px solid gray;*/
 	padding-left:10px
 }
 table tr{
@@ -171,3 +172,24 @@ table tr{
 	margin-top:30px;
 	margin-bottom:15px;
 }
+blockquote p:before{
+	content:"”";
+	font-size:38px;
+	position:relative;
+	color:#c8c8c8;
+	overflow:hidden;
+	top:18px;
+}
+blockquote p:after{
+	content:"“";
+ 	font-size:38px;
+	position:relative;
+	color:#c8c8c8;
+	overflow:hidden;
+	top:18px;
+}
+
+strong {
+	text-shadow:rgba(50,50,50,.3) 1px 1px 3px;
+}
+

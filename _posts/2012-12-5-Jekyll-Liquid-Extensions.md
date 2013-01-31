@@ -11,7 +11,7 @@ keywords: 翻译,Liquid Extensions,Jekyll
 
 Jekyll使用[Liquid](http://liquidmarkup.org/)来处理模板数据。除了[标准的Liquid标签和过滤器](https://github.com/shopify/liquid/wiki/liquid-for-designers),Jekyll还增加一些它自己特有的:
 
-##过滤器##
+#过滤器#
 
 **日期-XML**
 
@@ -67,7 +67,7 @@ CGI会在URL中将一个字符串转义。用正确的%XX替换所有特殊字�
 
 `{ { page.excerpt | markdownify } }`
 
-##标签##
+#标签#
 
 **Include**
 
