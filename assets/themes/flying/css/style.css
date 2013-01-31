@@ -83,6 +83,9 @@ p{
 pre{
 	background-color:#404040;
 }
+h1,h2,h3{
+	text-shadow:rgba(50,50,50,.3) 1px 1px 3px;
+}
 
 /******************************home-page********************************/
 #home-page .date{
