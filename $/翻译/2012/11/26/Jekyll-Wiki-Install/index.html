@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>【译文】Jekyll的安装</title>
+    <meta name="description" content="Jekyll安装方法的官方说明，学习的使用Jekyll的起点。这篇文章译自Jekyll的官方Wiki，希望能对不熟悉英文的朋友们有所帮助。">
+    <meta name="author" content="Flyaway">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/flying/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/flying/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/flying/css/syntax.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Flyaway's Blog</a>
+          <ul class="nav">
+		<li><a href="/about.html">About</a></li>
+		<li><a href="/archive.html">Archive</a></li>
+		<li><a href="/categories.html">Categories</a></li>
+		<li><a href="/Pages.html">Pages</a></li>
+		<li class="offset4"><a href="/atom.xml">Subscribe</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>【译文】Jekyll的安装 <small class="H1_Date">--26 November 2012</small></h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <blockquote>
+  <p>原文地址:<a href="https://github.com/mojombo/jekyll/wiki/Install" title="Install">https://github.com/mojombo/jekyll/wiki/Install</a></p>
+</blockquote>
+
+<h1 id="section">安装</h1>
+
+<p>Jekyll最好的安装方法就是通过RubyGems来安装:</p>
+
+<div class="highlight"><pre><code class="bash">gem install jekyll
+</code></pre></div>
+
+<p>Jekyll需要以下的gems:<code>directory_watcher</code>,<code>liquid</code>,<code>open4</code>,<code>maruku</code>和<code>classifier</code>。这些组件将会在gem的安装命令之后自动安装。</p>
+
+<p>如果你在gem的安装过程中遇到错误，你可能需要安装ruby1.9.1的编译扩展组件的头文件。如果是Debian系统，你可以这样做：</p>
+
+<div class="highlight"><pre><code class="bash">sudo apt-get install ruby1.9.1-dev
+</code></pre></div>
+
+<p>如果是Red Hat、CentOS或Fedora系统，你可以这样做：</p>
+
+<div class="highlight"><pre><code class="bash">sudo yum install ruby-devel
+</code></pre></div>
+
+<p>在<a href="https://www.nearlyfreespeech.net/" title="NearlyFreeSpeech">NearlyFreeSpeech</a>上，你需要：</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">RB_USER_INSTALL</span><span class="o">=</span><span class="nb">true </span>gem install jekyll
+</code></pre></div>
+
+<p>如果你在Windows操作系统上遇到像<code>Faild to build gem native extension</code>这样的错误，你可能需要安装<a href="https://github.com/oneclick/rubyinstaller/wiki/development-kit" title="RubyInstaller DevKit">RubyInstaller DevKit</a></p>
+
+<p>在OSX上，你可能需要升级RubyGems:</p>
+
+<div class="highlight"><pre><code class="bash">sudo gem update --system 
+</code></pre></div>
+
+<p>如果你见到<code>missing headers</code>这样的错误，你可能还需要为Xcode安装命令行工具，你可以从<a href="https://developer.apple.com/downloads/index.action">这里</a>下载。</p>
+
+<h1 id="latexpng">从LaTex到PNG</h1>
+
+<p>Maruku本身对从LaTex到PNG的转换是可选的，它是通过blahtex(Version 0.6)完成的。但是，blahtex必须和<code>dvips</code>一起放在你的<code>$PATH</code>中。</p>
+
+<p>（<strong>注意</strong>：你需要自己设置dvips的位置，因为<a href="http://github.com/remi/maruku/tree/master">remi&rsquo;s fork of Maruku</a>不会固定它的位置）</p>
+
+<h1 id="rdiscount">RDiscount</h1>
+
+<p>如果你希望使用<a href="http://github.com/rtomayko/rdiscount/tree/master">RDiscount</a>来渲染markdown，而不是<a href="http://maruku.rubyforge.org/">Maruku</a>,只要确保RDiscount被正确地安装：</p>
+
+<div class="highlight"><pre><code class="bash">sudo gem install rdiscount
+</code></pre></div>
+
+<p>然后运行Jekyll，并使用以下的参数选项：</p>
+
+<div class="highlight"><pre><code class="bash">jekyll --rdiscount
+</code></pre></div>
+
+<p>你可以在你的<code>_config.yml</code>中写入如下代码，从而不必指定标志</p>
+
+<div class="highlight"><pre><code class="bash">markdown: rdiscount
+</code></pre></div>
+
+<h1 id="pygments">Pygments</h1>
+
+<p>如果你希望在你的文章中通过<code> highlight </code>标签实现代码高亮，你需要安装<a href="http://pygments.org/">Pygments</a>。</p>
+
+<p><strong>在OS X Leopard和Snow Leopard上:</strong></p>
+
+<p>它和Python2.6已经预装了：</p>
+
+<div class="highlight"><pre><code class="bash">sudo easy_install Pygments
+</code></pre></div>
+
+<p>或者在OS X中使用MacPorts:</p>
+
+<div class="highlight"><pre><code class="bash">sudo port install python25 py25-pygments
+</code></pre></div>
+
+<p>或者在OS X中使用HomeBrew</p>
+
+<div class="highlight"><pre><code class="bash">brew install python
+<span class="c">#export PATH=&quot;/usr/local/share/python:$(PATH)&quot;</span>
+easy_install pip
+pip install --upgrade distribute
+pip install pygments
+</code></pre></div>
+
+<p><strong>注意</strong>：Homebrew并不会为你自动链接到可执行文件。对于Homebrew默认的Cellar路径和Python2.7来说，确保把<code>/usr/local/share/python</code>添加到你的<code>PATH</code>中。想要了解更多信息，请查看<a href="https://github.com/mxcl/homebrew/wiki/Homebrew-and-Python">这里</a></p>
+
+<p><strong>Archlinux上：</strong></p>
+
+<div class="highlight"><pre><code class="bash">sudo pacman -S python-pygments
+</code></pre></div>
+
+<p>或者使用python2版的pygments:</p>
+
+<div class="highlight"><pre><code class="bash">sudo pacman -S python2-pygments
+</code></pre></div>
+
+<p><strong>注意</strong>:python2版本的pygments创建一个名为<code>pygmentize2</code>的可执行文件，而Jekyll会尝试寻找<code>pygmentize</code>。创建一个执行链接<code># ln -s /usr/bin/pygments2 /usr/bin/pygmentize</code>或者使用python3版的pygments都是可以的。(这条建议似乎已经过时了，因为python2版的pygments现在确实安装pygmentize)</p>
+
+<p><strong>在Unbutu和Debian上:</strong></p>
+
+<div class="highlight"><pre><code class="bash">sudo pat-get install python-pygments
+</code></pre></div>
+
+<p><strong>在Fedora和CentOS上:</strong></p>
+
+<div class="highlight"><pre><code class="bash">sudo yum install python-pygments
+</code></pre></div>
+
+<p><strong>在Gentoo上:</strong></p>
+
+<div class="highlight"><pre><code class="bash">sudo emerge -av dev-python/pygments
+</code></pre></div>
+
+
+    <div class="eof">-&nbsp;EOF&nbsp;-</div>
+    <p class="declare">声明:本文采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow" title="署名-非商业性使用-相同方式共享">BY-NC-SA</a>协议进行授权.转载请注明: <a href="/%E7%BF%BB%E8%AF%91/2012/11/26/Jekyll-Wiki-Install" title="【译文】Jekyll的安装 " rel="nofollow">【译文】Jekyll的安装</a></p>
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/2012/11/23/hello-World" title="Hello World">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/%E7%BF%BB%E8%AF%91/2012/11/26/Jekyll-Wiki-Usage" title="【译文】Jekyll的使用">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>26 November 2012</span></div>
+
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Flyaway 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+

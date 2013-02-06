@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Flyaway's Blog</title>
+ <link href="http://username.github.com/atom.xml" rel="self"/>
+ <link href="http://username.github.com"/>
+ <updated>2013-02-02T11:12:10+08:00</updated>
+ <id>http://username.github.com</id>
+ <author>
+   <name>Flyaway</name>
+   <email>flyaway1217@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>康熙与曹操</title>
+   <link href="http://username.github.com/MISC/2012/12/29/KangXi-and-CaoCao"/>
+   <updated>2012-12-29T00:00:00+08:00</updated>
+   <id>http://username.github.com/MISC/2012/12/29/KangXi-and-CaoCao</id>
+   <content type="html">&lt;p&gt;前几天，老爸提到了一个挺有意思的事情，说是一个很优秀的大学生考公务员，以笔试第一名的成绩进入面试，面试过程中也表现的十分优秀，主考官几乎认定就要录取他了。这时，主考官问了最后一个问题：你最喜欢的历史人物是谁？谁知道这位非常优秀的大学生脱口而出的就是和珅~结果大家可想而知，他从第一名变成了倒数第一。&lt;/p&gt;
+
+&lt;p&gt;确实，从一个人对历史的看法可以推断出他这个人的一些性格特点，老爸随即就拿这个最后的问题来问我和我堂妹，我也是几乎不假思索的回答说是康熙，堂妹的回答是曹操。还好，这两个回答还算是正常~&lt;/p&gt;
+
+&lt;p&gt;这件事其实本身没什么好说的，我想说的是，康熙与曹操的比较，当然，仅仅是个人看法。　&lt;/p&gt;
+
+&lt;p&gt;其实，在以前，我也一直最喜欢的是曹操，乱世之奸雄，治世之能臣，从一个不起眼的校尉成长为一方雄主，刺董卓，平吕布，灭袁绍，败马超，挟天子以令诸侯，多么了不起啊。&lt;/p&gt;
+
+&lt;p&gt;但现在，我却更喜欢康熙。康熙是在位时间最长的帝王之一，能文能武，学贯古今，而且政绩卓著，灭鳌拜，平三番，收台湾，治黄河，修四库，每一样都是功垂千秋的。但在这些所有的功绩之后，有一个大前提，康熙是生在帝王之家，一出生，其贵族的命运就伴随着他。从这一点上说，曹操似乎比康熙更使人喜欢。&lt;/p&gt;
+
+&lt;p&gt;但，就目前我的人生经历来看，内在的松懈往往比外在的压力更致命。&lt;/p&gt;
+
+&lt;p&gt;曹操生活的时代是一个群雄林立的时代，你自己不强大，势必要被别人所吞并。所以在这样的情况下，是外在的生存压力将曹操逼到了一方雄主的位置上，当然，这也必须要求曹操足够优秀，有足够的能力，才不会被强大的外在压力所打败。俗话说，时势造英雄，曹操的成功一半来源于他过人的能力，一半来自于外在强大的压力，压迫着他必须变得更加优秀。&lt;/p&gt;
+
+&lt;p&gt;而康熙不同，康熙出生在帝王家，是含着金钥匙出生的，从小锦衣玉食，有太监宫女伺候着。在他8岁时，他就稀里糊涂的坐上了帝位。可以说，他在没有任何能力的情况下，就拥有了中华大地上的最大权力。他可以过得非常奢华，可以像纣王、隋炀帝一样穷极一生地享乐。&lt;/p&gt;
+
+&lt;p&gt;但，他没有，他努力地做一个优秀的帝王。他懵懂的眼睛盯上了两个庞然大物，一个是权倾朝野的鳌拜，一个是拥兵自重于西南的吴三桂，对于这个两个和他父辈都有很大关系的政治力量，他下手了。18岁干净利落地干掉了鳌拜，20岁开始对吴三桂的征伐，用了8年，彻底打败了吴三桂。可以说，他把整个中原大地按他自己的方式重新打扫了一遍。&lt;/p&gt;
+
+&lt;p&gt;能够在奢华的环境下成长起来，而且拥有着强大的精神力量，我想历史上也就康熙了吧。在恶劣环境下成长起来的英雄是真英雄，但在温柔乡里成长出来的英雄，那是比真英雄还要英雄的人物。&lt;/p&gt;
+
+&lt;p&gt;有时候，舒适的环境才是最致命的，这一点我深有体会。放假在家的时候，几乎很少去翻书，但在学校里，却是手不释卷的。为何？因为环境不同！在家太舒适了，没有压力，没有更优秀的人在旁边刺激你，没有上课的课表时刻提醒你你需要上课，没有上课的铃声催促你起床，于是每天晚晚地起床，看电视、上网打游戏成为了假期的主旋律。但在学校就不同了，学校有一个竞争和学习的氛围，敦促着你要去学习，不能荒废学业。&lt;/p&gt;
+
+&lt;p&gt;恶劣的环境能够磨练人的意志，能够创造出英雄；但在舒适的环境下成长起来的英雄往往更令我钦佩！&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll插件</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/12/15/Jekyll-Wiki-Plugins"/>
+   <updated>2012-12-15T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/12/15/Jekyll-Wiki-Plugins</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址:&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Plugins&quot;&gt;https://github.com/mojombo/jekyll/wiki/Plugins&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jekyll的插件系统允许你创建自己的定制内容，在不修改jekyll源代码的情况下，你就可以运行你自己的定制代码。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;安装一个插件&lt;/h1&gt;
+&lt;p&gt;在你的站点根目录下，创建一个&lt;code&gt;_plugins&lt;/code&gt;目录，你需要将你的插件放置在这个目录下面，插件是具有后缀名为&lt;code&gt;.rb&lt;/code&gt;的文件，在Jekyll生成网站时，会调用这个目录下的插件文件。（除非在配置选项中，&lt;code&gt;safe&lt;/code&gt;选项被打开。）&lt;/p&gt;
+
+&lt;p&gt;通常来说，你制作的插件是属于以下三种类别：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;生成器&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;转换器&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;标签&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;生成器&lt;/h1&gt;
+
+&lt;p&gt;当你需要Jekyll创建基于你自己的规则的额外内容时，你可以自己制作一个生成器。举例来说，一个生成器如下所示&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;CategoryPage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;index.html&amp;#39;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;_layouts&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;category_index.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;category&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;category&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;category_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;category_title_prefix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Category: &amp;#39;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;title&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;category_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;CategoryPageGenerator&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Generator&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;safe&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;generate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;layouts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key?&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;category_index&amp;#39;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;category_dir&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;categories&amp;#39;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;CategoryPage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;在这个例子中，我们的生成器将会在&lt;code&gt;categories&lt;/code&gt;目录下为每一个分类创建一系列的文件，用&lt;code&gt;category_index.html&lt;/code&gt;布局文件展示每个分类下的文章。	&lt;/p&gt;
+
+&lt;p&gt;生成器只需要实现一个方法：&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;generate&lt;/code&gt;:被生成字符串格式的内容。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;转换器&lt;/h1&gt;
+
+&lt;p&gt;如果你想要在你的站点中引入一种新的markdown语法，你可以引入并实现你自己的转换器。markdown和textile标记语法都是使用这个方法实现的。&lt;strong&gt;请注意:Jekyll只会将那些拥有YAML前置数据的文件进行转化&lt;/strong&gt;。如果某个文件的首部没有YAML前置数据，Jekyll会忽略它，并不会将它传给转换器。&lt;/p&gt;
+
+&lt;p&gt;下面的转换器例子会将所有具有&lt;code&gt;.upcase&lt;/code&gt;后缀名文章进行大写转换。&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UpcaseConverter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Converter&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;safe&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;priority&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:low&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;matches&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;ext&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=~&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/upcase/i&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;output_ext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&amp;quot;.html&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;convert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upcase&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;一个定制的转化器至少需要实现3个方法：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code&gt;matches&lt;/code&gt;: 被调用用来决定是否启用指定的转换器。&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;output_ext&lt;/code&gt;: 输出文件的后缀名，通常是&lt;code&gt;.hmtl&lt;/code&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;convert&lt;/code&gt;: 真正实现内容转换功能。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在我们的例子中，我们会检查文件名是否是以&lt;code&gt;upcase&lt;/code&gt;结尾的，如果是，它就会使用选定的渲染器进行转换。它将会调用&lt;code&gt;UpcaseConvert#convert&lt;/code&gt;来处理文章内容——在我们简单的转换器中，我们只是简单地将文章内容转换为大写，最后，当保存页面时，它也会用同样的方法处理具有&lt;code&gt;.html&lt;/code&gt;后缀名的文件。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-3&quot;&gt;标签&lt;/h1&gt;
+
+&lt;p&gt;如果你想在你的站点中引入自己定制的liquid标签,你可以使用Jekyll的标签系统。Jekyll内置的例子中,引入了&lt;code&gt;highlight&lt;/code&gt;和	&lt;code&gt;include&lt;/code&gt;标签。&lt;/p&gt;
+
+&lt;p&gt;在这个例子中，我们定制的liquid标签将会输出页面被渲染的时间：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RenderTimeTag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;Liquid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:Tag&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tokens&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@text&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;Liquid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:Template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register_tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;render_time&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:RenderTimeTag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;至少liquid标签必须被实现：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code&gt;render&lt;/code&gt;:输出标签的内容&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;同时你必须在Liquid模板系统中注册你自己定制的标签，通过调用这个：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;Liquid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:Template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register_tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;render_time&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:RenderTimeTag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;在上面的例子中，我们可以把下面的标签放置在页面文件的任何位置中：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render_time&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rendered&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;然后我们将会在页面上得到以下内容：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rendered&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Tue&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;June&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;38&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;47&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0500&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2010&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;liquid&quot;&gt;Liquid过滤器&lt;/h1&gt;
+
+&lt;p&gt;你可以就像上面添加自己定制的标签一样，在Liquid系统中添加你自己定制的过滤器。过滤器是一个简单的模块，它将会把它的方法输出给liquid。每一个方法必须至少有一个参数，用来表示过滤器的输入，返回值是过滤器的返回值。&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;AssetFilter&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;asset_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;      
+      &lt;span class=&quot;s2&quot;&gt;&amp;quot;http://www.example.com/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;Liquid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:Template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register_filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:AssetFilter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;高级&lt;/strong&gt;：你可以通过&lt;code&gt;@context.registers&lt;/code&gt;来访问&lt;code&gt;site&lt;/code&gt;对象。举例来说，你可以像这样:&lt;code&gt;@context.registers[:site].config['cdn']&lt;/code&gt;来访问全局配置文件(_config.yml)中的数据。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;标志&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;当编写一个插件时，你需要知道两个标志：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code&gt;safe&lt;/code&gt;:是一个布尔值变量，用来控制能否在安全模式下启用插件。在_plugins目录下站点指定的自定义插件（相对于Jekyll内核中的插件）永远不会在安全模式下运行，所以在大多数情况，你不需要担心这个设置。&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;priority&lt;/code&gt;:决定插件的载入顺序，合法的参数值：:lowest,:low,:normal,:high,:highest&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll模板数据</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Wiki-Template-Data"/>
+   <updated>2012-12-05T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Wiki-Template-Data</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址:&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Template-Data&quot;&gt;https://github.com/mojombo/jekyll/wiki/Template-Data&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jekyll会遍历你的站点，来寻找需要处理的文件。任何具有&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html&quot;&gt;YAML前置数据&lt;/a&gt;的文件都将会被处理，每一个这样的文件，&lt;strong&gt;Jekyll&lt;/strong&gt;都会通过&lt;a href=&quot;http://wiki.github.com/shopify/liquid/liquid-for-designers&quot;&gt;Liquid模板系统&lt;/a&gt;使用许多可用的页面变量。下面是一个可用变量的列表。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;全局变量&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;变量&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;描述&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;site&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;全站的信息+&lt;code&gt;_config.yml&lt;/code&gt;文件中的配置选项&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;这个变量中包含&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html&quot;&gt;YAML前置数据&lt;/a&gt;,另外加上两个额外的变量值:&lt;code&gt;url&lt;/code&gt;和&lt;code&gt;content&lt;/code&gt;。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;content&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;在布局模板文件中，这里变量包含了页面的子视图。这个变量将会把渲染后的内容插入到模板文件中。这个变量不能在文章和页面文件中使用。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;paginator&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;一旦&lt;code&gt;paginate&lt;/code&gt;配置选项被设置了，这个变量才能被使用。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;site&quot;&gt;Site变量&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;变量&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;描述&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;site.time&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;当前的时间(当你运行Jekyll时的时间)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;site.posts&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;一个按时间逆序的文章列表。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;site.related_posts&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;如果当前被处理的页面是一个文章文件，那这个变量是一个包含了最多10篇相关文章的列表。默认来说，这些相关文章是低质量但计算快的。为了得到高质量但计算慢的结果，运行Jekyll命令时可以加上&lt;code&gt;--lsi&lt;/code&gt;选项。(潜在语意索引)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;site.categories.CATEGORY&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;所有在&lt;code&gt;CATEGORY&lt;/code&gt;分类中的文章列表&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;site.tags.TAG&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;所有拥有&lt;code&gt;TAG&lt;/code&gt;标签的文章的列表&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;site.[CONFIGURATION_DATA]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;截止&lt;strong&gt;0.5.2&lt;/strong&gt;版本，所有在&lt;code&gt;_config.yml&lt;/code&gt;中的数据都能够通过&lt;code&gt;site&lt;/code&gt;变量调用。举例来说，如果你有一个这样的选项在你的配置文件中:&lt;code&gt;url: http://mysite.com&lt;/code&gt;，那在文章和页面文件中可以这样调用&lt;code&gt;{ { site.url } }&lt;/code&gt;。Jekyll并不会自动解析修改过的&lt;code&gt;_config.yml&lt;/code&gt;文件，你想要启用新的设置选项，你需要重启Jekyll&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;page&quot;&gt;Page变量&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;变量&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;描述&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page.content&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;页面中未渲染的内容&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page.title&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;文章的标题&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page.url&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;除去域名以外的URL，例子:&lt;code&gt;/2008/12/14/my-post.html&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page.date&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;指定每一篇文章的时间，这个选项能够覆盖一篇文章中前置数据设置的时间，它的格式是这样的:&lt;code&gt;YYYY-MM-DD HH:MM:SS&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page.id&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;每一篇文章的唯一标示符(在RSS中非常有用) 例子：/2008/12/14/my-post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page.categories&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;这篇文章隶属的分类的一个列表，分类是通过在&lt;code&gt;_post&lt;/code&gt;目录中的目录结构推导而来的。举例来说，在路径&lt;code&gt;/work/code/_posts/2008-12-24-closures.textile&lt;/code&gt;下的文件，这个变量将会是&lt;code&gt;[work,code]&lt;/code&gt;。这个变量也能在&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html&quot;&gt;YAML前置数据&lt;/a&gt;中被指定。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page.tags&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;这篇文章的标签的列表。这些数据能够在&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html&quot;&gt;YAML前置数据&lt;/a&gt;中指定&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page.next&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;按时间序的下一篇文章&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;page.content&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;按时间序的上一篇文章&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:任何你自己指定的自定义前置数据都能够通过&lt;code&gt;page&lt;/code&gt;调用。举例来说，如果你在页面的前置数据中设置了&lt;code&gt;custom_css: true&lt;/code&gt;，那这个值可以在模板可以这样调用:&lt;code&gt;page.custom_css&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;paginator&quot;&gt;Paginator变量&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:这个变量只能在索引文件中才能使用。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;变量&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;描述&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;paginator.per_page&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;每一个页面上文章的数量&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;paginator.posts&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;当前页面上可用的文章&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;paginator.total_posts&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;所有文章的数量&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;paginator.total_pages&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;所有页面的数量&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;paginator.page&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;当前页面的数量&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;paginator.previous_page&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;前面的页面的数量&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;paginator.next_page&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;接下来的的页面的数量&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll固定链接</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Wiki-Permalinks"/>
+   <updated>2012-12-05T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Wiki-Permalinks</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址:&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Permalinks&quot;&gt;https://github.com/mojombo/jekyll/wiki/Permalinks&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Jekyll&lt;/strong&gt;支持以一种灵活的方式来定制你站点的URL路径。你可以通过&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html&quot;&gt;配置文件&lt;/a&gt;和&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html&quot;&gt;YAML前置数据&lt;/a&gt;来指定你站点的每个页面的固定链接。你可以使用内建的风格来创建你的链接，或者你也可以自己定制。默认的风格总是&lt;code&gt;date&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:即使&lt;code&gt;--auto&lt;/code&gt;选项被打开了，当你在Jekyll运行时修改其固定链接的风格，你需要重新启动Jekyll才能使新的风格生效。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;模板变量&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;变量&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;描述&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;year&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;从文件名中获取的年份&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;month&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;从文件名中获取的月份&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;day&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;从文件名中获取的日期&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;从文件名中获取的标题&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;categories&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;当前文章指定的分类。Jekyll自动将它解析到URL的双斜杠之间。如果没有分类，那将会被忽略。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;i_month&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;从文件名中获取没有前导零的月份&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;i_day&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;从文件名中获取没有前导零的日期&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;内建风格&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;名字&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;模板&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;date&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;/:categories/:year/:month/:day/:title.html&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;pretty&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;/:categories/:year/:month/:day/:title/&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;none&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;/:categories/:title.html&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;例子&lt;/h1&gt;
+
+&lt;p&gt;假设文章的名字是:&lt;code&gt;/2009-4-29-slap-chop.textile&lt;/code&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;设置&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;结果&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;不指定&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;2009/04/29/slap-chop.html&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;permalink: pretty&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;2009/04/29/slap-chop/index.html&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;permalink: /:month-:day-:year/:title.html&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;04-29-2009/slap-chop.html&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;permalink: /blog/:year/:month/:day/:title&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;/blog/2009/04/29/slap-chop/index.html&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll扩展的Liquid模板</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Liquid-Extensions"/>
+   <updated>2012-12-05T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Liquid-Extensions</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址:&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Liquid-Extensions&quot;&gt;https://github.com/mojombo/jekyll/wiki/Liquid-Extensions&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jekyll使用&lt;a href=&quot;http://liquidmarkup.org/&quot;&gt;Liquid&lt;/a&gt;来处理模板数据。除了&lt;a href=&quot;https://github.com/shopify/liquid/wiki/liquid-for-designers&quot;&gt;标准的Liquid标签和过滤器&lt;/a&gt;,Jekyll还增加一些它自己特有的:&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;过滤器&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;日期-XML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;将时间转换成XML格式&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ { site.time | date_to_xmlschema } }&lt;/code&gt; =&amp;gt; &lt;code&gt;2008-11-17T13:07:54-08:00&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;日期-字符串&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;将时间转换成短格式，举例:&amp;rdquo;27 Jan 2011&amp;rdquo;。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ { site.time | date_to_string } }&lt;/code&gt; =&amp;gt; &lt;code&gt;17 Nov 2008&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;日期-长字符串&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;将时间转换成长格式，举例:&amp;rdquo;27 January 2011&amp;rdquo;。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ { site.time | date_to_long_string } }&lt;/code&gt; =&amp;gt; &lt;code&gt;17 November 2008&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;XML转义&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在XML中的转义字符。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ { page.content | xml_escape } }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CGI转义字符&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;CGI会在URL中将一个字符串转义。用正确的%XX替换所有特殊字符。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ { &quot;foo,bar;baz?&quot; | cgi_escape } }&lt;/code&gt; =&amp;gt; &lt;code&gt;foo%2Cbar%3Bbaz%3F&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;单词数&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在文本统计单词的数目。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ { page.content | number_of_words } }&lt;/code&gt; =&amp;gt; 1337&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数组-句子&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;讲一个数组转换成一个句子。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ { page.tags | array_to_sentence_string } }&lt;/code&gt; =&amp;gt; &lt;code&gt;foo,bar,and baz&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Textilize&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;将一个Textilize格式的字符串转换成HTML格式，通过RedCloth渲染的。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ { page.excerpt | textilize } }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Markdownify&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;将一个Markdown格式的文件转换成HTML格式。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ { page.excerpt | markdownify } }&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;标签&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Include&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;如果你有小的页面框架碎片需要添加到你站点上多个不同的文件中，你可以使用&lt;code&gt;inlcude&lt;/code&gt;标签。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ % include sig.textile % }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll总是从你根目录下的&lt;code&gt;_include&lt;/code&gt;目录下寻找需要加载的文件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;代码高亮&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll通过&lt;a href=&quot;http://pygments.org/&quot;&gt;Pygments&lt;/a&gt;内建支持了代码高亮，支持超过&lt;a href=&quot;http://pygments.org/languages/&quot;&gt;100种语言&lt;/a&gt;。为了使这个机制，你需要安装Pygments，而且pygmentize的可执行文件必须在你&lt;code&gt;path&lt;/code&gt;路径中，当你运行Jekyll时，确保以&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html&quot;&gt;Pygments支持&lt;/a&gt;的方式运行。&lt;/p&gt;
+
+&lt;p&gt;为了表示一个需要高亮的代码块，你需要：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;highlight&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;foo&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endhighlight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;highlight&lt;/code&gt;的参数是一个编程语言的标示符，你可以在&lt;a href=&quot;http://pygments.org/docs/lexers/&quot;&gt;Lexers&lt;/a&gt;上找到你所喜欢的编程语言的正确标示符。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;行号&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;highlight&lt;/code&gt;有第二个叫做&lt;code&gt;linenos&lt;/code&gt;的参数，这是一个可选的选项，使用这个选项可以使高亮的代码加入行号。举例来说，下面的代码段块将会在每行的行首加入行号。&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;highlight&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linenos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;foo&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endhighlight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;为了使你的代码高亮生效，你需要引入高亮的层叠样式表(就是CSS文件—译者注)。&lt;a href=&quot;http://github.com/mojombo/tpw/tree/master/css/syntax.css&quot;&gt;这里&lt;/a&gt;是一个样式表的例子。这个样式表也正是GitHub所使用的，你可以在你的站点免费地使用它。如果你要使用行号，你需要在你样式表中添加一个额外的CSS类定义，以此来区分行号和高亮的代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;博文的Url&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;如果你想要在一篇文章中加入一个链接，你可以使用&lt;code&gt;post_tag&lt;/code&gt;标签。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{ % post_url 2010-07-21-name-of-post % }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;可以通过以下的方式来创建一个链接：&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[Name of Link]({ % post_url 2010-07-21-name-of-post % })&lt;/code&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll的YAML前置数据</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter"/>
+   <updated>2012-11-30T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址:&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;所有包含&lt;a href=&quot;http://yaml.org/&quot;&gt;YAML&lt;/a&gt;前置数据块的文件都会被&lt;strong&gt;Jekyll&lt;/strong&gt;当做特殊文件来处理。这些前置数据必须存在于文件的首部，他们的格式是这样的：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Blogging Like a Hacker&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;在三条虚线之间，你可以设置一些预定义的变量（可以查看下面的参考说明）或者是你自己定义的变量。&lt;/p&gt;
+
+&lt;p&gt;注意：这很&lt;strong&gt;重要&lt;/strong&gt;（尤其是对Windows用户）&lt;/p&gt;
+
+&lt;p&gt;当你使用&lt;code&gt;UTF-8&lt;/code&gt;编码来编辑你的文件时，请确保没有&lt;code&gt;BOM&lt;/code&gt;的头部字符在你的文件中，否则整个都会奔溃。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;预定义的全局变量&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;变量&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;描述&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;layout&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;这个变量是用来设置选用的模板文件。使用模板文件的文件名，但不包括扩展名，模板文件必须存在于 &lt;code&gt;_layout&lt;/code&gt;目录中。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;permalink&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;如果你需要你的Url地址和默认的/年份/月份/日期/标题.html不同，那你就需要设置这个选项，它将会当做最终的URL地址。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;published&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;当站点生成时，如果你不希望这篇文章显示出来，那就应该把这个变量设置为false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;category&lt;/code&gt;/&lt;code&gt;categories&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;除了你可以把文章放在归档文件夹中，你还可以为文章设置一个或多个类别。当网站生成时，这些文章将会表现得和真的属于这些分类一样。这些类别可以通过&lt;a href=&quot;http://en.wikipedia.org/wiki/YAML#Lists&quot;&gt;YAML列表&lt;/a&gt;来设置，或者也可以通过一个用空格分隔的字符串来设置。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;tags&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;类似于分类，一个文章可以拥有一个或多个标签。同样和分类类似，标签也可以通过YAML列表或一个用空格分隔的字符串来设置。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;自定义数据&lt;/h1&gt;
+
+&lt;p&gt;在转换过程中，所有在前置数据中的非预定义变量都会被一起提交给&lt;strong&gt;Liquid&lt;/strong&gt;模板引擎。举例来说，如果你设置了变量:title，你可以在你的布局模板文件中使用这个变量来设置页面的标题：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt; { { page.title } } &lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;为文章预定义的前置数据&lt;/h1&gt;
+
+&lt;p&gt;下面是文章可用的前置数据变量：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;变量&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;描述&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;date&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;这个日期变量将会覆盖文件名中的日期，这个变量能够用来确保文章的正确排序&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll是如何工作的</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-How-Jekyll-Works"/>
+   <updated>2012-11-28T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-How-Jekyll-Works</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址:&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/How-Jekyll-works&quot;&gt;https://github.com/mojombo/jekyll/wiki/How-Jekyll-works&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;jekyll&quot;&gt;Jekyll的执行&lt;/h1&gt;
+
+&lt;p&gt;命令行参数，默认设置和&lt;code&gt;_config.yml&lt;/code&gt;(通过&lt;code&gt;Jekyll::configuration&lt;/code&gt;方法)都能被用来创建一个&lt;code&gt;options&lt;/code&gt;散列表，然后一个新的站点实例将被建立：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Create the Site&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:Site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;在这之后，如果&lt;code&gt;--auto&lt;/code&gt;选项被打开，&lt;strong&gt;Jekyll&lt;/strong&gt;将会开始查看所需要的目录&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;auto&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;directiory_watcher&amp;#39;&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Auto-regenerating enabled: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; -&amp;gt; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;destination&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;esle&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Building site:&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; -&amp;gt; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;destination&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;在&lt;code&gt;Jekyll::Site&lt;/code&gt;类中有一个叫做&lt;code&gt;site.process&lt;/code&gt;的主方法，整个站点就是通过这个主方法来生成的。最后，如果&lt;code&gt;--server&lt;/code&gt;选项被指定，它就将会运行本地服务。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;真实的过程&lt;/h1&gt;
+
+&lt;p&gt;将源文件转换成站点文件所需要的全部工作都是由&lt;code&gt;site.process&lt;/code&gt;这个函数负责完成的。在&lt;code&gt;lib/jekyll/site.rb&lt;/code&gt;中：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cofig&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clone&lt;/span&gt;
+
+	&lt;span class=&quot;c1&quot;&gt;# Lots of configuration...&lt;/span&gt;
+
+	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;precess&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;generate&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cleanup&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;reset&lt;/code&gt;和&lt;code&gt;setup&lt;/code&gt;方法在站点初始化过程中被调用，用来重置它的内部数据结构，分别独立地载入库函数，插件，生成器和转换器。&lt;code&gt;process&lt;/code&gt;将这些工作分派给以下6个办法：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;reset&lt;/strong&gt;:初始化布局、分类和标签的哈希表，同时初始化文章、页面和静态文件的数组。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;read&lt;/strong&gt;:从文件系统中获取站点数据，存放到站点的内部数据结构中。载入生成器和转换器。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;generate&lt;/strong&gt;:调用每一个生成器的&lt;code&gt;generate&lt;/code&gt;方法。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;render&lt;/strong&gt;:为每一篇文章和页面调用&lt;code&gt;render&lt;/code&gt;方法。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;cleanup&lt;/strong&gt;:将所有页面、文章和静态文件都存储到&lt;code&gt;Set&lt;/code&gt;中，删除其他所有文件(不使用的文件，空目录)。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;write&lt;/strong&gt;:调用每一篇文章、页面和静态文件的&lt;code&gt;write&lt;/code&gt;方法，将它们复制到目标目录下。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这使得插件在&lt;code&gt;generate&lt;/code&gt;和&lt;code&gt;render&lt;/code&gt;阶段变得更容易插入到Jekyll中，就像在&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Plugins&quot;&gt;插件&lt;/a&gt;中说明的一样，你只需要实现正确的方法。&lt;/p&gt;
+
+&lt;p&gt;这个页面基于这篇&lt;a href=&quot;onox.com.br/2012/10/02/how-jekyll-workd.html&quot;&gt;文章&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll的配置</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration"/>
+   <updated>2012-11-28T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址:&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/configuration&quot;&gt;https://github.com/mojombo/jekyll/wiki/configuration&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jekyll能够让你用你能想象出的任何方式来构造你的网站。下面是一个现在所支持的配置选项的列表。这些设置均能够通过在根目录下的&lt;code&gt;_config.yml&lt;/code&gt;文件指定。&lt;strong&gt;Jekyll&lt;/strong&gt;同样可以在命令行中指定这些选项。当配置出现矛盾时，它们的优先关系是：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;命令行中的参数&lt;/li&gt;
+  &lt;li&gt;配置文件中的设置&lt;/li&gt;
+  &lt;li&gt;默认选项&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;配置选项&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;设置&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;配置选项&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;命令行参数&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;描述&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;安全设置&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;safe:[boolean]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--safe&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;禁用定制&lt;a href=&quot;https://github/mojombo/jekyll/wiki/Plugins&quot;&gt;插件&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;重新生成&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;auto:[boolean]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--no-auto --auto&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;当文件发生更改时，禁用或启用Jekyll的重新生成功能&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;本地服务器&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;server:[boolean]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--server&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;启动一个用于托管你_site目录的服务器&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;本地服务端口&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;server_port:[integer]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--server[port]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;改变Jekyll服务的端口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;基准网址&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;baseurl:[BASE_URL]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--base-url[url]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;使用指定的基准网址来运行网站&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;网址&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;url:[URL]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--url[url]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;设置站点的网址，这对环境改变时很有用&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;站点路径&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;destination:[dir]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;jekyll[dest]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;更改Jekyll的写入目录&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;站点源路径&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;source:[dir]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;jekyll[source][dest]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;更改Jekyll处理文件的目录&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Markdown渲染引擎&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;markdown:[engine]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--rdiscount&lt;/code&gt;或&lt;code&gt;--kramdown&lt;/code&gt;或&lt;code&gt;--redcarpet&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;使用RDiscout或者[engine]指定的渲染引擎代替Markdown默认引擎&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Pygments&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;pygments:[boolean]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--pygments&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;启用Pygments来处理代码高亮&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;提前发布&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;future:[boolean]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--no-future --future&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;在发布文章时使用一个未来的日期&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;LSI&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;lis:[boolean]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--lsi&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;产生相关页面的索引&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;固定链接&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;permalink:[style]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--permalink=[style]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;控制文章的固定链接地址，请在&lt;a href=&quot;http://github/mojombo/jekyll/Permalinks&quot;&gt;这里&lt;/a&gt;查看更多内容&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;分页&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;paginate:[per_page]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--paginate[per_page]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;将你的博客文章分成多个子目录:&amp;rdquo;page2&amp;rdquo;,&amp;rdquo;page3&amp;rdquo;,&amp;hellip;&amp;ldquo;pageN&amp;rdquo;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;排除&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;exlcude:[dir1,file1,dir2]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;不需要进行转换的文件列表&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;包括&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;include:[dir1,file1,dir2]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;指定需要转换的特殊文件和目录列表。因为所有以&amp;rdquo;.&amp;rdquo;开始的文件默认都不会进行转换，就像&lt;code&gt;.htaccess&lt;/code&gt;文件&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;文章限制&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;limit_posts:[max_posts]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;--limit_posts:[max_posts]&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;限制博客文章发布的数量&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;默认选项&lt;/h1&gt;
+
+&lt;p&gt;注意：在配置文件中你不能使用tabs键，这将会要么导致解析错误，要么将会使用默认设置。&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;safe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;server_port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4000&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/jekyll_demo&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;url:http:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;localhost&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4000&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;destination&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;/_site&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;plugins&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;/_plugins&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;future&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;lsi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;pygments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maruku&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;maruku&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;use_tex&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:false&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;use_divs&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:false&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;use_engine&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:blathtex&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;png_dir&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:images&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;latex&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;png_url&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;latex&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;rediscount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;extension&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;kramdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;auto_ids&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:treu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;footnote_nr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;entity_output&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:as_char&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;toc_levels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;use_coderay&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:false&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;coderat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;caderay_wrap&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:div&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;caderay_line_numbers&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:inline&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;caderay_line_numbers_start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;caderay_tab_width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;caderay_bold_every&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;caderay_css&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:style&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll博客迁移</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Blog-Migrations"/>
+   <updated>2012-11-28T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Blog-Migrations</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址:&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Blog-Migrations&quot;&gt;https://github.com/mojombo/jekyll/wiki/Blog-Migrations&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个页面中的大部分方法都需要拥有对原系统数据库的访问权限。每一种方法都是依据数据库中的文章条目来生成&lt;code&gt;_posts&lt;/code&gt;目录下的&lt;code&gt;.markdown&lt;/code&gt;文件。请查看生成页面，确保它已经被正确的转换了。同时，大多数的导入脚本并不会检查你的博客文章是公开的还是私人的，所以请仔细查看&lt;strong&gt;Jekyll&lt;/strong&gt;为你生成的页面。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;如何使用&lt;/h1&gt;
+
+&lt;p&gt;这些&lt;a href=&quot;https://github.com/mojombo/jekyll/tree/master/lib/jekyll/migrators&quot;&gt;迁移方法&lt;/a&gt;都是&lt;strong&gt;Jekyll&lt;/strong&gt;的Gem的一部分.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;添加一个名为_import的目录到你的项目中&lt;/li&gt;
+  &lt;li&gt;打开一个命令终端&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;gem install sequel mysqlplus&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;分别独立地运行下面的命令。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;wordpress&quot;&gt;从WordPress迁移&lt;/h1&gt;
+
+&lt;h2 id=&quot;jekyllmysql&quot;&gt;使用Jekyll和Mysql服务的链接&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/wordpress&amp;quot;;Jekyll::WordPress.process(&amp;quot;database&amp;quot;,&amp;quot;user&amp;quot;,&amp;quot;pass&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;如果你使用的是Webfaction，必须设置一个&lt;a href=&quot;http://docs.webfaction.com/user-guide/databases.html?highlight=mysql#starting-an-ssh-tunnel-with-ssh&quot;&gt;SSH 通道&lt;/a&gt;，确保主机名是(127.0.0.1)，否则MySQL可能会阻止你基于本地主机的访问，127.0.0.1也不会在授权系统中具有等效的效果：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/wordpress&amp;quot;;Jekyll::WordPress.process(&amp;quot;database&amp;quot;,&amp;quot;user&amp;quot;,&amp;quot;pass&amp;quot;,&amp;quot;127.0.0.1&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;jekyllwordpresswordpresscom&quot;&gt;使用Jekyll和Wordpress导出文件(适用于wordpress.com)&lt;/h2&gt;
+
+&lt;p&gt;如果hpricot还没有被安装，请先运行&lt;code&gt;gem install hpricot&lt;/code&gt;。导出你的博客：&lt;a href=&quot;https://YOUR-USER-NAME.wordpress.com/wp-admin/export.php&quot;&gt;https://YOUR-USER-NAME.wordpress.com/wp-admin/export.php&lt;/a&gt;，假设这个文件叫做wordpress.xml:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/wordpress&amp;quot;;jekyll::WordPress.process(&amp;quot;wordpress.xml&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;wordpress-1&quot;&gt;关于WordPress的更多内容和其他选择&lt;/h2&gt;
+
+&lt;p&gt;虽然以上的办法通常是有效的，但是他们却不能完全导入存储在&lt;strong&gt;wordpress&lt;/strong&gt;文章和页面中的元数据。如果你想保留更多的页面、标签、图片和自定义数据等，你可能会对以下的资源感兴趣：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/thomasf/exitwp&quot;&gt;Exitwp&lt;/a&gt;是一个用Python写成配置工具，专门用来将一个或多个&lt;strong&gt;wordpress&lt;/strong&gt;博客转换成Jekll/Markdown格式，同时保留尽可能多的元数据，包括下载附件和页面。&lt;/li&gt;
+  &lt;li&gt;这是一篇非常优秀的&lt;a href=&quot;http://vitobotta.com/how-to-migrate-from-wordpress-to-jekyll/&quot;&gt;文章&lt;/a&gt;，一步一步地教你在保持大部分元数据的前提下迁移&lt;strong&gt;wordpress&lt;/strong&gt;博客。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/theaob/wpXml2Jekyll&quot;&gt;wpXml2Jekyll&lt;/a&gt;是一个windows下的可执行工具，可以根据你&lt;strong&gt;wordpress&lt;/strong&gt;博客导出的XML文件创建相应的&lt;strong&gt;Markdown&lt;/strong&gt;文件。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/benbalter/wordpress-to-jekyll-exporter&quot;&gt;WordPress to Jekyll Exporter&lt;/a&gt;是一个&lt;strong&gt;wordpress&lt;/strong&gt;的一键式插件，能够将所有文章、页面、分类信息、元数据和相关的设置信息转换成&lt;strong&gt;Jekyll&lt;/strong&gt;能够使用的&lt;strong&gt;Markdown&lt;/strong&gt;和&lt;strong&gt;YAML&lt;/strong&gt;格式的文件。它使用的是&lt;code&gt;the_content&lt;/code&gt;过滤器，导出的是用户看到的页面，而不是数据库中的数据。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;drupal&quot;&gt;从Drupal迁移&lt;/h1&gt;
+
+&lt;p&gt;注意：文本是为&lt;strong&gt;Drupal6.1&lt;/strong&gt;写的，如果需要请进行升级。&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/drupal&amp;quot;; Jekyll::Drupal.process(&amp;quot;database&amp;quot;, &amp;quot;user&amp;quot;, &amp;quot;pass&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;movable-type&quot;&gt;Movable Type迁移&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/mt&amp;quot;; Jekyll::MT.process(&amp;quot;database&amp;quot;, &amp;quot;user&amp;quot;, &amp;quot;pass&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;typo-4&quot;&gt;从Typo 4+迁移&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/typo&amp;quot;; Jekyll::Typo.process(&amp;quot;database&amp;quot;, &amp;quot;user&amp;quot;, &amp;quot;pass&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;这些代码同样只在&lt;strong&gt;Typo4&lt;/strong&gt;以上测试过。&lt;/p&gt;
+
+&lt;h1 id=&quot;textpattern-&quot;&gt;从TextPattern 迁移&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/textpattern&amp;quot;; Jekyll::TextPattern.process(&amp;quot;database_name&amp;quot;, &amp;quot;username&amp;quot;, &amp;quot;password&amp;quot;, &amp;quot;hostname&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;在_import的上层目录下运行以上命令。例如，如果_import目录在/path/source/_import，那就在/path/source中运行上面的命令。&lt;/p&gt;
+
+&lt;h1 id=&quot;mephisto&quot;&gt;从Mephisto迁移&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/mephisto&amp;quot;; Jekyll::Mephisto.process(&amp;quot;database&amp;quot;, &amp;quot;user&amp;quot;, &amp;quot;password&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;如果你的数据在系统表中，你可以这样做：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/mephisto&amp;quot;; Jekyll::Mephisto.postgres({:database =&amp;gt; &amp;quot;database&amp;quot;, :username=&amp;gt;&amp;quot;username&amp;quot;, :password =&amp;gt;&amp;quot;password&amp;quot;})&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;从博客平台迁移&lt;/h1&gt;
+
+&lt;p&gt;请查看&lt;a href=&quot;http://coolaj86.info/articles/migrate-from-blogger-to-jekyll.html&quot;&gt;从博客平台迁移到jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kennym&quot;&gt;kennym&lt;/a&gt;制作了一个小迁移&lt;a href=&quot;https://gist.github.com/1115810&quot;&gt;脚本&lt;/a&gt;，因为之前文章中方法对他来说无效。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ngauthier&quot;&gt;ngauthier&lt;/a&gt;制作了&lt;a href=&quot;https://gist.github.com/1506614&quot;&gt;另一个转换器&lt;/a&gt;用来导入评论，这是通过博客的归档来实现的而不是RSS。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/juniorz&quot;&gt;juniorz&lt;/a&gt;为&lt;a href=&quot;http://octopress.org/&quot;&gt;Octopress&lt;/a&gt;制作了&lt;a href=&quot;https://gist.github.com/1564581&quot;&gt;另一个转换器&lt;/a&gt;。这个工具和&lt;a href=&quot;https://github.com/ngauthier&quot;&gt;ngauthier&lt;/a&gt;的版本很像，但是它把文章和草稿分开了，导入了标签和永久链接。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kcargile&quot;&gt;kcargile&lt;/a&gt;制作了一个Windows命令行&lt;a href=&quot;https://github.com/kcargile/blogger2jekyll&quot;&gt;转换&lt;/a&gt;工具，它使用博客平台XML格式的归档文件和XSLT来生成文章、标签和永久链接。&lt;/p&gt;
+
+&lt;h1 id=&quot;posterous&quot;&gt;从Posterous迁移&lt;/h1&gt;
+
+&lt;p&gt;对于你原来的博客:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/posterous&amp;quot;; Jekyll::Posterous.process(&amp;quot;my_email&amp;quot;, &amp;quot;my_pass&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;对于其他博客:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/posterous&amp;quot;; Jekyll::Posterous.process(&amp;quot;my_email&amp;quot;, &amp;quot;my_pass&amp;quot;, &amp;quot;blog_id&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;一个可选的迁移工具在&lt;a href=&quot;https://github.com/pepijndevos/jekyll/blob/patch-1/lib/jekyll/migrators/posterous.rb&quot;&gt;这里&lt;/a&gt;，它可以保留永久链接地址，还会尝试导入图片。&lt;/p&gt;
+
+&lt;h1 id=&quot;tumblr&quot;&gt;从Tumblr&lt;/h1&gt;
+
+&lt;p&gt;从Tumblr迁移同样需要nokogiri:&lt;code&gt;gem install nokogiri&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/tumblr&amp;quot;; Jekyll::Tumblr.process(&amp;quot;http://www.your_blog_url.com&amp;quot;, true)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/stephenmcd/jekyll/blob/master/lib/jekyll/migrators/tumblr.rb&quot;&gt;这里&lt;/a&gt;是一个修改过的Tumblr迁移工具，它能将文章输出为&lt;strong&gt;Markdown&lt;/strong&gt;文档，包括文章的标签。&lt;/p&gt;
+
+&lt;p&gt;它需要json gem和用Python写的html2text:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem install json
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pip install html2text
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;一旦安装好之后，只要简单地使用格式化的参数:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;require &amp;quot;jekyll/migrators/tumblr&amp;quot;; Jekyll::Tumblr.process(&amp;quot;http://www.your_blog_url.com&amp;quot;, format=&amp;quot;md&amp;quot;)&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll的使用</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/26/Jekyll-Wiki-Usage"/>
+   <updated>2012-11-26T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/26/Jekyll-Wiki-Usage</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/usage&quot;&gt;https://github.com/mojombo/jekyll/wiki/usage&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;应用&lt;/h1&gt;
+&lt;p&gt;一旦&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/26/Jekyll-Wiki-Install.html&quot;&gt;安装&lt;/a&gt;好&lt;strong&gt;jekyll&lt;/strong&gt;，建立一个&lt;strong&gt;Jekyll&lt;/strong&gt;网站通常有以下几个步骤：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;建立网站的基本结构&lt;/li&gt;
+  &lt;li&gt;创建几篇文章，或者从你以前的博客平台&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Blog-Migrations.html&quot;&gt;导入&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;在本地运行并查看你的网站效果&lt;/li&gt;
+  &lt;li&gt;部署你的网站&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;基础结构&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Jekyll&lt;/strong&gt; 的核心是一个文本转换引擎。它是基于这样的思路：把用你最喜欢的文本标记语言书写的文本提交给这个系统，在此处，文本标记语言可以是 &lt;strong&gt;Markdown&lt;/strong&gt; , &lt;strong&gt;Textile&lt;/strong&gt; 或者甚至是纯 &lt;strong&gt;HTML&lt;/strong&gt; 语言，它将会把文本和一个或多个布局文件合并。在这个过程中，你可以修改你站点的URL路径，可以决定什么样的数据将出现在你的博客布局中，同时也可以完成一些其他事情。这是严格地按照正在编辑的文件中的设置完成的，最终的结果是面向网络的Web界面，即HTML文件。&lt;/p&gt;
+
+&lt;p&gt;一个基本的&lt;strong&gt;Jekyll&lt;/strong&gt;站点结构通常如下所示：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;.
+|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;-- post.html
+|-- _posts
+|   |-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;-- 2009-04-26-barcamp-boston-4-roundup.textile
+|-- _site
+&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;-- index.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;每个文件的概述如下：&lt;/p&gt;
+
+&lt;h2 id=&quot;configyml&quot;&gt;_config.yml&lt;/h2&gt;
+
+&lt;p&gt;这个文件用来存储&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html&quot;&gt;配置&lt;/a&gt;文件的数据，其中的大多数选项都能通过命令行中的指令来执行，但是把它们写入配置文件中，你就可以不必去记忆它们了。&lt;/p&gt;
+
+&lt;h2 id=&quot;includes&quot;&gt;_includes&lt;/h2&gt;
+
+&lt;p&gt;这个目录存放能够被你的&lt;strong&gt;_layouts&lt;/strong&gt;和&lt;strong&gt;_posts&lt;/strong&gt;合并、匹配的文件，用来提高重用率。liquid 标签&lt;code&gt;include file.ext&lt;/code&gt;能够用来引入局部模板文件_include/file.ext。&lt;/p&gt;
+
+&lt;h2 id=&quot;layouts&quot;&gt;_layouts&lt;/h2&gt;
+
+&lt;p&gt;该目录用来存放博客文章将会插入的网页布局模板，页面布局基于类似博客平台的“一个接一个”的原则，通过&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;YAML&lt;/a&gt;的前置数据来选择模板。liquid标签&lt;code&gt; content &lt;/code&gt;用于在布局页面中插入博客文章的内容。&lt;/p&gt;
+
+&lt;h2 id=&quot;posts&quot;&gt;_posts&lt;/h2&gt;
+
+&lt;p&gt;该目录下存放的可以说是你的动态内容，这些文件的格式很重要，这些文件的格式必须遵循&lt;code&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;。你的博客文章的永久链接地址能够自动适应你发布的文章，但是文章的发布时间和所使用的标记语言只能唯一的由文件名所决定。&lt;/p&gt;
+
+&lt;h2 id=&quot;site&quot;&gt;_site&lt;/h2&gt;
+
+&lt;p&gt;这个目录下存放的是Jekyll已经生成好了的站点文件。将这个目录添加到你的&lt;code&gt;.gitignore&lt;/code&gt;文件中应该是一个好主意。&lt;/p&gt;
+
+&lt;h2 id=&quot;indexhtmlhtmlmarkdowntextile&quot;&gt;index.html页面文件和其他的HTML/Markdown/Textile文件&lt;/h2&gt;
+
+&lt;p&gt;Jekyll将会转换头部拥有&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;YAML Front Matter&lt;/a&gt;数据的所有文件。这个规则对于站点根目录和所有其他目录下的&lt;code&gt;.html&lt;/code&gt;，&lt;code&gt;markdown&lt;/code&gt;，&lt;code&gt;.md&lt;/code&gt;文件都适用。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;其他文件/目录&lt;/h2&gt;
+
+&lt;p&gt;除了以上列出的所有目录以外的文件和目录都将会被原模原样的转换。例如，你可以建立&lt;code&gt;css&lt;/code&gt;文件夹，&lt;code&gt;favicon.ico&lt;/code&gt;文件等等。如果你对&lt;strong&gt;Jekyll&lt;/strong&gt;如何实现静态布局感到好奇，这里有不少基于&lt;strong&gt;Jekyll&lt;/strong&gt;的&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Sites&quot;&gt;网站&lt;/a&gt;可供参考。&lt;/p&gt;
+
+&lt;p&gt;这些目录下的所有文件都会根据上面提到的针对根目录下的文件的转换规则进行转换。&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll&quot;&gt;运行Jekyll&lt;/h2&gt;
+
+&lt;p&gt;通常这是通过跟随gem一起安装的可执行文件&lt;code&gt;jekyll&lt;/code&gt;来运行的。为了运行你的网站服务，你需要运行：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;jekyll --server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;如果你打算在前端开发中使用&lt;strong&gt;jekyll&lt;/strong&gt;服务，你也会需要&lt;code&gt;--auto&lt;/code&gt;选项（既可以通过命令行设置也可以将其写入_config.yml配置文件）来查看文件改动。&lt;/p&gt;
+
+&lt;p&gt;然后，在浏览器中访问&lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;http://0.0.0.0:4000&lt;/a&gt;。&lt;a href=&quot;http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html&quot;&gt;这里&lt;/a&gt;还有更多为你提供的参数选项。&lt;/p&gt;
+
+&lt;p&gt;在&lt;strong&gt;Debian&lt;/strong&gt;或&lt;strong&gt;Ubuntu&lt;/strong&gt;上，你需要将&lt;code&gt;/var/lib/gems/1.8/bin/&lt;/code&gt;添加到你的&lt;code&gt;path&lt;/code&gt;路径中。&lt;/p&gt;
+
+&lt;h2 id=&quot;base-url&quot;&gt;base-url选项&lt;/h2&gt;
+
+&lt;p&gt;如果你像这样使用base-url选项：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;jekyll --server --base-url &lt;span class=&quot;s1&quot;&gt;&amp;#39;/blog&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;确保你的访问地址是&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;http://localhost:4000/blog/index.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;直接访问&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;http://localhost:4000/blog&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;是不行的。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;部署&lt;/h2&gt;
+
+&lt;p&gt;因为&lt;strong&gt;Jekyll&lt;/strong&gt;只是生成包含HTML的目录，所以它能够在任何已知的网络服务器上运行。针对一些特殊的应用场景的部署说明，请查看&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Deployment&quot;&gt;部署&lt;/a&gt;页面。&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>【译文】Jekyll的安装</title>
+   <link href="http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/26/Jekyll-Wiki-Install"/>
+   <updated>2012-11-26T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E7%BF%BB%E8%AF%91/2012/11/26/Jekyll-Wiki-Install</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;原文地址:&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Install&quot; title=&quot;Install&quot;&gt;https://github.com/mojombo/jekyll/wiki/Install&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;安装&lt;/h1&gt;
+
+&lt;p&gt;Jekyll最好的安装方法就是通过RubyGems来安装:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Jekyll需要以下的gems:&lt;code&gt;directory_watcher&lt;/code&gt;,&lt;code&gt;liquid&lt;/code&gt;,&lt;code&gt;open4&lt;/code&gt;,&lt;code&gt;maruku&lt;/code&gt;和&lt;code&gt;classifier&lt;/code&gt;。这些组件将会在gem的安装命令之后自动安装。&lt;/p&gt;
+
+&lt;p&gt;如果你在gem的安装过程中遇到错误，你可能需要安装ruby1.9.1的编译扩展组件的头文件。如果是Debian系统，你可以这样做：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo apt-get install ruby1.9.1-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;如果是Red Hat、CentOS或Fedora系统，你可以这样做：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo yum install ruby-devel
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;在&lt;a href=&quot;https://www.nearlyfreespeech.net/&quot; title=&quot;NearlyFreeSpeech&quot;&gt;NearlyFreeSpeech&lt;/a&gt;上，你需要：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;RB_USER_INSTALL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true &lt;/span&gt;gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;如果你在Windows操作系统上遇到像&lt;code&gt;Faild to build gem native extension&lt;/code&gt;这样的错误，你可能需要安装&lt;a href=&quot;https://github.com/oneclick/rubyinstaller/wiki/development-kit&quot; title=&quot;RubyInstaller DevKit&quot;&gt;RubyInstaller DevKit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在OSX上，你可能需要升级RubyGems:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo gem update --system 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;如果你见到&lt;code&gt;missing headers&lt;/code&gt;这样的错误，你可能还需要为Xcode安装命令行工具，你可以从&lt;a href=&quot;https://developer.apple.com/downloads/index.action&quot;&gt;这里&lt;/a&gt;下载。&lt;/p&gt;
+
+&lt;h1 id=&quot;latexpng&quot;&gt;从LaTex到PNG&lt;/h1&gt;
+
+&lt;p&gt;Maruku本身对从LaTex到PNG的转换是可选的，它是通过blahtex(Version 0.6)完成的。但是，blahtex必须和&lt;code&gt;dvips&lt;/code&gt;一起放在你的&lt;code&gt;$PATH&lt;/code&gt;中。&lt;/p&gt;
+
+&lt;p&gt;（&lt;strong&gt;注意&lt;/strong&gt;：你需要自己设置dvips的位置，因为&lt;a href=&quot;http://github.com/remi/maruku/tree/master&quot;&gt;remi&amp;rsquo;s fork of Maruku&lt;/a&gt;不会固定它的位置）&lt;/p&gt;
+
+&lt;h1 id=&quot;rdiscount&quot;&gt;RDiscount&lt;/h1&gt;
+
+&lt;p&gt;如果你希望使用&lt;a href=&quot;http://github.com/rtomayko/rdiscount/tree/master&quot;&gt;RDiscount&lt;/a&gt;来渲染markdown，而不是&lt;a href=&quot;http://maruku.rubyforge.org/&quot;&gt;Maruku&lt;/a&gt;,只要确保RDiscount被正确地安装：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo gem install rdiscount
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;然后运行Jekyll，并使用以下的参数选项：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;jekyll --rdiscount
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;你可以在你的&lt;code&gt;_config.yml&lt;/code&gt;中写入如下代码，从而不必指定标志&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;markdown: rdiscount
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;pygments&quot;&gt;Pygments&lt;/h1&gt;
+
+&lt;p&gt;如果你希望在你的文章中通过&lt;code&gt; highlight &lt;/code&gt;标签实现代码高亮，你需要安装&lt;a href=&quot;http://pygments.org/&quot;&gt;Pygments&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;在OS X Leopard和Snow Leopard上:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;它和Python2.6已经预装了：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo easy_install Pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;或者在OS X中使用MacPorts:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo port install python25 py25-pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;或者在OS X中使用HomeBrew&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;brew install python
+&lt;span class=&quot;c&quot;&gt;#export PATH=&amp;quot;/usr/local/share/python:$(PATH)&amp;quot;&lt;/span&gt;
+easy_install pip
+pip install --upgrade distribute
+pip install pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：Homebrew并不会为你自动链接到可执行文件。对于Homebrew默认的Cellar路径和Python2.7来说，确保把&lt;code&gt;/usr/local/share/python&lt;/code&gt;添加到你的&lt;code&gt;PATH&lt;/code&gt;中。想要了解更多信息，请查看&lt;a href=&quot;https://github.com/mxcl/homebrew/wiki/Homebrew-and-Python&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Archlinux上：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo pacman -S python-pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;或者使用python2版的pygments:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo pacman -S python2-pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:python2版本的pygments创建一个名为&lt;code&gt;pygmentize2&lt;/code&gt;的可执行文件，而Jekyll会尝试寻找&lt;code&gt;pygmentize&lt;/code&gt;。创建一个执行链接&lt;code&gt;# ln -s /usr/bin/pygments2 /usr/bin/pygmentize&lt;/code&gt;或者使用python3版的pygments都是可以的。(这条建议似乎已经过时了，因为python2版的pygments现在确实安装pygmentize)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;在Unbutu和Debian上:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo pat-get install python-pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;在Fedora和CentOS上:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo yum install python-pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;在Gentoo上:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo emerge -av dev-python/pygments
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="http://username.github.com/%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/2012/11/23/hello-World"/>
+   <updated>2012-11-23T00:00:00+08:00</updated>
+   <id>http://username.github.com/%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/2012/11/23/hello-World</id>
+   <content type="html">&lt;p&gt;记得最早之前是在&lt;a href=&quot;http://blog.sina.com.cn/&quot; title=&quot;新浪博客&quot;&gt;新浪博客&lt;/a&gt;上写博客，大概是在初中的时候吧，当时也是跟风很多其他人玩博客，没坚持多久就停止了。上大学之后，从大二开始一直折腾&lt;a href=&quot;http://wordpress.org/&quot; title=&quot;WordPress&quot;&gt;WordPress&lt;/a&gt;,&lt;a href=&quot;http://flyaway-blog.com&quot; title=&quot;flyaway&quot;&gt;这里&lt;/a&gt;是我原来的博客地址。&lt;a href=&quot;http://wordpress.org/&quot; title=&quot;WordPress&quot;&gt;WordPress&lt;/a&gt;用了一段时间之后,发现处处有限制，用起来感觉很不灵活，总觉得&lt;a href=&quot;http://wordpress.org/&quot; title=&quot;WordPress&quot;&gt;WordPress&lt;/a&gt;还是太臃肿了。虽然有很多插件，但是还是不能满足我的需要。最让我纠结的就是文章的排版格式，当时为了发布几篇包含了很多公式的关于算法的文章，排版排了很久，但是最终的显示效果还是不如意。这让我觉得很痛苦。&lt;/p&gt;
+
+&lt;p&gt;后来，一次偶然的机会让我知道了&lt;a href=&quot;https://github.com/&quot; title=&quot;github&quot;&gt;github&lt;/a&gt;和&lt;a href=&quot;http://jekyllrb.com/&quot; title=&quot;Jekyll&quot;&gt;jekyll&lt;/a&gt;。一下子就喜欢上它的简单清爽了。可以在&lt;a href=&quot;http://www.vim.org/&quot; title=&quot;Vim&quot;&gt;Vim&lt;/a&gt;里写文章，同时又不需要担心格式的问题，实在太吸引人了！一直想找时间把blog搬过来，可惜学校的事情太多了，一直拖到现在，才有时间好好学习一下&lt;strong&gt;Jekyll&lt;/strong&gt;相关的东西。&lt;/p&gt;
+
+&lt;p&gt;这个站点就是我学习的成果，虽然还有很多不完善，但整体博客系统的功能还是work的。关于这个站点还有几件事情需要在将来进一步完善，但是最近忙于学校的一个项目的中期检查，以下这些事情只能暂时留到将来处理了。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;文章归档功能的实现。&lt;strong&gt;Jekyll&lt;/strong&gt;本身好像对文章归档功能支持不是很好，需要再花点时间研究一下。&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;评论系统。&lt;strong&gt;Jekyll&lt;/strong&gt;本身是不支持评论系统的，添加评论系统需要用到&lt;a href=&quot;http://disqus.com/&quot; title=&quot;Disqus&quot;&gt;Disqus&lt;/a&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;添加Feed页面。&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;添加站内搜索功能。&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;把原博客的部分文章移植到这个站点上来。&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;强化SEO技巧。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;不管怎么样，我就这样定居在&lt;a href=&quot;https://github.com/&quot; title=&quot;github&quot;&gt;github&lt;/a&gt;上了，这将是一个新的开始。&lt;/p&gt;
+
+&lt;p&gt;Hello world, 这是一个新的开始。&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>

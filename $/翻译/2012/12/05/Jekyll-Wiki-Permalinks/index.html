@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>【译文】Jekyll固定链接</title>
+    <meta name="description" content="Jekyll固定链接的官方说明文档，希望对大家有所帮助。">
+    <meta name="author" content="Flyaway">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/flying/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/flying/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/flying/css/syntax.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Flyaway's Blog</a>
+          <ul class="nav">
+		<li><a href="/about.html">About</a></li>
+		<li><a href="/archive.html">Archive</a></li>
+		<li><a href="/categories.html">Categories</a></li>
+		<li><a href="/Pages.html">Pages</a></li>
+		<li class="offset4"><a href="/atom.xml">Subscribe</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>【译文】Jekyll固定链接 <small class="H1_Date">--05 December 2012</small></h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <blockquote>
+  <p>原文地址:<a href="https://github.com/mojombo/jekyll/wiki/Permalinks">https://github.com/mojombo/jekyll/wiki/Permalinks</a></p>
+</blockquote>
+
+<p><strong>Jekyll</strong>支持以一种灵活的方式来定制你站点的URL路径。你可以通过<a href="http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html">配置文件</a>和<a href="http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html">YAML前置数据</a>来指定你站点的每个页面的固定链接。你可以使用内建的风格来创建你的链接，或者你也可以自己定制。默认的风格总是<code>date</code>。</p>
+
+<p><strong>注意</strong>:即使<code>--auto</code>选项被打开了，当你在Jekyll运行时修改其固定链接的风格，你需要重新启动Jekyll才能使新的风格生效。</p>
+
+<h1 id="section">模板变量</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>变量</strong></th>
+      <th style="text-align: left"><strong>描述</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code>year</code></td>
+      <td style="text-align: left">从文件名中获取的年份</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>month</code></td>
+      <td style="text-align: left">从文件名中获取的月份</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>day</code></td>
+      <td style="text-align: left">从文件名中获取的日期</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>title</code></td>
+      <td style="text-align: left">从文件名中获取的标题</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>categories</code></td>
+      <td style="text-align: left">当前文章指定的分类。Jekyll自动将它解析到URL的双斜杠之间。如果没有分类，那将会被忽略。</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>i_month</code></td>
+      <td style="text-align: left">从文件名中获取没有前导零的月份</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>i_day</code></td>
+      <td style="text-align: left">从文件名中获取没有前导零的日期</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="section-1">内建风格</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>名字</strong></th>
+      <th style="text-align: left"><strong>模板</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code>date</code></td>
+      <td style="text-align: left"><code>/:categories/:year/:month/:day/:title.html</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>pretty</code></td>
+      <td style="text-align: left"><code>/:categories/:year/:month/:day/:title/</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>none</code></td>
+      <td style="text-align: left"><code>/:categories/:title.html</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="section-2">例子</h1>
+
+<p>假设文章的名字是:<code>/2009-4-29-slap-chop.textile</code></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>设置</strong></th>
+      <th style="text-align: left"><strong>结果</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">不指定</td>
+      <td style="text-align: left"><code>2009/04/29/slap-chop.html</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>permalink: pretty</code></td>
+      <td style="text-align: left"><code>2009/04/29/slap-chop/index.html</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>permalink: /:month-:day-:year/:title.html</code></td>
+      <td style="text-align: left"><code>04-29-2009/slap-chop.html</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>permalink: /blog/:year/:month/:day/:title</code></td>
+      <td style="text-align: left"><code>/blog/2009/04/29/slap-chop/index.html</code></td>
+    </tr>
+  </tbody>
+</table>
+
+
+    <div class="eof">-&nbsp;EOF&nbsp;-</div>
+    <p class="declare">声明:本文采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow" title="署名-非商业性使用-相同方式共享">BY-NC-SA</a>协议进行授权.转载请注明: <a href="/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Wiki-Permalinks" title="【译文】Jekyll固定链接 " rel="nofollow">【译文】Jekyll固定链接</a></p>
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Liquid-Extensions" title="【译文】Jekyll扩展的Liquid模板">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Wiki-Template-Data" title="【译文】Jekyll模板数据">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>05 December 2012</span></div>
+
+  
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    
+    
+
+
+  
+     
+    	<li><a href="/tags.html#Jekyll,Github-ref">Jekyll,Github <span>6</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Flyaway 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+

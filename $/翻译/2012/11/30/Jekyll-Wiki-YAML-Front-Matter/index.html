@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>【译文】Jekyll的YAML前置数据</title>
+    <meta name="description" content="这是Jekyll官方Wiki上关于YAML前置数据的说明，希望对大家有所帮助。">
+    <meta name="author" content="Flyaway">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/flying/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/flying/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/flying/css/syntax.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Flyaway's Blog</a>
+          <ul class="nav">
+		<li><a href="/about.html">About</a></li>
+		<li><a href="/archive.html">Archive</a></li>
+		<li><a href="/categories.html">Categories</a></li>
+		<li><a href="/Pages.html">Pages</a></li>
+		<li class="offset4"><a href="/atom.xml">Subscribe</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>【译文】Jekyll的YAML前置数据 <small class="H1_Date">--30 November 2012</small></h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <blockquote>
+  <p>原文地址:<a href="https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter">https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter</a></p>
+</blockquote>
+
+<p>所有包含<a href="http://yaml.org/">YAML</a>前置数据块的文件都会被<strong>Jekyll</strong>当做特殊文件来处理。这些前置数据必须存在于文件的首部，他们的格式是这样的：</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="nn">---</span>
+<span class="l-Scalar-Plain">layout</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">post</span>
+<span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Blogging Like a Hacker</span>
+<span class="nn">---</span>
+</code></pre></div>
+
+<p>在三条虚线之间，你可以设置一些预定义的变量（可以查看下面的参考说明）或者是你自己定义的变量。</p>
+
+<p>注意：这很<strong>重要</strong>（尤其是对Windows用户）</p>
+
+<p>当你使用<code>UTF-8</code>编码来编辑你的文件时，请确保没有<code>BOM</code>的头部字符在你的文件中，否则整个都会奔溃。</p>
+
+<h1 id="section">预定义的全局变量</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>变量</strong></th>
+      <th style="text-align: left"><strong>描述</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code>layout</code></td>
+      <td style="text-align: left">这个变量是用来设置选用的模板文件。使用模板文件的文件名，但不包括扩展名，模板文件必须存在于 <code>_layout</code>目录中。</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>permalink</code></td>
+      <td style="text-align: left">如果你需要你的Url地址和默认的/年份/月份/日期/标题.html不同，那你就需要设置这个选项，它将会当做最终的URL地址。</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>published</code></td>
+      <td style="text-align: left">当站点生成时，如果你不希望这篇文章显示出来，那就应该把这个变量设置为false</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>category</code>/<code>categories</code></td>
+      <td style="text-align: left">除了你可以把文章放在归档文件夹中，你还可以为文章设置一个或多个类别。当网站生成时，这些文章将会表现得和真的属于这些分类一样。这些类别可以通过<a href="http://en.wikipedia.org/wiki/YAML#Lists">YAML列表</a>来设置，或者也可以通过一个用空格分隔的字符串来设置。</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>tags</code></td>
+      <td style="text-align: left">类似于分类，一个文章可以拥有一个或多个标签。同样和分类类似，标签也可以通过YAML列表或一个用空格分隔的字符串来设置。</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="section-1">自定义数据</h1>
+
+<p>在转换过程中，所有在前置数据中的非预定义变量都会被一起提交给<strong>Liquid</strong>模板引擎。举例来说，如果你设置了变量:title，你可以在你的布局模板文件中使用这个变量来设置页面的标题：</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;title&gt;</span> { { page.title } } <span class="nt">&lt;/title&gt;</span>
+</code></pre></div>
+
+<h1 id="section-2">为文章预定义的前置数据</h1>
+
+<p>下面是文章可用的前置数据变量：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>变量</strong></th>
+      <th style="text-align: left"><strong>描述</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code>date</code></td>
+      <td style="text-align: left">这个日期变量将会覆盖文件名中的日期，这个变量能够用来确保文章的正确排序</td>
+    </tr>
+  </tbody>
+</table>
+
+    <div class="eof">-&nbsp;EOF&nbsp;-</div>
+    <p class="declare">声明:本文采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow" title="署名-非商业性使用-相同方式共享">BY-NC-SA</a>协议进行授权.转载请注明: <a href="/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter" title="【译文】Jekyll的YAML前置数据 " rel="nofollow">【译文】Jekyll的YAML前置数据</a></p>
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-How-Jekyll-Works" title="【译文】Jekyll是如何工作的">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Liquid-Extensions" title="【译文】Jekyll扩展的Liquid模板">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>30 November 2012</span></div>
+
+  
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    
+    
+
+
+  
+     
+    	<li><a href="/tags.html#Jekyll,YAML,Wiki,翻译-ref">Jekyll,YAML,Wiki,翻译 <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Flyaway 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+

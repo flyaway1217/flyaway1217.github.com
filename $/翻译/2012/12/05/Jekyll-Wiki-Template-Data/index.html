@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>【译文】Jekyll模板数据</title>
+    <meta name="description" content="Jekyll模板数据的官方Wiki文档，希望对大家有帮助">
+    <meta name="author" content="Flyaway">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/flying/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/flying/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/flying/css/syntax.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Flyaway's Blog</a>
+          <ul class="nav">
+		<li><a href="/about.html">About</a></li>
+		<li><a href="/archive.html">Archive</a></li>
+		<li><a href="/categories.html">Categories</a></li>
+		<li><a href="/Pages.html">Pages</a></li>
+		<li class="offset4"><a href="/atom.xml">Subscribe</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>【译文】Jekyll模板数据 <small class="H1_Date">--05 December 2012</small></h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <blockquote>
+  <p>原文地址:<a href="https://github.com/mojombo/jekyll/wiki/Template-Data">https://github.com/mojombo/jekyll/wiki/Template-Data</a></p>
+</blockquote>
+
+<p>Jekyll会遍历你的站点，来寻找需要处理的文件。任何具有<a href="http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html">YAML前置数据</a>的文件都将会被处理，每一个这样的文件，<strong>Jekyll</strong>都会通过<a href="http://wiki.github.com/shopify/liquid/liquid-for-designers">Liquid模板系统</a>使用许多可用的页面变量。下面是一个可用变量的列表。</p>
+
+<h1 id="section">全局变量</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>变量</strong></th>
+      <th style="text-align: left"><strong>描述</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code>site</code></td>
+      <td style="text-align: left">全站的信息+<code>_config.yml</code>文件中的配置选项</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>page</code></td>
+      <td style="text-align: left">这个变量中包含<a href="http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html">YAML前置数据</a>,另外加上两个额外的变量值:<code>url</code>和<code>content</code>。</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>content</code></td>
+      <td style="text-align: left">在布局模板文件中，这里变量包含了页面的子视图。这个变量将会把渲染后的内容插入到模板文件中。这个变量不能在文章和页面文件中使用。</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>paginator</code></td>
+      <td style="text-align: left">一旦<code>paginate</code>配置选项被设置了，这个变量才能被使用。</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="site">Site变量</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>变量</strong></th>
+      <th style="text-align: left"><strong>描述</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code>site.time</code></td>
+      <td style="text-align: left">当前的时间(当你运行Jekyll时的时间)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>site.posts</code></td>
+      <td style="text-align: left">一个按时间逆序的文章列表。</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>site.related_posts</code></td>
+      <td style="text-align: left">如果当前被处理的页面是一个文章文件，那这个变量是一个包含了最多10篇相关文章的列表。默认来说，这些相关文章是低质量但计算快的。为了得到高质量但计算慢的结果，运行Jekyll命令时可以加上<code>--lsi</code>选项。(潜在语意索引)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>site.categories.CATEGORY</code></td>
+      <td style="text-align: left">所有在<code>CATEGORY</code>分类中的文章列表</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>site.tags.TAG</code></td>
+      <td style="text-align: left">所有拥有<code>TAG</code>标签的文章的列表</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>site.[CONFIGURATION_DATA]</code></td>
+      <td style="text-align: left">截止<strong>0.5.2</strong>版本，所有在<code>_config.yml</code>中的数据都能够通过<code>site</code>变量调用。举例来说，如果你有一个这样的选项在你的配置文件中:<code>url: http://mysite.com</code>，那在文章和页面文件中可以这样调用<code>{ { site.url } }</code>。Jekyll并不会自动解析修改过的<code>_config.yml</code>文件，你想要启用新的设置选项，你需要重启Jekyll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="page">Page变量</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>变量</strong></th>
+      <th style="text-align: left"><strong>描述</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code>page.content</code></td>
+      <td style="text-align: left">页面中未渲染的内容</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>page.title</code></td>
+      <td style="text-align: left">文章的标题</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>page.url</code></td>
+      <td style="text-align: left">除去域名以外的URL，例子:<code>/2008/12/14/my-post.html</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>page.date</code></td>
+      <td style="text-align: left">指定每一篇文章的时间，这个选项能够覆盖一篇文章中前置数据设置的时间，它的格式是这样的:<code>YYYY-MM-DD HH:MM:SS</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>page.id</code></td>
+      <td style="text-align: left">每一篇文章的唯一标示符(在RSS中非常有用) 例子：/2008/12/14/my-post</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>page.categories</code></td>
+      <td style="text-align: left">这篇文章隶属的分类的一个列表，分类是通过在<code>_post</code>目录中的目录结构推导而来的。举例来说，在路径<code>/work/code/_posts/2008-12-24-closures.textile</code>下的文件，这个变量将会是<code>[work,code]</code>。这个变量也能在<a href="http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html">YAML前置数据</a>中被指定。</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>page.tags</code></td>
+      <td style="text-align: left">这篇文章的标签的列表。这些数据能够在<a href="http://flyaway1217.github.com/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html">YAML前置数据</a>中指定</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>page.next</code></td>
+      <td style="text-align: left">按时间序的下一篇文章</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>page.content</code></td>
+      <td style="text-align: left">按时间序的上一篇文章</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>注意</strong>:任何你自己指定的自定义前置数据都能够通过<code>page</code>调用。举例来说，如果你在页面的前置数据中设置了<code>custom_css: true</code>，那这个值可以在模板可以这样调用:<code>page.custom_css</code></p>
+
+<h1 id="paginator">Paginator变量</h1>
+
+<p><strong>注意</strong>:这个变量只能在索引文件中才能使用。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>变量</strong></th>
+      <th style="text-align: left"><strong>描述</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code>paginator.per_page</code></td>
+      <td style="text-align: left">每一个页面上文章的数量</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>paginator.posts</code></td>
+      <td style="text-align: left">当前页面上可用的文章</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>paginator.total_posts</code></td>
+      <td style="text-align: left">所有文章的数量</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>paginator.total_pages</code></td>
+      <td style="text-align: left">所有页面的数量</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>paginator.page</code></td>
+      <td style="text-align: left">当前页面的数量</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>paginator.previous_page</code></td>
+      <td style="text-align: left">前面的页面的数量</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code>paginator.next_page</code></td>
+      <td style="text-align: left">接下来的的页面的数量</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    <div class="eof">-&nbsp;EOF&nbsp;-</div>
+    <p class="declare">声明:本文采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow" title="署名-非商业性使用-相同方式共享">BY-NC-SA</a>协议进行授权.转载请注明: <a href="/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Wiki-Template-Data" title="【译文】Jekyll模板数据 " rel="nofollow">【译文】Jekyll模板数据</a></p>
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/%E7%BF%BB%E8%AF%91/2012/12/05/Jekyll-Wiki-Permalinks" title="【译文】Jekyll固定链接">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/%E7%BF%BB%E8%AF%91/2012/12/15/Jekyll-Wiki-Plugins" title="【译文】Jekyll插件">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>05 December 2012</span></div>
+
+  
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    
+    
+
+
+  
+     
+    	<li><a href="/tags.html#Jekyll,Github-ref">Jekyll,Github <span>6</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Flyaway 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+
