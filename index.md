@@ -31,7 +31,7 @@ description: "Flyaway的博客"
 
 <aside class="span4 ">
 <div class="side-bar">My Wiki</div>
-<a href="#">
+<a href="http://wiki.zhouyichu.com">
 <img class="wiki_img" src="assets/themes/flying/images/wiki_logo.png" title="My Wiki"/>
 </a>
   <div class="side-bar">文章分类</div> 
