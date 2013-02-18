@@ -201,3 +201,27 @@ strong {
 	text-shadow:rgba(50,50,50,.3) 1px 1px 3px;
 }
 
+sup a:active {
+	color:red;
+}
+sup a:hover {
+	color:red;
+}
+sup a:visited {
+	color:red;
+}
+sup a:link {
+	color:red;
+}
+
+.footnotes {
+	font-style:italic;
+}
+.footnotes ol li {
+	color:red;
+}
+.footnotes ol li p {
+	color:#333333;
+	font-size:14px;
+}
+
