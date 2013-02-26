@@ -132,6 +132,10 @@ h1,h2,h3{
 	font-style:italic;
 }
 /******************************post.html*************************************/
+h4{
+	font-size:16px;
+	margin:10px 0 0 0 ;
+}
 .eof{
 	text-align:center;
 	font-weight:bold;

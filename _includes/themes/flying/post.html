@@ -28,8 +28,6 @@
   </div>
   
   <div class="span4">
-    <h4>Published</h4>
-    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
 
   {% unless page.tags == empty %}
     <h4>Tags</h4>
@@ -38,5 +36,11 @@
     {% include JB/tags_list %}
     </ul>
   {% endunless %}  
+  <h4>相关文章</h4>
+  <ul>
+  {% for related_post in site.related_posts limit:7 %}
+  <li><a href="{{ BASE_PATH }}{{ related_post.url }} ">{{ related_post.title }}</a></li>
+  {% endfor %}
+  </ul>
   </div>
 </div>
