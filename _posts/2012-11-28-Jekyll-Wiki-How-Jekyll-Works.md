@@ -70,6 +70,5 @@ end
 
 这使得插件在`generate`和`render`阶段变得更容易插入到Jekyll中，就像在[插件](https://github.com/mojombo/jekyll/wiki/Plugins)中说明的一样，你只需要实现正确的方法。
 
-这个页面基于这篇[文章](onox.com.br/2012/10/02/how-jekyll-workd.html)
 
 
