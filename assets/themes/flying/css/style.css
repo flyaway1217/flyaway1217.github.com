@@ -83,6 +83,10 @@ p{
 pre{
 	background-color:#404040;
 }
+h2 {
+	margin:0 0 0 10px;
+	font-size:18px;
+}
 h1,h2,h3{
 	text-shadow:rgba(50,50,50,.3) 1px 1px 3px;
 }
@@ -184,6 +188,9 @@ img:hover{
 .wiki_img{
 	width:100%;
 }
+blockquote {
+	font-style:italic;
+}
 blockquote p:before{
 	content:"”";
 	font-size:38px;
@@ -227,5 +234,10 @@ sup a:link {
 .footnotes ol li p {
 	color:#333333;
 	font-size:14px;
+}
+
+/*****************MathJax******************/
+.MathJax{
+	color:rgb(51,51,51);
 }
 

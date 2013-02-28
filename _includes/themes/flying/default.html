@@ -16,14 +16,14 @@
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/syntax.css" rel="stylesheet" type="text/css" media="all">
     <script type="text/javascript" src="{{ ASSET_PATH  }}/js/jquery-1.9.1.min.js"></script>
-    <!-- Le fav and touch icons -->
+   <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
-  </head>
+</head>
 
   <body>
 
@@ -59,6 +59,7 @@
 
     {% include JB/analytics %}
   </body>
+
 <script type="text/javascript">
 $("a[href^='http://']").each(function(){
 	this.target="_blank";
@@ -66,9 +67,43 @@ foot = $(".footnotes")
 $(".eof").after(foot)
 
 });
-
-
-
-
 </script>
-</html>
+
+  <!--MathJax-->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+       }
+  });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true}},
+        "HTML-CSS": {linebreaks: {automatic: true}},
+        SVG: {linebreaks: {automatic: true}}
+    });
+</script>
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+ </html>
