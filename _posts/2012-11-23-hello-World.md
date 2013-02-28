@@ -3,7 +3,7 @@ layout: post
 title: Hello World
 description: 这是我正式发布在github上的第一篇博客。和学习所有编程语言一样，第一个实例总是Hello World!
 keywords: GitHub,Jekyll,HelloWorld,WordPress
-category: 心路历程
+category: MISC
 ---
 
 记得最早之前是在[新浪博客](http://blog.sina.com.cn/ "新浪博客")上写博客，大概是在初中的时候吧，当时也是跟风很多其他人玩博客，没坚持多久就停止了。上大学之后，从大二开始一直折腾[WordPress](http://wordpress.org/ "WordPress"),[这里](http://flyaway-blog.com "flyaway")是我原来的博客地址。[WordPress](http://wordpress.org/ "WordPress")用了一段时间之后,发现处处有限制，用起来感觉很不灵活，总觉得[WordPress](http://wordpress.org/ "WordPress")还是太臃肿了。虽然有很多插件，但是还是不能满足我的需要。最让我纠结的就是文章的排版格式，当时为了发布几篇包含了很多公式的关于算法的文章，排版排了很久，但是最终的显示效果还是不如意。这让我觉得很痛苦。
