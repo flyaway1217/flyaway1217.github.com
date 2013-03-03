@@ -293,3 +293,27 @@ sup a:link {
 .ad_menu_ul a:hover{
 	text-decoration:underline;
 }
+
+
+/********边注的样式*****************************/
+.bz{
+	float:right;
+	display:block;
+	width:0px;
+}
+.bz_sup{
+	color:red;
+	vertical-align:super;
+}
+.bz_back{
+	border-left:5px solid #BCE72D;
+	display:block;
+	width:280px;
+	margin-left:20px;
+}
+.bz_content{
+	display:block;
+	margin-left:10px;
+	width:280px;
+	font-size:13px;
+}

@@ -1,8 +1,13 @@
 $(document).ready(function(){
+    //如果有超过1个一级标题，则建立目录
+    if($("h1").size() > 1)
+    {
     //建立目录框架
     var menu = $('<div class="ad_menu"><div class="ad_menu_title" title="点击展开/收起,Shift+z隐藏或打开">目录</div><ul class="ad_menu_ul"></ul></div>');
     var start = '<ul>';
     var end = '</ul>';
+
+
     //插入到DOM树中
     $(".content").prepend(menu);
     //标记是否是二级标题
@@ -50,6 +55,31 @@ $(document).ready(function(){
 		$(".ad_menu").toggle(200);
 		}
 	})
+    }//end of the if
+
+//边注设置的代码
+    var bianzhu = '<span class="bz"><span class="bz_back"><span class="bz_content">flyaway</span></span></span>';
+    var sup='<span class="bz_sup"></span>'
+    var footcontents = new Array()
+    var i = 0
+    $(".footnotes li").each(function(){
+	footcontents[i]=$(this).text();
+	i=i+1;
+	})
+    i=0
+    $("sup").each(function(){
+	$(this).after(bianzhu);
+	var tmp=$(this).next(".bz").children(".bz_back").children(".bz_content")
+	tmp.text(footcontents[i])
+ 	tmp.prepend(sup)
+	var tmp=$(this).next(".bz").children(".bz_back").children(".bz_content").children(".bz_sup")
+	tmp.text(i+1)
+	i=i+1
+	});	
+   $(".footnotes").remove()
+
+
+
 
 });
 
