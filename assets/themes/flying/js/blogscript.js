@@ -62,17 +62,21 @@ $(document).ready(function(){
     var sup='<span class="bz_sup"></span>'
     var footcontents = new Array()
     var i = 0
+    //获取脚注内容
     $(".footnotes li").each(function(){
-	footcontents[i]=$(this).text();
+	footcontents[i]=$(this).html();
 	i=i+1;
 	})
     i=0
     $("sup").each(function(){
+	$(this).text($(this).children("a").text())
+	$(this).children("a").remove()
 	$(this).after(bianzhu);
 	var tmp=$(this).next(".bz").children(".bz_back").children(".bz_content")
-	tmp.text(footcontents[i])
- 	tmp.prepend(sup)
-	var tmp=$(this).next(".bz").children(".bz_back").children(".bz_content").children(".bz_sup")
+	tmp.html(footcontents[i])
+	tmp.children(":first").children(":last").remove()
+ 	tmp.children(":first").prepend(sup)
+	var tmp=tmp.children(":first").children(".bz_sup")
 	tmp.text(i+1)
 	i=i+1
 	});	

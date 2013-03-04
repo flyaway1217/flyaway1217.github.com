@@ -213,16 +213,7 @@ strong {
 	text-shadow:rgba(50,50,50,.3) 1px 1px 3px;
 }
 
-sup a:active {
-	color:red;
-}
-sup a:hover {
-	color:red;
-}
-sup a:visited {
-	color:red;
-}
-sup a:link {
+sup {
 	color:red;
 }
 
@@ -311,7 +302,7 @@ sup a:link {
 	width:280px;
 	margin-left:20px;
 }
-.bz_content{
+.bz_content p{
 	display:block;
 	margin-left:10px;
 	width:280px;
