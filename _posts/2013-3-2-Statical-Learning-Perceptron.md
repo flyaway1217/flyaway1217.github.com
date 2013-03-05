@@ -1,5 +1,4 @@
 ---
-published: false
 layout: post
 time: 2013-3-2
 title: 感知机模型
@@ -212,3 +211,200 @@ $$
 **(4) 转至(2)，直至训练集中没有误分类点。**
 
 这种学习算法直观上有如下解释:当一个实例点被误分类，即位于分离超平面的错误的一侧时，则调整$$w,b$$的值，使分离超平面向该误分类点的一侧移动，以减少该误分类点与超平面的距离，直至超平面越过该误分类点使其被正确分类。
+
+##算法的收敛性##
+现在要证明，对于线性可分数据集感知机学习算法原始形式收敛，即经过有限次迭代可以得到一个将训练数据集完全正确划分的分离超平面感知机模型。
+为了便于叙述，将偏置$$b$$并入权重向量$$w$$，记作$$\hat{w}=(w^T,b)^T$$，同样也将输入向量加以扩充，加进常数1，记作$$\hat{x}=(x^T,1)^T$$。这样，$$\hat{x}\in\boldsymbol{R}^{n+1},\hat{w}\in\boldsymbol{R}^{n+1}$$，显然，$$\hat{w}\cdot\hat{x}=w\cdot x + b$$。
+
+**定理(Novikoff):**设训练数据集$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$是线性可分的，其中$$x_i\in\cal{X}=\boldsymbol{R}^n,y_i\in\cal{Y}=\{-1,+1\},i=1,2,\cdots,N$$，则
+
+(1) 存在满足条件$$\Vert\hat{w}_{opt}\Vert=1$$的超平面$$\hat{x}_{opt}\cdot\hat{x}=w_{opt}\cdot x + b_{opt}=0$$将训练数据集完全正确分开；且存在$$\gamma>0$$，对所有$$i=1,2,\cdots,N$$
+
+$$
+\begin{equation}
+y_i(\hat{w}_{opt}\cdot\hat{x}_i)=y_i(w_{opt}\cdot x_i+b_{opt})\ge\gamma\label{2.8}
+\end{equation}
+$$
+
+(2)令$$R=\max_{1\le i\le N}\Vert\hat{x}_i\Vert$$，则感知机算法在训练数据集上的误分类次数$$k$$满足不等式
+
+$$
+\begin{equation}
+k\le\left(\frac{R}{\gamma}\right)^2
+\end{equation}
+$$
+
+**证明**
+(1) 由于训练数据集是线性可分的，按照定义，存在超平面可将训练数据集完全分开，取此超平面为$$\hat{w}_{opt}\cdot\hat{x}=w_{opt}\cdot x + b_{opt}=0$$，使$$\Vert\hat{w}_{opt}\Vert=1$$，由于对有限的$$i=1,2,\cdots,N$$，均有[^6]
+
+$$
+\begin{equation}
+y_i(\hat{x}_{opt}\cdot \hat{x}_i)=y_i(w_{opt}\cdot x_i + b_{opt}) > 0
+\end{equation}
+$$
+
+[^6]:因为前提是能够将数据完全分开，所以$$y_i$$与$$(\hat{w}_{opt}\cdot \hat{x})$$永远是同号的。
+
+所以存在
+
+$$
+\begin{equation}
+\gamma=\min_{i}{y_i(w_{opt}\cdot x_i+b_{opt})}
+\end{equation}
+$$
+
+使
+
+$$
+\begin{equation}
+y_i(\hat{w}_{opt}\cdot\hat{x})=y_i(w_{opt}\cdot x_i + b_{opt})\ge\gamma
+\end{equation}
+$$
+
+(2)感知机算法从$$\hat{w}_0=0$$开始，如果实例被误分类，则更新权重。令$$\hat{x}_{k-1}$$是第$$k$$个误分类实例之前的扩充权重向量，即
+
+$$
+\begin{equation}
+\hat{w}_{k-1}=(w_{k-1}^T,b_{k-1})^T
+\end{equation}
+$$
+
+则第k个误分类实例的条件是
+
+$$
+\begin{equation}
+y_i(\hat{w}_{k-1}\cdot\hat{x}_i)=y_i(w_{k-1}\cdot x_i+b_{k-1}) \le  0\label{2.10}
+\end{equation}
+$$
+
+若$$(x_i,y_i)$$是被$$\hat{w}_{k-1}=(w_{k-1}^T,b_{k-1})^T$$误分类的数据，则$$w$$和$$b$$的更新是
+
+$$
+\begin{equation}
+w_k\leftarrow w_{k-1}+\gamma y_ix_i\\
+b_k\leftarrow b_{k-1}+\gamma y_i
+\end{equation}
+$$
+
+即
+
+$$
+\begin{equation}
+\hat{w}_k=\hat{w}_{k-1}+\gamma y_i\hat{x}_i\label{2.11}
+\end{equation}
+$$
+
+接下来进行两个不等式的推导
+
+(1)
+
+$$
+\begin{equation}
+\hat{w}_k\cdot\hat{w}_{opt}\ge k\eta\gamma\label{2.12}
+\end{equation}
+$$
+
+由式($$\ref{2.11}$$)及式($$\ref{2.8}$$)得
+
+$$
+\begin{equation}
+\hat{w}_k\cdot\hat{w}_{opt}=\hat{w}_{k-1}\cdot\hat{w}_{opt}+\eta y_i\hat{w}_{opt}\cdot\hat{x}_i\ge\hat{w}_{k-1}\cdot\hat{w}_{opt}+\eta\gamma
+\end{equation}
+$$
+
+由此递推即得不等式($$\ref{2.12}$$)
+
+$$
+\begin{equation}
+\hat{x}_k\cdot\hat{w}_{opt}\ge\hat{x}_{k-1}\cdot\hat{w}_{opt}+\eta\gamma\ge\hat{x}_{k-2}\cdot\hat{w}_{opt}+2\eta\gamma\ge\cdots\ge k\eta\gamma
+\end{equation}
+$$
+
+(2)
+
+$$
+\begin{equation}
+\Vert\hat{w}_{k}\Vert^2\le k\eta^2R^2\label{2.13}
+\end{equation}
+$$
+
+
+由式($$\ref{2.11}$$)及式($$\ref{2.10}$$)得
+
+$$
+\begin{equation}
+\begin{split}
+\Vert\hat{x}_k\Vert^2&=\Vert\hat{x}_{k-1}\Vert^2+2\eta y_i\hat{w}_{k-1}\cdot\hat{x}_i+\eta^2\Vert\hat{x}_i\Vert^2\\
+                     &\le\Vert\hat{x}_{k-1}\Vert^2+\eta^2\Vert\hat{x}_i\Vert^2\\
+                     &\le\Vert\hat{x}_{k-1}\Vert^2+\eta^2R^2\\
+                     &\le\Vert\hat{x}_{k-2}\Vert^2+2\eta^2R^2\le\cdots\\
+                     &\le k\eta^2R^2
+\end{split}
+\end{equation}
+$$
+
+结合不等式($$\ref{2.12}$$)及不等式($$\ref{2.13}$$)即得
+
+$$
+\begin{equation}
+k\eta\gamma\le \hat{w}_k\cdot\hat{w}_{opt}\le\Vert\hat{w}_k\Vert\Vert\hat{w}_{opt}\Vert\le\sqrt{k}\eta R\\
+k^2\gamma^2\le kR^2
+\end{equation}
+$$
+
+于是
+
+$$
+\begin{equation}
+k\le\left(\frac{R}{\gamma}\right)^2
+\end{equation}
+$$
+
+
+定理表明，误分类的次数$$k$$是有上界的，经过有限次搜索可以找到将训练数据完全正确分开的分离超平面。也就是说，当训练数据集线性可分时，感知机学习算法原始形式迭代是收敛的。感知机学习算法存在许多解，这些解既依赖于初值的选择，也依赖于迭代过程中误分类点的选择顺序。为了得到唯一的超平面，需要对分离超平面增加约束条件。当训练集线性不可分时，感知机算法不收敛，迭代结果会发生震荡。
+
+##感知机学习算法的对偶形式##
+对偶形式的基本思想是，将$$w$$和$$b$$表示为实例$$x_i$$和标记$$y_i$$的线性组合的形式，通过求解其系数而求得$$w$$和$$b$$。不是一般性，在原始算法中，可假设初值$$w_0,b_0$$均为0.对误分类点$$(x_i,y_i)$$通过
+
+$$
+\begin{equation}
+w\leftarrow w+\eta y_ix_i\\
+b\leftarrow b+\eta y_i
+\end{equation}
+$$
+
+逐步修改$$w,b$$，则$$w,b$$关于$$(x_i,y_i)$$的增量分别是$$\alpha_iy_ix_i$$。这里$$\alpha_i=n_i\eta$$。这样，从学习过程不难看出，最后学习到的$$w,b$$可以分别表示为[^8]
+
+$$
+\begin{gather}
+w=\sum_{i=1}^N\alpha_iy_ix_i\label{2.14}\\
+b=\sum_{i=1}^N\alpha_iy_i\label{2.15}
+\end{gather}
+$$
+
+[^9]这里$$\alpha_i\ge0,i=1,2,\cdots,N$$,当$$\eta=1$$时，表示第$$i$$个实例点由于误分而进行更新的次数。实例点更新次数越多，意味着它距离超平面越近，也就越难正确分类。
+
+[^8]:误分类点$$(x_i,y_i)$$经过$$n_i$$次修改，最终被正确分类，此时$$\begin{equation}w=w_0+n_i\eta_0y_ix_i=w_0+\alpha_iy_ix_i\\b=b_0+n_i\eta_0y_ix_i=b_0+\alpha_iy_i\end{equation}$$
+
+[^9]:公式($$\ref{2.14}$$)和($$\ref{2.15}$$)中的$$N$$是训练样本的数量
+
+**算法(感知机学习算法的对偶形式)**
+
+**输入:**线性可分的数据集$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$,其中$$x_i\in\boldsymbol{R}^n,y_i\in\{-1,+1\},i=1,2,\cdots,N;$$学习率$$\eta(0<\eta\le 1)$$
+
+**输出:**$$\alpha,b$$；感知机模型$$f(x)=sign\left(\sum_{j=1}^N\alpha_jy_jx_j\cdot x + b\right)$$。其中$$\alpha=(\alpha_1,\alpha_2,\cdots,\alpha_N)^T$$
+
+**(1)$$\alpha\leftarrow 0,b\leftarrow 0$$**
+
+**(2)在训练集中选取数据$$(x_i,y_i)$$**
+
+**(3)如果$$y_i\left(\sum_{j=1}^N\alpha_jy_jx_j\cdot x_i+b\right)\le 0$$**
+
+$$
+\begin{equation}
+\alpha_i\leftarrow\alpha_i+\eta\\
+b\leftarrow b+\eta y_i
+\end{equation}
+$$
+
+**(4)转至(2)直到没有误分类数据**
