@@ -82,8 +82,6 @@ $(document).ready(function(){
 	});	
    $(".footnotes").remove()
 
-
-
-
+       
 });
 
