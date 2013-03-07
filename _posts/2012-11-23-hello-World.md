@@ -17,6 +17,7 @@ category: MISC
 - <del>添加Feed页面。</del>
 - 添加站内搜索功能。
 - <del>把原博客的部分文章移植到这个站点上来。</del>
+- <del>添加随机文章功能。</del>
 - 强化SEO技巧。
 
 不管怎么样，我就这样定居在[github](https://github.com/ "github")上了，这将是一个新的开始。
