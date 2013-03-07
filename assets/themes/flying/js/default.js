@@ -1,6 +1,5 @@
 $(document).ready(function(){
 $("#random").click(function(){
-	alert("xxx")
 	$.get('/atom.xml',function(data){
 	var $xml=$(data);
 	entry=$xml.find("entry")
