@@ -47,7 +47,7 @@ $("#random").click(function(){
 	
 })
 	//随机数发生器
-       function getRandom(n){return Math.floor(Math.random()*n+1)}
+       function getRandom(n){return Math.floor(Math.random()*(n+1))}
 });
 
 {% endhighlight %}
