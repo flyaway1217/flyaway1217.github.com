@@ -12,7 +12,7 @@ tags: jQuery,javascript,前端
 
 之前在一些[网站](http://linux-wiki.cn/wiki/)的中见到能够随机访问文章的功能，觉得非常cool，就想在自己的博客中引入这个功能。
 
-我的博客是搭建在[github](https://github.com "github")上的，所有的页面都是通过[Jekyll](http://jekyllrb.com "Jekyll")的静态页面，是完全没有后台的，当然也没有数据库。这有点让我犯难，如果是类似[WordPress](cn.wordpress.org "wordpress")这种博客平台，只需在数据库中随机选取一篇文章，然后返回给用户。由于全是静态页面，不太可能在和服务器产生交互。
+我的博客是搭建在[github](https://github.com "github")上的，所有的页面都是通过[Jekyll](http://jekyllrb.com "Jekyll")的静态页面，是完全没有后台的，当然也没有数据库。这有点让我犯难，如果是类似[WordPress](http://cn.wordpress.org "wordpress")这种博客平台，只需在数据库中随机选取一篇文章，然后返回给用户。由于全是静态页面，不太可能在和服务器产生交互。
 
 后来想到，其实是可以使用javascript来实现的，既然所有的文章都是静态页面，我只需要从所有的文章中随机选取一篇，然后将当前的链接地址进行替换就行了，让浏览器重新发起请求，只不过不再是原来的页面，而是一个随机选择的页面。
 
