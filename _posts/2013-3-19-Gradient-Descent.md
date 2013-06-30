@@ -6,6 +6,7 @@ category: 机器学习
 description: 基于斯坦福《机器学习》公开课的内容，详细探讨了梯度下降法的来龙去脉，最后对线性回归问题进行了一般化，得到一个一般化的计算公式。
 tags: 机器学习,gradient-descent,梯度下降法
 keywords: 机器学习,gradient descent,梯度下降法,线性回归
+publish: false
 ---
 
 #前言#
