@@ -41,14 +41,6 @@ description: "Flyaway的博客"
 	{% include JB/categories_list   %}
 	</ul>
   </div>
-
-<div class="side-bar">标签</div> 
-  <div>
-	<ul class="tag_box">
-	{% assign tags_list = site.tags  %}
-	{% include JB/tags_list   %}
-	</ul>
-  </div>
 </aside>
 </div>
 <div class="home-page-footer"><a href="/archive.html">查看所有{{ site.posts.size  }}篇文章...</a></div>
