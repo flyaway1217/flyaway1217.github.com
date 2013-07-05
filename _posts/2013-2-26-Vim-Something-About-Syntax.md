@@ -8,7 +8,7 @@ tags: Vim,Markdown
 keywords: Jekyll,Vim,Makrdown,语法高亮,Kramdown
 ---
 
-自从开始使用[Jekyll](http://jekyllrb.com "Jekyll")写博客，markdown就成为了我的常用工具，我平时使用的编辑器是vim，强大的vim拥有大量的语法文件，这当中当然包括了markdown的语法高亮文件。但是，随着时间的推移，我发现基本的markdown语法高亮已经不太适合我的要求了，因为在[Jekyll](http://jekyllrb.com "Jekyll")里我使用的是[kramdown](http://kramdown.rubyforge.org "Kramdown")这个渲染引擎，它对markdown的语法进行了扩充，有用很多其他的特性(包括支持Latex、输入表格等)。因此，基础的markdown语法已经不能满足我了，因此针对kramdown的扩展了的语法，我想要自己写一个语法文件。在开始写语法文件之前，有必要先了解一下vim是如何对文件类型进行识别的，有助于更好的理解vim的启动过程。网上找了很久，关于vim是如何启动、如何读取配置文件的内容非常少，大多数都是教程式的告诉该用什么命令，但是却不告诉你为什么要用这个命令。经过一个下午的苦苦搜索，并且加上自己查看vim手册，得出了一些成果，在此记录一下。
+自从开始使用[Jekyll](http://jekyllrb.com "Jekyll")写博客，markdown就成为了我的常用工具，我平时使用的编辑器是vim，强大的vim拥有大量的语法文件，这当中当然包括了markdown的语法高亮文件。但是，随着时间的推移，我发现基本的markdown语法高亮已经不太适合我的要求了，因为在[Jekyll](http://jekyllrb.com "Jekyll")里我使用的是[kramdown](http://kramdown.rubyforge.org "Kramdown")这个渲染引擎，它对markdown的语法进行了扩充，有用很多其他的特性(包括支持Latex、输入表格等)。因此，基础的markdown语法已经不能满足我了，因此针对kramdown的扩展了的语法，我想要自己写一个语法文件。在开始写语法文件之前，有必要先了解一下vim是如何对文件类型进行识别的，有助于更好的理解vim的启动过程。网上找了很久，关于vim是如何启动、如何读取配置文件的内容非常少，大多数都是教程都是告诉你该用什么命令，但是却不告诉你为什么要用这个命令。经过一个下午的苦苦搜索，并且加上自己查看vim手册，得出了一些成果，在此记录一下。
 
 #配置文件的搜索路径#
 首先需要知道的是，vim是可高度可定制化的编辑器，它在运行过程中都会维护一些内部的变量(或者叫做选项)，如常见的`number`,`incsearch`等，这些选项都会控制vim的一些具体属性，例如`set number`就会告诉vim打开行号，这样vim就会显示出每一行的行号(其实这样的选项vim中有很多，此处不再展开，想要完整了解，可以查看手册)。在这些选项中，有一个选项叫做`runtimepath`，这个选项中记录了vim启动时应该要读取的配置文件的目录(有点类似操作系统中的$PATH环境变量)，可以通过`set runtimepath`命令来查看(修改)。在windows上，默认是:
