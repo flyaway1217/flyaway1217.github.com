@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Flyaway's Blog</title>
+ <link href="http://zhouyichu.com/atom.xml" rel="self"/>
+ <link href="http://zhouyichu.com"/>
+ <updated>2013-07-05T19:01:24+08:00</updated>
+ <id>http://zhouyichu.com</id>
+ <author>
+   <name>Flyaway</name>
+   <email>flyaway1217@gmail.com</email>
+ </author>
+
+ 
+ 
+</feed>

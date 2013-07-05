@@ -1,0 +1,9 @@
+
+http://zhouyichu.com/categories.html
+http://zhouyichu.com/sitemap.txt
+http://zhouyichu.com/about.html
+http://zhouyichu.com/index.html
+http://zhouyichu.com/atom.xml
+http://zhouyichu.com/archive.html
+http://zhouyichu.com/pages.html
+http://zhouyichu.com/tags.html
