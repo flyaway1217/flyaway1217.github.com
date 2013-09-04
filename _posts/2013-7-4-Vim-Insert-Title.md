@@ -45,7 +45,6 @@ call append(8,'"""')
 endfunction
 
 function! DateInsert()
-normal ms
 call cursor(7,1)
 if search('Last modified') != 0
 	let line = line('.')
