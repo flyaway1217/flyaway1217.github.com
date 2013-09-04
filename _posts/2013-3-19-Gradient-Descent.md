@@ -6,7 +6,7 @@ category: 机器学习
 description: 基于斯坦福《机器学习》公开课的内容，详细探讨了梯度下降法的来龙去脉，最后对线性回归问题进行了一般化，得到一个一般化的计算公式。
 tags: 机器学习,gradient-descent,梯度下降法
 keywords: 机器学习,gradient descent,梯度下降法,线性回归
-published: false
+published: False
 ---
 
 #前言#
@@ -137,7 +137,7 @@ $$
 \frac{\partial}{\partial\theta_j}J(\theta_{n\times 1})&=\frac{\partial}{\partial\theta_j}\frac{1}{2}(h_{\theta}(x_{n\times 1})-y)^2\\
 &=2 \cdot \frac{1}{2}(h_{\theta}(x_{n\times 1})-y)\cdot\frac{\partial}{\partial\theta_j}(h_{\theta}(x_{n\times 1})-y)\\
 &=(h_{\theta}(x_{n\times 1})-y)\cdot\frac{\partial}{\partial\theta_j}\left(\sum_{i=0}^n\theta_ix_i-y\right)\\
-&=(h_{\theta}(x_{n\times 1})-y)x_i
+&=(h_{\theta}(x_{n\times 1})-y)x_j
 \end{split}
 $$
 
