@@ -32,7 +32,7 @@ Python release: 3.3.2
 要完成上述自动填写的功能，Vim脚本如下所示
 
 {% highlight vim %}
-function TitleInsert()
+function! TitleInsert()
 call setline(1,"#coding:utf-8")
 call append(1,'""""')
 call append(2,"Program: ")
@@ -44,17 +44,17 @@ call append(7,"Python release: 3.3.2")
 call append(8,'"""')
 endfunction
 
-function DateInsert()
+function! DateInsert()
 normal ms
 call cursor(7,1)
-call search('Last')
-let line = line('.')
-call setline(line,"Last modified: " . strftime("%Y-%m-%d %H:%M:%S"))
-normal `s
+if search('Last modified') != 0
+	let line = line('.')
+	call setline(line,"Last modified: " . strftime("%Y-%m-%d %H:%M:%S"))
+endif
 endfunction
 
 :map <F2> :call TitleInsert()<CR>ggjjA
-:autocmd FileWritePre,BufWritePre *.py call DateInsert()
+:autocmd FileWritePre,BufWritePre *.py ks|call DateInsert()|'s
 {% endhighlight %}
 
 
