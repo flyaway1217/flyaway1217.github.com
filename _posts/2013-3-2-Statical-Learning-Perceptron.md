@@ -101,7 +101,7 @@ $$
 
 $$
 \begin{equation}
--\frac{1}{\Vert w \Vert}\vert w \cdot x_0 + b \vert
+-\frac{1}{\Vert w \Vert}y_i\vert w \cdot x_0 + b \vert
 \end{equation}
 $$
 
