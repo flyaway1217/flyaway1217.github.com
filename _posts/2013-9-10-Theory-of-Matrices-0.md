@@ -100,7 +100,7 @@ description: 矩阵论课程的学习笔记
 
 #坐标#
 
-**定义8** 若$\alpha\_1,\alpha\_2,\cdots,\alpha\_n$是V的一组基底，则$\forall \alpha\in V$可以唯一的表示成$\alpha = x\_1\alpha\_1+x\_2\alpha\_2+\cdots+x\_n\alpha\_n$,其中$x\_1,x\_2,\cdots,x\_n$称为$alpha$在基$\alpha\_1,\alpha\_2,\cdots,\alpha\_n$下的*坐标*{: style="color:red"}
+**定义8** 若$\alpha\_1,\alpha\_2,\cdots,\alpha\_n$是V的一组基底，则$\forall \alpha\in V$可以唯一的表示成$\alpha = x\_1\alpha\_1+x\_2\alpha\_2+\cdots+x\_n\alpha\_n$,其中$x\_1,x\_2,\cdots,x\_n$称为$\alpha$在基$\alpha\_1,\alpha\_2,\cdots,\alpha\_n$下的*坐标*{: style="color:red"}
 
 **坐标**这个概念非常重要，它给了我们表示具体向量的方法。**向量**最初的定义是**线性空间**中的元素，而**线性空间**是满足特定条件的一个抽象集合，对于抽象的东西，我们很难用具体的数字来表示。
 
