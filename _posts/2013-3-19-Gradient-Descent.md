@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 机器学习——线性回归与梯度下降法
+title: 线性回归与梯度下降法
 time: 2013-3-19
 category: 机器学习
 description: 基于斯坦福《机器学习》公开课的内容，详细探讨了梯度下降法的来龙去脉。

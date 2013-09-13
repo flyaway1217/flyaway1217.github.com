@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2013-09-05
-title: 机器学习 ——Normal Equations
+title: Normal Equations
 category: 机器学习
 keywords: Normal Equations,矩阵,迹
 tags: Normal Equations,矩阵,迹
