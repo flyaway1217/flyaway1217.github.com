@@ -85,7 +85,9 @@ $$
 
 为了最大程度的使拟合符合真实情况，我们尽可能的使$L(\theta)=p(\vec{y}\|X;\theta)$达到最大，也就是说在给定$x^{(i)}$的情况下，使得$y^{(i)}$的概率最大。
 
-但是公式$\ref{difficulty}$太过复杂，不好处理，因此我们可以将求$L(\theta)$的最大值转化为求$logL(\theta)$的最大值，所以:
+但是公式$\ref{difficulty}$太过复杂，不好处理，因此我们可以将求$L(\theta)$的最大值转化为求$logL(\theta)$的最大值[^3]，所以:
+
+[^3]: 此处利用了对数函数$\log\_n xy = \log\_n x + \log\_n y$的性质
 
 $$
 \begin{align}
@@ -95,6 +97,7 @@ $$
 &=m\log \frac{1}{\sqrt{2\pi}\sigma}-\frac{1}{\sigma^2}\cdot\frac{1}{2}\sum_{i=1}^m(y^{(i)}-\theta^Tx^{(i)})^2 \label{final}
 \end{align}
 $$
+
 
 最终，最大化$\mathcal{L}$就可以转化成为最小化$\frac{1}{2}\sum_{i=1}^m(y^{(i)}-\theta^Tx^{(i)})^2$，这个公式是不是有点眼熟呢？就是上面最开始给出的最小二乘法(公式$\ref{least squares}$)的函数形式!
 
