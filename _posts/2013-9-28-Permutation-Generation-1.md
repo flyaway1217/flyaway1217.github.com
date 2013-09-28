@@ -243,3 +243,98 @@ def dictgenerate(arg):
 3. [Producing permutations](http://ericlippert.com/2013/04/15/producing-permutations-part-one/ "Producing permutations")
 3. [字典序法生成全排列算法的证明](http://blog.csdn.net/cpfeed/article/details/7376132 "字典序法生成全排列算法的证明")
 5. [全排列生成算法(一)](http://blog.csdn.net/joylnwang/article/details/7064115 "全排列生成算法(一)")
+
+
+#补充#
+
+后来越想越不好，明明应该是在讲算法的，但是运行结果却不能证明算法的高效，干脆直接装了个C++编译器，将上述两个递归和非递归的算法重新实现了一遍：
+
+递归算法:
+
+{% highlight cpp %}
+void perm2(int *arg,int n,int k)
+{
+	int i;
+	if(k>=n)
+	{
+        //print
+	}
+	else
+	{
+		for(i = k;i < n;++i)
+		{
+			swap(arg[i],arg[k]);
+			perm1(arg,n,k+1);
+			swap(arg[i],arg[k]);
+		}
+
+	}
+}
+{% endhighlight %}
+
+字典序算法:
+
+{% highlight cpp %}
+bool nextstate(int *arg,int n)
+{
+    int i;
+    bool flag=false;
+    int k,j;
+    int start,end;
+    //step 1
+    for(i = n-2;i >= 0;--i)
+    {
+        if(arg[i] < arg[i+1])
+        {
+            k = i;
+            flag = true;
+            break;
+        }
+    }
+    if(flag==false)
+    {
+        return false;
+    }
+    //step2
+    for(i = n-1 ; i > k ; --i)
+    {
+        if(arg[i] > arg[k])
+        {
+            j = i;
+            break;
+        }
+    }
+    //step3
+    swap(arg[k],arg[j]);
+    for(start = k+1,end=n-1 ; start<end ; ++start,--end)
+    {
+        swap(arg[start],arg[end]);
+    }
+    return true;
+}
+
+void perm3(int *arg,int n)
+{
+    int myarg[n];
+    int i;
+    for(i = 0;i < n; ++i)
+    {
+        myarg[i] = i;
+    }
+    //print
+    while(true)
+    {
+        if(nextstate(myarg,n))
+        {
+            //print
+        }
+        else
+        {break;}
+    }
+}
+{% endhighlight %}
+
+下图是运行的结果(12个元素的全排列):
+
+![运行结果](/assets/image/posts/2013-9-28-Permutation-Generation-1.png)
+
