@@ -6,6 +6,7 @@ category: 编程语言
 keywords: C语言,Memory Management,存储类,静态变量
 tags: C语言,program language
 description: 本文仔细分析了C语言中的各种变量的生存期、作用域及其内存管理机制
+published: false
 ---
 #存储类(storage class)#
 
