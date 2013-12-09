@@ -1,16 +1,15 @@
 ---
 layout: post
 time: 2013-11-25
-title: 矩阵论学习笔记6
+title: 矩阵论学习笔记6-矩阵分解
 category: 矩阵论
-keywords: 矩阵论,数学
+keywords: 矩阵论,数学,矩阵分解,初等矩阵,满秩分解
 tags: 矩阵论,数学
 description: 矩阵论学习课程笔记
 ---
 
-#矩阵分解#
 
-##初等矩阵##
+#初等矩阵#
 
 **定义**: 设$u,v\in C^n$,$\sigma$为一复数，形式为$E(u,v,\sigma)=I-\sigma uv^H$的矩阵，称为初等矩阵。
 
@@ -19,13 +18,13 @@ description: 矩阵论学习课程笔记
 - 这的$C$是复数域符号，以前不太接触复数域，所以一上来这个符号有点没反应过来，所以$C^n$是指复数域上的向量
 - $H$是复数域上的一种矩阵运算符号，称为[共轭转置](http://zh.wikipedia.org/wiki/%E5%85%B1%E8%BD%AD%E8%BD%AC%E7%BD%AE 共轭转置)，在实数域中就可以被认为是转置操作($T$)
 
-###初等矩阵的性质###
+##初等矩阵的性质##
 
 1. $det(E(u,v,\sigma))=1-\sigma v^Hu$
 2. 如果$\sigma V^Hu\neq 1$，则$E(u,v,\sigma)$可逆，并且其逆矩阵也是初等矩阵$E(u,v,\sigma)^{-1}=E(u,v,\tau)$，其中$\tau = \frac{\sigma}{\sigma v^Hu-1}$
 3. 对任意的非零向量$a,b\in C^n$，可适当选取$u,v$和$\sigma$使得$E(u,v,\sigma)a=b$
 
-###两种比较重要的初等矩阵###
+##两种比较重要的初等矩阵##
 
 **初等下三角矩阵**
 
@@ -70,7 +69,7 @@ $$
 
 **HouseHolder变换的一个基本作用是使被选定的矩阵或向量的某些元素消为零。HouseHolder矩阵能在保持向量二范数和内积不变的情况，将一些元素消成零。**{: style="color:red"}
 
-##矩阵的满秩分解##
+#矩阵的满秩分解#
 
 **满秩分解定理**: 设$m\times n$矩阵$A$的秩为$r>0$，则存在$m\times r$矩阵$B$和$r\times n$矩阵$C$使得
 

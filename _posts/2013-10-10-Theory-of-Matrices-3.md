@@ -1,9 +1,9 @@
 ---
 layout: post
 time: 2013-10-10
-title: 矩阵论学习笔记3
+title: 矩阵论学习笔记3-线性算子
 category: 矩阵论
-keywords: 矩阵论,数学
+keywords: 矩阵论,数学,线性算子
 tags: 矩阵论,数学
 description: 矩阵论学习课程笔记 
 ---

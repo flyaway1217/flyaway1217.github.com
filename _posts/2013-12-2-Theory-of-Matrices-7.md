@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2013-12-02
-title: 矩阵论学习笔记6
+title: 矩阵论学习笔记7-SVD奇异值分解
 category: 矩阵论
 keywords: 矩阵论,数学
 tags: 矩阵论,数学

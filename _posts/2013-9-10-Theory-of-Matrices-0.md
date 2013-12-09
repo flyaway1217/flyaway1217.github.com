@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2013-09-10
-title: 矩阵论学习笔记0
+title: 矩阵论学习笔记0-线性空间
 category: 矩阵论
 keywords: 矩阵论,数环,数域,线性空间,线性组合,线性无关
 tags: 矩阵论,数学
