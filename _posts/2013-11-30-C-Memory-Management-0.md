@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2013-11-30
-title: C语言中的内存管理那些事0
+title: C语言中的内存管理那些事0-基本概念
 category: 编程语言
 keywords: C语言,Memory Management,存储类,作用域,存储时期,链接
 tags: C语言,存储类,作用域,存储时期,链接

@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2013-11-30
-title: C语言中的内存管理那些事2
+title: C语言中的内存管理那些事2-内存分配
 category: 编程语言
 keywords: C语言,Memory Management,malloc,free,calloc
 tags: C语言,malloc,free,calloc

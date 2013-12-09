@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2013-11-30
-title: C语言中的内存管理那些事1
+title: C语言中的内存管理那些事1-存储类
 category: 编程语言
 keywords: C语言,Memory Management,存储类,静态变量
 tags: C语言,Memory Management,存储类,静态变量,存储类
