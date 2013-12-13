@@ -80,7 +80,7 @@ description: 矩阵论课程的学习笔记
 
 #线性组合#
 
-**定义4** 设V是数域F上的**线性空间**，$x\_1,x\_2,\cdots,x\_n$是V的向量，$\lambda\_i\in F(i=1,2,\cdots,n)$。称V的元素$x=\lambda\_1x\_1,\lambda\_2x\_2,\cdots,\lambda\_nx\_n$是集合$x\_1,x\_2,\cdots,x\_n$的*线性组合*{: style="color:red"}。
+**定义4** 设V是数域F上的**线性空间**，$x\_1,x\_2,\cdots,x\_n$是V的向量，$\lambda\_i\in F(i=1,2,\cdots,n)$。称V的元素$x=\lambda\_1x\_1+\lambda\_2x\_2+\cdots+\lambda\_nx\_n$是集合$x\_1,x\_2,\cdots,x\_n$的*线性组合*{: style="color:red"}。
 
 #线性无关#
 
