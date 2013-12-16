@@ -48,14 +48,14 @@ $$
 
 **定理**: 设$\lambda\_i$,$\lambda\_j$是矩阵$A$的两个互异特征值，$x\_i$,$x\_j$是对应的特征向量，则$x\_i$,$x\_j$是线性无关的。
 
-**证明**: 设有$k\_1 x\_i + k\_2 x\_j = 0$，等式两边同时左乘$(\lambda\_{i}I-A)$,得到[^2]:$k\_2(\lambda\_iI-A)x\_j=0\Rightarrow k\_2(\lambda\_i-\lambda\_j)x\_j=0$[^3].又因为$\lambda\_i\neq\lambda\_j$,$x\_j\neq 0$,所以$k\_2=0$,同理推得$k\_i=0$,所以$x\_i$和$x\_j$是线性无关的。
+**证明**: 设有$k\_1 x\_i + k\_2 x\_j = 0$，等式两边同时右乘$(\lambda\_{i}I-A)$,得到[^2]:$k\_2(\lambda\_iI-A)x\_j=0\Rightarrow k\_2(\lambda\_i-\lambda\_j)x\_j=0$[^3].又因为$\lambda\_i\neq\lambda\_j$,$x\_j\neq 0$,所以$k\_2=0$,同理推得$k\_i=0$,所以$x\_i$和$x\_j$是线性无关的。
 
 **推论**: $n$阶矩阵$A$若有$n$个不同特征值，则$A$一定有$n$个线性无关的特征向量
 
 **推论**: $n$阶矩阵$A$的每一个特征值的代数重数等于几何重数，则$A$一定有$n$个线性无关的特征向量
 
 [^2]: 根据特征向量的定义:$(\lambda\_iI-A)x\_i=0$
-[^3]: 因为$\lambda\_jI-A=0$,即$A=\lambda\_jI$,所以$(\lambda\_iI-A)=(\lambda\_i-\lambda\_j)$
+[^3]: 因为$Ax\_j = \lambda\_jx\_j$,所以$(\lambda\_iI-A)x\_j=(\lambda\_i-\lambda\_j)x\_j$
 
 #对角矩阵与线性变换#
 
