@@ -308,3 +308,8 @@ sup {
 	width:280px;
 	font-size:13px;
 }
+
+/*****************page.html*************************/
+.page_hide{
+	display:none;
+}

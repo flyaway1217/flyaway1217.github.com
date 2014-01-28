@@ -10,7 +10,7 @@ description: 寻找一个序列的所有排列情况是一个非常常见的需�
 
 #Johnson-Trotter算法#
 
-Johnson-Trotter算法的基本思想和[字典序算法](/%E7%AE%97%E6%B3%95/2013/09/28/Permutation-Generation-1.html#section-4 "字典序")很相似，在字典序算法中，试图寻找一种所有排列情况中的顺序关系，然后按照这种顺序依次计算排列情况。而在Johnson-Trotter算法中，是寻找一种相邻元素相互**交换**{: style="color:red"}的顺序，根据这种交换的顺序，依次计算排列。
+Johnson-Trotter算法的基本思想和[字典序算法]({% post_url 2013-09-28-Permutation-Generation-1 %} "字典序")很相似，在字典序算法中，试图寻找一种所有排列情况中的顺序关系，然后按照这种顺序依次计算排列情况。而在Johnson-Trotter算法中，是寻找一种相邻元素相互**交换**{: style="color:red"}的顺序，根据这种交换的顺序，依次计算排列。
 
 在Johnson-Trotter算法中，每次循环都进行一次满足条件的相邻元素的交换，直到不存在满足条件的可交换的元素，此时说明所有排列的情况均已输出，算法结束。
 

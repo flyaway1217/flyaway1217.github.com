@@ -6,8 +6,6 @@ category: 机器学习
 description: 基于斯坦福《机器学习》公开课的内容，详细探讨了梯度下降法的来龙去脉。
 tags: 机器学习,gradient-descent,梯度下降法
 keywords: 机器学习,gradient descent,梯度下降法,线性回归
-published: True
-date: 2013-9-5
 ---
 
 #前言#
@@ -19,7 +17,7 @@ date: 2013-9-5
 
 [^1]:之前已经发布了两篇文章，当时还没考虑到要写成系列文章，所以那两篇文章暂时不算做这个系列，以后修改之后也许会加进来。
 
-这篇文章的关注点在于 **线性回归问题**，重点是求解线性回归问题的**梯度下降法(Gradient Descent)**，之前在学习[感知机模型](/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/2013/03/02/Statical-Learning-Perceptron.html "感知机模型")的时候，使用过这个算法，并且还[实现](/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/2013/03/14/Perceptron-Implementation.html  "感知机的实现")了它。可是那只是仅仅停留在使用的层面上，这次是要充分理解**梯度下降法**的原理及其计算方法。
+这篇文章的关注点在于 **线性回归问题**，重点是求解线性回归问题的**梯度下降法(Gradient Descent)**，之前在学习[感知机模型]({% post_url 2013-03-02-Statical-Learning-Perceptron %} )的时候，使用过这个算法，并且还[实现]({% post_url 2013-03-14-Perceptron-Implementation %} "感知机的实现")了它。可是那只是仅仅停留在使用的层面上，这次是要充分理解**梯度下降法**的原理及其计算方法。
 
 
 #线性回归问题#
@@ -49,7 +47,7 @@ date: 2013-9-5
 在统计机器学习[^4]中，影响输出的因素被称为是**特征(features)**，输入数据称为**训练集(training set)**或**训练数据**(training data)，训练数据的维度称为**特征的个数**。
 
 [^3]:公开课中的例子，详细可以参考公开课的讲义。
-[^4]:更多的统计机器学习的内容参见[这里](/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/2013/02/27/Statistical-Learning-Introduction.html)。事实上，回归问题是统计机器学习的一个分支，属于**监督学习(SupervisedLearnig)**的范畴。
+[^4]:更多的统计机器学习的内容参见[这里]({% post_url 2013-02-27-Statistical-Learning-Introduction %})。事实上，回归问题是统计机器学习的一个分支，属于**监督学习(SupervisedLearnig)**的范畴。
 
 因为我们的重点是线性回归问题，所以这里我们简单地假设能够拟合的方程是:
 

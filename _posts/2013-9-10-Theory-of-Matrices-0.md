@@ -71,12 +71,14 @@ description: 矩阵论课程的学习笔记
 
 > $\forall a,b\in R+$及$\forall k\in R$,定义加法为$a\oplus b=ab$, 数量乘法为$k\otimes a=a^k$
 
+
 可以证明$R^+$对于上述定义的加法$\oplus$和数乘运算$\otimes$是一个线性空间。[^4]
 
 [^3]:这个定义是直接来自参考资料4的，上课时老师给出的定义是这样表述的:"数域F(R或C)上的集合V中定义了下列两种数学运算..."，根据这个定义我的直观理解是V就是一个数域的子集，但其实并不是这样的，V是一个抽象的集合。不太明白是我自己理解不对，还是老师的PPT上表述有错误。
 
 [^4]:这个例子来自于老师的PPT
 
+事实上，可以将**线性空间**看成是一种满足一定条件的集合，而这个条件就是上述所说的对该集合上元素进行加法和数乘的约束条件。
 
 #线性组合#
 
@@ -92,11 +94,17 @@ description: 矩阵论课程的学习笔记
 
 **定义6** 线性空间V中存在有n个**线性无关**的向量，而任何$n+1$个向量都是**线性相关**的，则称V是*n维*{: style="color:red"}的，记为$dim(V)=n$,如果在V中可以找到任意多个线性无关的向量，则称V是*无限维*{: style="color:red"}的
 
+
 在实际应用中，常常会把有限维作为无限维的近似计算。
 
 #基底#
 
 **定义7** 设V是数域F上的n维线性空间，则V中一定存在一组线性无关的向量$\alpha\_1,\alpha\_2,\cdots,\alpha\_n$，使得V中任一向量都可以唯一表示成$\alpha\_1,\alpha\_2,\cdots,\alpha\_n$的线性组合，则$\alpha\_1,\alpha\_2,\cdots,\alpha\_n$称为V的一组*基底*{: style="color:red"}
+
+基底必须满足两个条件:
+
+1. 它是线性无关的(Linearly Independedt)
+2. 它的线性组合充满整个空间V(span V)
 
 #坐标#
 
@@ -118,3 +126,4 @@ description: 矩阵论课程的学习笔记
 2. [维基百科:环](http://zh.wikipedia.org/wiki/%E7%8E%AF_(%E4%BB%A3%E6%95%B0) '环')
 3. [百度百科:数域](http://baike.baidu.com/view/69652.htm '数域')
 4. [百度百科:线性空间](http://baike.baidu.com/view/545522.htm '线性空间')
+5. 《Linear Algebra Done Right》

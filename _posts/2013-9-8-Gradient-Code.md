@@ -8,7 +8,7 @@ tags: 机器学习,线性回归
 description: 之前的两篇文章记录梯度下降法的原理及其矩阵形式的Noraml Equation,这次用代码实现起来，以便加深理解。
 ---
 
-之前的两篇文章记录[梯度下降法的原理](/机器学习/2013/09/05/Gradient-Descent.html '梯度下降法')及其矩阵形式的[Noraml Equation](/机器学习/2013/09/05/Normal-Equations.html 'Normal Equation'),这次用代码实现起来，以便加深理解。代码中使用的具体数据来源于斯坦福公开课[网站](http://openclassroom.stanford.edu/MainFolder/DocumentPage.php?course=DeepLearning&doc=exercises/ex3/ex3.html,'Deep Leaning')。
+之前的两篇文章记录[梯度下降法的原理]({% post_url 2013-3-19-Gradient-Descent %} '梯度下降法')及其矩阵形式的[Noraml Equation]({% post_url 2013-09-05-Normal-Equations %} 'Normal Equation'),这次用代码实现起来，以便加深理解。代码中使用的具体数据来源于斯坦福公开课[网站](http://openclassroom.stanford.edu/MainFolder/DocumentPage.php?course=DeepLearning&doc=exercises/ex3/ex3.html,'Deep Leaning')。
 
 #写在前面#
 

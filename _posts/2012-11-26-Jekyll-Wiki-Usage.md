@@ -10,10 +10,10 @@ tags: Jekyll,Github
 > 原文地址[https://github.com/mojombo/jekyll/wiki/usage](https://github.com/mojombo/jekyll/wiki/usage)
 
 # 应用 #
-一旦[安装](/%E7%BF%BB%E8%AF%91/2012/11/26/Jekyll-Wiki-Install.html)好**jekyll**，建立一个**Jekyll**网站通常有以下几个步骤：
+一旦[安装]({% post_url 2012-11-26-Jekyll-Wiki-Install %})好**jekyll**，建立一个**Jekyll**网站通常有以下几个步骤：
 
 1. 建立网站的基本结构
-2. 创建几篇文章，或者从你以前的博客平台[导入](/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Blog-Migrations.html)
+2. 创建几篇文章，或者从你以前的博客平台[导入]({% post_url 2012-11-28-Jekyll-Wiki-Blog-Migrations %})
 3. 在本地运行并查看你的网站效果
 4. 部署你的网站
 
@@ -41,7 +41,7 @@ tags: Jekyll,Github
 
 ## \_config.yml ##
 
-这个文件用来存储[配置](/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html)文件的数据，其中的大多数选项都能通过命令行中的指令来执行，但是把它们写入配置文件中，你就可以不必去记忆它们了。
+这个文件用来存储[配置]({% post_url 2012-11-28-Jekyll-Wiki-Configuration   %})文件的数据，其中的大多数选项都能通过命令行中的指令来执行，但是把它们写入配置文件中，你就可以不必去记忆它们了。
 
 ## \_includes ##
 
@@ -79,7 +79,7 @@ jekyll --server
 
 如果你打算在前端开发中使用**jekyll**服务，你也会需要`--auto`选项（既可以通过命令行设置也可以将其写入_config.yml配置文件）来查看文件改动。
 
-然后，在浏览器中访问[http://0.0.0.0:4000](http://0.0.0.0:4000)。[这里](/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html)还有更多为你提供的参数选项。
+然后，在浏览器中访问[http://0.0.0.0:4000](http://0.0.0.0:4000)。[这里]({% post_url 2012-11-28-Jekyll-Wiki-Configuration %})还有更多为你提供的参数选项。
 
 在**Debian**或**Ubuntu**上，你需要将`/var/lib/gems/1.8/bin/`添加到你的`path`路径中。
 

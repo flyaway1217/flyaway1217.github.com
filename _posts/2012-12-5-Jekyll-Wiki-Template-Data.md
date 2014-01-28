@@ -9,7 +9,7 @@ tags: Jekyll,Github
 
 > 原文地址:[https://github.com/mojombo/jekyll/wiki/Template-Data](https://github.com/mojombo/jekyll/wiki/Template-Data)
 
-Jekyll会遍历你的站点，来寻找需要处理的文件。任何具有[YAML前置数据](/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html)的文件都将会被处理，每一个这样的文件，**Jekyll**都会通过[Liquid模板系统](http://wiki.github.com/shopify/liquid/liquid-for-designers)使用许多可用的页面变量。下面是一个可用变量的列表。
+Jekyll会遍历你的站点，来寻找需要处理的文件。任何具有[YAML前置数据]({% post_url  2012-11-30-Jekyll-Wiki-YAML-Front-Matter %})的文件都将会被处理，每一个这样的文件，**Jekyll**都会通过[Liquid模板系统](http://wiki.github.com/shopify/liquid/liquid-for-designers)使用许多可用的页面变量。下面是一个可用变量的列表。
 
 #全局变量#
 
@@ -17,7 +17,7 @@ Jekyll会遍历你的站点，来寻找需要处理的文件。任何具有[YAML
 | **变量**                  |  **描述**																								                                                                      |
 |:--------------------------|:------------------------------------------------------------------------------------------------------------------------------|
 |    	`site`                | 全站的信息+`_config.yml`文件中的配置选项                                                                                      | 
-|     `page`                | 这个变量中包含[YAML前置数据](/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html),另外加上两个额外的变量值:`url`和`content`。																										                                                                      |
+|     `page`                | 这个变量中包含[YAML前置数据]({% post_url 2012-11-30-Jekyll-Wiki-YAML-Front-Matter %}),另外加上两个额外的变量值:`url`和`content`。																										                                                                      |
 |     `content`             | 在布局模板文件中，这里变量包含了页面的子视图。这个变量将会把渲染后的内容插入到模板文件中。这个变量不能在文章和页面文件中使用。|
 |			`paginator`           | 一旦`paginate`配置选项被设置了，这个变量才能被使用。                                                                          |
 |---------------------------+-------------------------------------------------------------------------------------------------------------------------------|
@@ -48,8 +48,8 @@ Jekyll会遍历你的站点，来寻找需要处理的文件。任何具有[YAML
 |    `page.url`              |  除去域名以外的URL，例子:`/2008/12/14/my-post.html`                                                         |
 |    `page.date`             |  指定每一篇文章的时间，这个选项能够覆盖一篇文章中前置数据设置的时间，它的格式是这样的:`YYYY-MM-DD HH:MM:SS` |
 |    `page.id`               |  每一篇文章的唯一标示符(在RSS中非常有用) 例子：/2008/12/14/my-post                                          |
-|    `page.categories`       |  这篇文章隶属的分类的一个列表，分类是通过在`_post`目录中的目录结构推导而来的。举例来说，在路径`/work/code/_posts/2008-12-24-closures.textile`下的文件，这个变量将会是`[work,code]`。这个变量也能在[YAML前置数据](/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html)中被指定。                                                                                                                                                                |
-|    `page.tags`             |  这篇文章的标签的列表。这些数据能够在[YAML前置数据](/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html)中指定|
+|    `page.categories`       |  这篇文章隶属的分类的一个列表，分类是通过在`_post`目录中的目录结构推导而来的。举例来说，在路径`/work/code/_posts/2008-12-24-closures.textile`下的文件，这个变量将会是`[work,code]`。这个变量也能在[YAML前置数据]({% post_url 2012-11-30-Jekyll-Wiki-YAML-Front-Matter %})中被指定。                                                                                                                                                                |
+|    `page.tags`             |  这篇文章的标签的列表。这些数据能够在[YAML前置数据]({% post_url 2012-11-30-Jekyll-Wiki-YAML-Front-Matter %} )中指定|
 |    `page.next`             |  按时间序的下一篇文章                                                                                         |
 |    `page.content`          |  按时间序的上一篇文章                                                                                         |
 |----------------------------+-------------------------------------------------------------------------------------------------------------|

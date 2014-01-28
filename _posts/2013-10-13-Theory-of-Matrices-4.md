@@ -38,7 +38,7 @@ $$
 
 [^1]: 其中，$\xi$表示的是一个抽象的向量，$x\_1,x\_2\cdots x\_n$则是这个抽象向量在$\alpha\_1,\alpha\_2,\cdots,\alpha\_n$基底下的坐标表示。
 
-根据[上一篇笔记](/矩阵论/2013/10/10/Theory-of-Matrices-3.html#section-1)中的线性算子的矩阵表示说明，我们可以得到如下的等式：
+根据[上一篇笔记]({% post_url 2013-10-10-Theory-of-Matrices-3 %} )中的线性算子的矩阵表示说明，我们可以得到如下的等式：
 
 $$
 \begin{equation}

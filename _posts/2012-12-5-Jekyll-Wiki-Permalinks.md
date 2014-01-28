@@ -12,7 +12,7 @@ tags: Jekyll,Github
 
 
 
-**Jekyll**支持以一种灵活的方式来定制你站点的URL路径。你可以通过[配置文件](/%E7%BF%BB%E8%AF%91/2012/11/28/Jekyll-Wiki-Configuration.html)和[YAML前置数据](/%E7%BF%BB%E8%AF%91/2012/11/30/Jekyll-Wiki-YAML-Front-Matter.html)来指定你站点的每个页面的固定链接。你可以使用内建的风格来创建你的链接，或者你也可以自己定制。默认的风格总是`date`。
+**Jekyll**支持以一种灵活的方式来定制你站点的URL路径。你可以通过[配置文件]({% post_url 2012-11-28-Jekyll-Wiki-Configuration %})和[YAML前置数据]( {% post_url 2012-11-30-Jekyll-Wiki-YAML-Front-Matter %} )来指定你站点的每个页面的固定链接。你可以使用内建的风格来创建你的链接，或者你也可以自己定制。默认的风格总是`date`。
 
 **注意**:即使`--auto`选项被打开了，当你在Jekyll运行时修改其固定链接的风格，你需要重新启动Jekyll才能使新的风格生效。
 
