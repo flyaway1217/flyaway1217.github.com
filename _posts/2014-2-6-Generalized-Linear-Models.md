@@ -133,7 +133,7 @@ $$
 #参考资料#
 
 - [广义线性模型](http://blog.sciencenet.cn/blog-520608-709883.html)
-- 斯坦福公开课《机器学习》第三集及其配套讲义
+- 斯坦福公开课《机器学习》第四集及其配套讲义
 - [牛顿方法、指数分布族、广义线性模型、多项式分布——斯坦福ML公开课笔记4](http://blog.csdn.net/stdcoutzyx/article/details/9207047)
 
 
