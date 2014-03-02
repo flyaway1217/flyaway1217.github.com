@@ -43,8 +43,7 @@ description: 本文仔细分析了C语言中的各种变量的生存期、作用
 
 《C Primer Plus》中的原文:
 
-> Scope describes the region or regions of a program that can access an identifier.
-
+> Scope describes the region or regions of a program that can access an identifier.\\
 > Its scope and its linkpage,which together indicate which parts of a program can use it by name.
 
 **作用域(scope)**，简单来说，就是指**变量在程序的哪些部分可以被引用。**{: style="color:red"}

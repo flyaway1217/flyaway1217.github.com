@@ -191,7 +191,11 @@ img:hover{
 }
 blockquote {
 	font-style:italic;
+	border-left: 10px solid rgb(214,219,223);
+	background-color: rgb(241,242,239);
+	padding: 0 15px 0 15px;
 }
+/*
 blockquote p:before{
 	content:"”";
 	font-size:38px;
@@ -208,6 +212,7 @@ blockquote p:after{
 	overflow:hidden;
 	top:18px;
 }
+*/
 
 strong {
 	text-shadow:rgba(50,50,50,.3) 1px 1px 3px;
