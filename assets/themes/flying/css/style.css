@@ -193,7 +193,7 @@ blockquote {
 	font-style:italic;
 	border-left: 10px solid rgb(214,219,223);
 	background-color: rgb(241,242,239);
-	padding: 0 15px 0 15px;
+	padding: 15px 15px 15px 15px;
 }
 /*
 blockquote p:before{

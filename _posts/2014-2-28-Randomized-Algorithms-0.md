@@ -34,20 +34,22 @@ description: 随机算法的学习笔记0，主要说明了概率空间、Monte 
 1. 令$\bar{A} = \Omega - A$.则$Pr(\bar{A}) = 1 - Pr(A)$
 2. 如果$A \subseteq B$，则$Pr(A) \leq Pr(B)$
 
-**定义**: 两个事件$\xi\_1$和$\xi\_1$**独立**当且仅当$Pr(\xi\_1\land \xi\_2) =Pr(\xi\_1)\cdot Pr(\xi\_2)$
+**定义**: 
+
+: 两个事件$\xi\_1$和$\xi\_1$**独立**当且仅当$Pr(\xi\_1\land \xi\_2) =Pr(\xi\_1)\cdot Pr(\xi\_2)$
 
 **条件概率**
 
-在给定$\xi\_2$的情况下发生$\xi\_1$的概率是:$Pr[\xi\_1\vert\xi\_2] = \frac{Pr[\xi\_1\wedge\xi\_2]}{Pr[\xi\_2]}$
+: 在给定$\xi\_2$的情况下发生$\xi\_1$的概率是:$Pr[\xi\_1\vert\xi\_2] = \frac{Pr[\xi\_1\wedge\xi\_2]}{Pr[\xi\_2]}$
 
 **全概率法则**
 
-令$\xi\_1,\xi\_2,\cdots,\xi\_n$是互不相交的事件，且$\mathop{\vee}\_{i=1}^n\xi\_n = \Omega$(完备事件组),那么，对于任意一个事件$\xi$,有$Pr[\xi]=\sum\limits\_{i=1}^nPr[\xi\vert\xi\_i]\cdot Pr[\xi\_i]$
+: 令$\xi\_1,\xi\_2,\cdots,\xi\_n$是互不相交的事件，且$\mathop{\vee}\_{i=1}^n\xi\_n = \Omega$(完备事件组),那么，对于任意一个事件$\xi$,有$Pr[\xi]=\sum\limits\_{i=1}^nPr[\xi\vert\xi\_i]\cdot Pr[\xi\_i]$
 
 
 **链式法则**
 
-令$\xi\_1,\xi\_2,\cdots,\xi\_n$是任意的n个事件，则$Pr[\mathop{\wedge}\_{i=1}^n] = \prod\limits\_{k=1}^nPr[\xi\_k\vert \mathop{\wedge}\_{i<k}\xi\_i]$
+: 令$\xi\_1,\xi\_2,\cdots,\xi\_n$是任意的n个事件，则$Pr[\mathop{\wedge}\_{i=1}^n] = \prod\limits\_{k=1}^nPr[\xi\_k\vert \mathop{\wedge}\_{i<k}\xi\_i]$
 
 
 上述这些定义和结论，出了**概率空间**的定义比较新以外，其他内容都是概率统计中的基本内容，此处不再深入说明了。
@@ -170,7 +172,7 @@ $$
 
 Algorithm for PIT
 
-1. 从$F$上随机的取出$2d$个值，形成集合$S=\\{x\_1,x\_2,\dots,x\_{2d}\\}$
+1. 从$F$上随机的取出若干个值，形成集合$S$
 2. 从$S$中随机取出一个$x$，如果$D(x)=0$，则返回`Yes`,否则返回`No`
 
 -------------
@@ -187,13 +189,13 @@ Algorithm for PIT
 
 $$
 \begin{equation}
-Pr \leq \frac{d}{\vert S\vert} = \frac{1}{2}
+Pr \leq \frac{d}{\vert S\vert} 
 \end{equation}
 $$
 
-这也就是说，该算法执行一次返回出错误解的概率**最多**{:.red}是$\frac{1}{2}$，那我们将其执行$k$次:只有当每一次都返回出`Yes`时，算法才最终返回`Yes`,否则只要出现一次`No`，算法就直接返回`No`.
+这也就是说，该算法执行一次返回出错误解的概率**最多**{:.red}是$\frac{d}{\vert S\vert}$，那我们将其执行$k$次:只有当每一次都返回出`Yes`时，算法才最终返回`Yes`,否则只要出现一次`No`，算法就直接返回`No`.
 
-此时算法发生错误的概率**最多**{:.red}是$\frac{1}{2^k}$，这是一个非常小的概率，在可以接受的范围内。
+此时算法发生错误的概率**最多**{:.red}是$(\frac{d}{\vert S \vert})^k$，当$\vert S\ vert$和$k$很大时，这是一个非常小的概率，在可以接受的范围内。
 
 # 两种计算模型
 
