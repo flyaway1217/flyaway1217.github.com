@@ -102,9 +102,73 @@ $\Box$
 
 # 三种常见的分布
 
+## 伯努利分布(Bernoulli Distribution)
+
+[伯努利分布][Bernoulli]描述了单个抛硬币的情况，以$p$的概率出现正面($1$)，而以$1-p$的概率出现反面($0$)。
+
+如果$X$服从与伯努利分布，则:
+
+$$
+\begin{equation}
+X=
+\begin{cases}
+1 \quad p\\
+0 \quad 1-p
+\end{cases}
+\end{equation}
+$$
+
+可以看到，对于伯努利分布来说，$E[X]=p$
+
+## 几何分布(Geometric Distribution)
+
+重复投掷一个硬币直到第一次出现正面,其中的每一次的投掷都是服从伯努利分布的.
+
+令$X$表示一共投掷了多少次的随机变量，则我们称$X$服从于参数为$p$的[几何分布][Geometric]:
+$$
+\begin{equation}
+Pr[X=k] = (1-p)^{k-1}p
+\end{equation}
+$$
 
 
+对于几何分布来说，我们可以直接利用插值法来计算几何分布的期望，但是，其实还有一种更加巧妙的方法来计算其期望。
+
+令$Y\_k$表示一个布尔值，当前$k$次投掷都没有出现正面时，$Y\_k =1$，否则$Y\_k=0$.很显然，我们有$E[Y\_k]=(1-p)^k$,且$X=\sum\limits_{k=0}^{\infty}Y\_k$
+
+则利用期望的线性可加性:
+
+$$
+\begin{equation}
+E[X] = E\bigg[\sum_{k=0}^{\infty}Y_k\bigg] = \sum_{k=0}^{\infty}E[Y_k] = \sum_{k=0}^{\infty}(1-p)^k = \lim_{k\rightarrow \infty}\frac{1-(1-p)^k}{p} = \frac{1}{p} 
+\end{equation}
+$$
+
+## 二项分布(Binomial Distribution)
+
+如果我们将硬币投掷$n$次，每一次投掷都是服从伯努利分布的，用$X$表示在这$n$投掷中出现正面的次数，则$Pr[X=k]=\binom{n}{k}(1-p)^{n-k}p^k$
+
+通常来说，我们用$B(n,p)$来表示一个[二项分布][Binomial]。
+
+我们可以利用期望的线性可加性来计算二项分布的期望:
+
+令$X\_i$表示事件"第$i$次投掷为正面"，也即当第$i$次投掷为正面时，$X\_i=1$，否则$X\_i=0$.
+
+显然有$X=\sum\limits_{i=1}^nX\_i$，且$E[X\_i]=p$,所以:
+
+$$
+\begin{equation}
+E[X] = E\bigg[\sum\limits_{i=1}^nX_i\bigg] = \sum\limits_{i=1}^nE[X_i] = np
+\end{equation}
+$$
+ 
 
 # 问题举例
 
 
+
+[Bernoulli]: http://en.wikipedia.org/wiki/Bernoulli_distribution
+
+[Geometric]: http://en.wikipedia.org/wiki/Geometric_Distribution
+
+[Binomial]: http://en.wikipedia.org/wiki/Binomial_distribution
