@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2014-03-01
-title: 【译文】Kramdown语法中文翻译-0
+title: 【译文】Kramdown语法中文翻译
 category: 翻译
 keywords: Kramdown Syntex
 tags: Kramdown Syntex
@@ -12,7 +12,7 @@ description: kramdown语法的中文翻译第一部分
 
 说明: 当前文档是基于Kramdown 1.3.2版本
 
-# Kramdown语法
+# Kramdown语法(Kramdown Syntax)
 
 **Kramdown**的语法是基于Markdown的语法的，但是在这基础之上又有所扩充，扩充的这些特点都取自于其他的Markdown的解释器，比如[Markuku][Markuku],[PHP Markuku Extra][PHP]和[Pandoc][Pandoc].然而，**Kramdown**试图提供一种更加确定的严格语法规则，因此它并不一定能和原始的Markdown语法相兼容.话虽如此，但是大多数的Markdown的文档都能被**kramdown**正确的解析.所有**Kramdown**与**Markdown**不一致的地方都会被高亮显示。
 
@@ -38,7 +38,7 @@ description: kramdown语法的中文翻译第一部分
 
 **块级元素**总是在末尾满足以下条件时才会换行:
 
-- [一个空白行](#line-wrapping),一个[EOB标记行](#end-of-block-marker),一个[IAL 块](#inline-attribute-lists)或者是文档的末尾(比如一个[块边界](#block-boundaries) )
+- [一个空白行](#blank-lines),一个[EOB标记行](#end-of-block-marker),一个[IAL 块](#inline-attribute-lists)或者是文档的末尾(比如一个[块边界](#block-boundaries) )
 - 一个[HTML块](#html-blocks)
 
 整篇**kramdown**的文档除了少数几个块级元素以外，都是能够换行的,这些块级元素*不*支持硬换行:
@@ -63,11 +63,11 @@ description: kramdown语法的中文翻译第一部分
 需要注意的是，Kramdown并**不**{:.red}建议使用惰性语法来书写Kramdown文档，kramdown提供的灵活性影响了文档的灵活性，因此惰性语法不应该被使用。
 
 
-### 制表符的使用
+### 制表符的使用(Usage of Tabs)
 
 Kramdown假设制表符是设置成四的倍数，这在用制表符进行列表缩进的时候非常重要。另外，制表符只能用在每行的开头位置，制表符之前不能出现任何的空格符，否则渲染结果将是无法预测的.
 
-### 自动和手动转义
+### 自动和手动转义(Automatic and Manual Escaping)
 
 根据输出的格式，经常有许多字符需要特殊对待。举例来说，当将一个Kramdown文档转换为HTML文档时，需要特别处理<,>和&等符号。为了方便的处理这些特殊的字符，它们会自动根据输出的格式正确地进行转义。
 
@@ -106,12 +106,33 @@ This \`is not a code\` span!
 | $  | 美元符 |
 |----+-----------|
 
-## 块级边界
+## 块级边界(Block Boundaries)
 
-块级元素会在一些称为**块级边界(Block Boundaries)**
+块级元素会在一些称为**块级边界(Block Boundaries)**的地方开始或结束，一共有两种不同的**块级边界**
 
+- 如果一个块级元素必须在块级边界处开始，那么它的前面必须是一个[一个空白行](#blank-lines),一个[EOB标记行](#end-of-block-marker),一个[IAL 块](#inline-attribute-lists)或者直接由它来开头。
 
+- 如果一个块级元素必须在块级边界出结束，那么它的后面必须是一个[一个空白行](#blank-lines),一个[EOB标记行](#end-of-block-marker),一个[IAL 块](#inline-attribute-lists)或者它自己作为最后一个元素。
 
+# 结构元素(Structural Elements)
+
+所有的结构元素都是块级元素，他们是用来构建文档的结构的。它们可以用来标记文档的段落、引用或列表。
+
+## 空白行(Blank Lines)
+
+任何只包含空白符(空格或制表符)的一行都kramdown看成是空白行,一个或多个连续的空白行都被视作一个空白行。空白行是用来分割块级元素的，在这种情况下，它没有任何语义意义。但是，在一些情况下，空白行确实有语义信息，主要有以下几种情况:
+
+- 当在**标题**中使用时——请查看[标题][#Headers]一节.
+- 当在**代码块**中使用时——请查看[代码块][#code-blocks]一节.
+- 当在**列表**中使用时——请查看[列表][#lists]一节.
+- 当在**数学块**中使用时——请查看[数学块][#math-blocks]
+- 当应用于需要开始/结束于[块级边界][block-boundaries]的元素时
+
+## 段落(Paragraphs)
+
+**段落**是使用最多的**块级元素**.一个或多个连续的文本行都被看成是一个段落.段落的第一行可以缩进三个空格，段落中的其他行可以进行任意数量的缩进，因为段落是支持[换行][#line-wrapping]的。除了在[换行][#line-wrapping]中说明的规则以外，段落会在遇到[定义列表][#definition-list-line]时自动结束。
+
+你可以通过一个或多个空白行来分割不同的段落，需要注意的是，源文件中的分行不一定是输出文件中的分行(因为[惰性语法][#line-wrapping]的原因)。如果你需要一个显示的换行,比如`<br/>`标签,你就必须在行末尾使用两个或多个空格符或者是两个反斜杠。然而，需要注意的是，上一个段落的最后一个文本行
 
 [^1]: 也就是说内联元素是可以嵌套的。
 [^2]: 原文是broken across lines，我不太确定理解的对不对。
