@@ -5,7 +5,7 @@ title: 随机算法学习笔记3-矩(Moment)和方差(Deviation)
 category: 随机算法
 keywords: 随机算法,Moment,Deviation
 tags: Randomized Algorithm
-description: 随机算法学习笔记2,这次的重点是两个常用的不等式(马尔科夫不等式和切比雪夫不等式)，方差以及相应的几个例子。
+description: 随机算法学习笔记2,这次的重点是两个常用的不等式(马尔科夫不等式和切比雪夫不等式)，方差以及相应的例子。
 ---
 
 # 马尔科夫不等式(Markov's Inequity)
@@ -227,7 +227,7 @@ $\Box$
 2. 将$C$排序，由于$\vert C\vert = o(\frac{n}{\log n})$,因此$C$的排序能够在线性时间内完成。
 3. 在排好序的$C$中，第$\lfloor \frac{n}{2} \rfloor-l\_d+1$个元素就是我们需要求的$m$
 
-好了，那么我们如何才能快速地找到满足条件的$d,u$呢？事实上，$d,u$需要满足的条件并不是非常严格的，是一种比较"粗粒度"的约束条件，那我们就可以利用随驾取样的方法来得到$d,u$，具体做法是这样的:
+好了，那么我们如何才能快速地找到满足条件的$d,u$呢？事实上，$d,u$需要满足的条件并不是非常严格的，是一种比较"粗粒度"的约束条件，那我们就可以利用随机取样的方法来得到$d,u$，具体做法是这样的:
 
 1. 从$S$中随机取样得到一个子集$R$
 2. 将$R$排序，在$R$的中位数附近寻找这样的$d,u$
@@ -285,7 +285,7 @@ $$
 
 $$
 \begin{equation}
-p = Pr[X_i=1] = Pr[X_i\le m] = \frac{1}{n}\lceil \frac{n}{2} \rceil \ge \frac{1}{2}
+p = Pr[X_i=1] = \frac{1}{n}\lceil \frac{n}{2} \rceil \ge \frac{1}{2}
 \end{equation}
 $$
 
@@ -303,18 +303,91 @@ $$
 $$
 \begin{aligned}
 Pr[\epsilon_1] &= Pr\bigg[Y_1<\frac{1}{2}n^{\frac{3}{4}} - \sqrt{n}\bigg] \\
-&\le Pr\bigg[Y_1-\frac{1}{2}n^{\frac{3}{4}}<-\sqrt{n}\bigg] \\
+&= Pr\bigg[Y_1-\frac{1}{2}n^{\frac{3}{4}}<-\sqrt{n}\bigg] \\
 &\le Pr\bigg[\vert Y_1 - E[Y_1]\vert < \sqrt{n}\bigg] \\
 &\le  \frac{Var[Y_1]}{n} \\
 &= \frac{1}{4}n^{-\frac{1}{4}}
 \end{aligned}
 $$
 
-因此，$\epsilon\_1$发生的概率不大于$\frac{1}{4}n^{-\frac{1}{4}}$.
+因此，$\epsilon\_1$发生的概率不大于$\frac{1}{4}n^{-\frac{1}{4}}$.同理，$$\epsilon_2$$发生的概率也同样不会超过$$\frac{1}{4}n^{-\frac{1}{4}}$$.
+
+现在我们来分析一下$$\epsilon_3$$的情况。
+
+如果$$\epsilon_3$$发生的话，那么根据[鸽巢原理][Pigeonhole]，如下两个事件至少会发生一个:
+
+- $$\xi_1$$: 在$$C$$中至少有$$2n^{\frac{3}{4}}$$个元素大于$$m$$
+- $$\xi_2$$: 在$$C$$中至少有$$2n^{\frac{3}{4}}$$个元素小于$$m$$
 
 
+我们只需要分析一种情况，另外一种情况利用对称性就能得到了。
 
-## 随机图(Random Graphics)
+我们来分析$$\xi_1$$，如果$$\xi_1$$成立，那么$$u$$在排好序的$$S$$中的位置至少为$$\frac{1}{2}n+2n^{\frac{3}{4}}$$.到这里位置应该还是比较好理解的，但是接下来的结论会有点绕，所以我先用一个图来说明一下目前$$S$$的划分情况:
+
+![](/assets/image/posts/2014-4-1-Randomized-Algorithms-3-0.png)
+
+
+从图中可以看到，如果$$\xi_1$$成立的话，我们就能得到如下的结论:**集合$$R$$中至少有$$\frac{1}{2}n^{\frac{3}{4}}-\sqrt{n}$$个元素是在$S$的前$$\frac{1}{2}n-2n^{\frac{3}{4}}$$大的元素集合中**.从图上来看，就是$uD$一定是属于$uB$的，而$$\frac{1}{2}n^{\frac{3}{4}}-\sqrt{n}$$和$$\frac{1}{2}n-2n^{\frac{3}{4}}$$分别是$$uD$$和$$uB$$的长度。[^5]
+
+
+在得出上述的结论之后，后面的计算就比较简单了:
+
+定义$X\_i$为一个布尔值:
+
+$$
+\begin{equation}
+X_i = \begin{cases}
+1 \quad 第i个样本处于uD\\
+0 \quad 第i个样本不处于uD
+\end{cases}
+\end{equation}
+$$
+
+同时令$$X=\sum\limits_{i=1}^{n^{\frac{3}{4}}}X_i$$为所有落入$$uD$$之间的元素的总数。
+
+又因为
+
+$$
+\begin{equation}
+p=Pr[X_i=1] = \frac{\frac{1}{2}-2n^{\frac{3}{4}}}{n} = \frac{1}{2} - 2n^{-\frac{1}{4}}
+\end{equation}
+$$
+
+且$X$是一个二项分布，因此:
+
+
+$$
+\begin{equation}
+E[X] = n^{\frac{3}{4}}p=\frac{1}{2}n^{\frac{3}{4}} - 2\sqrt{n} \\
+Var[X] = n^{\frac{3}{4}}p(1-p) = \frac{1}{4}n^{\frac{3}{4}} - 4n^{\frac{1}{4}} < \frac{1}{4}n^{\frac{3}{4}}
+\end{equation}
+$$
+
+最后应用[Chebyshev不等式][ChebyshevInequity],我们得到:
+
+
+$$
+\begin{aligned}
+Pr[\xi_1] &= Pr\bigg[X\ge \frac{1}{2}n^{\frac{3}{4}}-\sqrt{n}\bigg]\\
+&\le Pr\bigg[ \vert X-E[X] \vert \ge \sqrt{n} \bigg]\\
+&\le \frac{Var[X]}{n} \\
+&\le \frac{1}{4}n^{-\frac{1}{4}}
+\end{aligned}
+$$
+
+因此，$$Pr[\epsilon_3]\le Pr[\xi_1] + Pr[\xi_2]\le \frac{1}{2}n^{-\frac{1}{4}}$$
+
+
+综合上面对$$\epsilon_1,\epsilon_2,\epsilon_3$$的分析，我们最终得到如下的界:
+
+$$
+\begin{equation}
+Pr[\epsilon_1] + Pr[\epsilon_2] + Pr[\epsilon_3] \le n^{-\frac{1}{4}}
+\end{equation}
+$$
+
+因此，说明算法失败的概率是比较小，能够以较大的概率在线性时间内找到正确的中位数。
+
 
 # 参考资料
 
@@ -335,11 +408,14 @@ $$
 
 [^4]: 这些数值是如何得出的，其实我也说不清，这些数值完全是凑出来的，是为了方便后续的计算而硬凑出来的。
 
+
+[^5]: 这个结论至关重要，是后面一系列计算的基础，但是我看过的资料上这部分结论都是直接得出的，没有相似的说明，这张图也是我自己研究了半天之后才画出的，应该对理解如何得出这个结论会有帮助,这部分确实需要好好想想才能想通。
+
 [Moment]: http://en.wikipedia.org/wiki/Moment_(mathematics)
 [MarkovInequity]: http://en.wikipedia.org/wiki/Markov_inequality
 [ChebyshevInequity]: http://en.wikipedia.org/wiki/Chebyshev%27s_inequality
 [MonteCalo]: http://en.wikipedia.org/wiki/Monte_Carlo_algorithm "wiki: Monte Carlo algorithm"
 [LasVegas]: http://en.wikipedia.org/wiki/Las_Vegas_algorithm  "wiki: Las Vegas algorithm"
 [medians]: http://en.wikipedia.org/wiki/Median_of_medians "wiki: Median of medians"
-
+[Pigeonhole]: http://en.wikipedia.org/wiki/Pigeonhole_principle "wiki: Pigeonhole Principle"
 
