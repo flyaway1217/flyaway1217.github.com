@@ -5,7 +5,7 @@ title: 随机算法学习笔记3-矩(Moment)和方差(Deviation)
 category: 随机算法
 keywords: 随机算法,Moment,Deviation
 tags: Randomized Algorithm
-description: 随机算法学习笔记2,这次的重点是两个常用的不等式(马尔科夫不等式和切比雪夫不等式)，方差以及相应的例子。
+description: 随机算法学习笔记3,这次的重点是两个常用的不等式(马尔科夫不等式和切比雪夫不等式)，方差以及相应的例子。
 ---
 
 # 马尔科夫不等式(Markov's Inequity)
