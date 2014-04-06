@@ -292,8 +292,8 @@ $$
 而此时的$Y\_1$是一个二项分布，因此
 $$
 \begin{aligned}
-E[Y] &= n^{\frac{3}{4}}p \ge \frac{1}{2}n^{\frac{3}{4}} \\
-Var[Y] &= n^{\frac{3}{4}}p(1-p) \le \frac{1}{4}n^{\frac{3}{4}}
+E[Y_1] &= n^{\frac{3}{4}}p \ge \frac{1}{2}n^{\frac{3}{4}} \\
+Var[Y_1] &= n^{\frac{3}{4}}p(1-p) \le \frac{1}{4}n^{\frac{3}{4}}
 \end{aligned}
 $$
 
@@ -337,8 +337,8 @@ $$
 $$
 \begin{equation}
 X_i = \begin{cases}
-1 \quad 第i个样本处于uD\\
-0 \quad 第i个样本不处于uD
+1 \quad 第i个样本处于uB\\
+0 \quad 第i个样本不处于uB
 \end{cases}
 \end{equation}
 $$
@@ -349,7 +349,7 @@ $$
 
 $$
 \begin{equation}
-p=Pr[X_i=1] = \frac{\frac{1}{2}-2n^{\frac{3}{4}}}{n} = \frac{1}{2} - 2n^{-\frac{1}{4}}
+p=Pr[X_i=1] = \frac{\frac{1}{2}n-2n^{\frac{3}{4}}}{n} = \frac{1}{2} - 2n^{-\frac{1}{4}}
 \end{equation}
 $$
 
