@@ -2,7 +2,7 @@
 layout: post
 time: 2014-04-01
 title: 艺术之于我
-category: MISC
+category: Words
 keywords: 艺术展,音乐会,画展
 tags: 艺术展,音乐会,画展
 description: 作为理工科学生对于艺术作品的感悟与思考。

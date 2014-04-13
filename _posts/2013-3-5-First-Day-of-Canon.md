@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 刚入手佳能600D
-category: MISC
+category: Words
 keywords: Cannon,单反
 tags: 照片,摄影,生活
 description: 网上订的佳能600D今天刚到，迫不及待地拍了几张，在此纪念一下。

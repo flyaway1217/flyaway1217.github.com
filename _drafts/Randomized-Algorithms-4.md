@@ -10,6 +10,15 @@ description: 随机算法学习笔记4,这次重心在二阶矩应用的几个�
 
 # 随机图(Random Graphs)
 
+随机图模型
+
+## coupling
+
+
 # 阈值现象
+
+## 4-clique
+
+## balanced subgraphs
 
 # Two-point Sampling

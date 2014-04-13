@@ -2,7 +2,7 @@
 layout: post
 title: 《一九八四》的恐怖
 description: 《一九八四》，一部恐怖小说的震感。
-category: MISC
+category: Words
 tags: 小说,1984,一九八四
 keywords: 1984,读后感,一九八四
 ---

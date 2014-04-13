@@ -423,9 +423,28 @@ Kramdown同时提供创建有序和无序列表的语法元素。
 * 这是第一行.因为当前行的第一个非空白字符出现在第三列，所以所有的其他项的内容行必须缩进2个空格。
 然而，这里可以使用惰性语法，不必缩进。但是并不推荐这样做。
 
-*    
+*       这是列表的另外一个元素，使用了不同的缩进,这是可以的，但应该避免这样使用。
+    * 这个列表项标记被缩进了3个空格，这是允许的，但也应该被避免使用。需要注意的是，这个在第二个列表项中的惰性行(lazy line)也许会让你觉得这是一个子列表，但实际却不是，所以应该避免使用这种惰性用法。
 
 {% endhighlight %}
+
+所以，当使用上述的格式的时候，会产生一个列表的三个项目。非常不建议在同一个层级的列表上使用不同的缩进(不管是列表标记还是列表文本),包括惰性用法也不建议使用。比较推荐用如下的方法:
+
+
+{% highlight bash %}
+* 这是第一个列表项目。bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+* 这是列表的另外一个项目。bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+{% endhighlight %}
+
+> **和标准markdown语法不一致的地方:**
+>
+> 原始的Markdown语法也允许你缩进列表标记，然而，这样使用的结果可能是无法预测的。
+> 另外，Markdown也认为同样缩进长度的列表行是属于同一个列表的。
+
+当使用
+
+
+
 
 
 
