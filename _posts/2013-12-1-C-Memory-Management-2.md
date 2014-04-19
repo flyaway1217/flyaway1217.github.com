@@ -2,7 +2,7 @@
 layout: post
 time: 2013-11-30
 title: C语言中的内存管理那些事2-内存分配
-category: 编程语言
+category: Programming Language
 keywords: C语言,Memory Management,malloc,free,calloc
 tags: C语言,malloc,free,calloc
 description: 本文仔细分析了C语言中的各种变量的生存期、作用域及其内存管理机制
