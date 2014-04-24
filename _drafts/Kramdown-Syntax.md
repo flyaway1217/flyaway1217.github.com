@@ -446,11 +446,6 @@ Kramdown同时提供创建有序和无序列表的语法元素。
 
 
 
-
-
-
-
-
 [^1]: 也就是说内联元素是可以嵌套的。
 [^2]: 原文是broken across lines，我不太确定理解的对不对。
 [^3]: 这里的原文是"since everything between the delimiting is taken as is"，这里我想是作者写错了吧，我是按照自己的理解来翻译的。
