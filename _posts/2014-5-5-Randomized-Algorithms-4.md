@@ -8,7 +8,10 @@ tags: Randomized Algorithm
 description: 随机算法学习笔记4,这次重心在二阶矩应用的几个模型。
 ---
 
-这里所说的二阶矩(Second Moment)其实可以理解成在[上一篇笔记]({% post_url  2014-4-1-Randomized-Algorithms-3 %})中的中所说的的**方差**,**期望**是一阶矩，而**方差**就是二阶矩。本篇笔记中的中模型大多数都是利用二阶矩来进行证明的，最常用的工具就是**Chebyshev不等式**。 # 随机图(Random Graphs) 
+这里所说的二阶矩(Second Moment)其实可以理解成在[上一篇笔记]({% post_url  2014-4-1-Randomized-Algorithms-3 %})中的中所说的的**方差**,**期望**是一阶矩，而**方差**就是二阶矩。本篇笔记中的中模型大多数都是利用二阶矩来进行证明的，最常用的工具就是**Chebyshev不等式**。 
+
+# 随机图(Random Graphs) 
+
 一个随机图是按照如下规则生成的一个图结构:
 
 1. 图中一共有$n$个节点,即$\vert V \vert=n$
