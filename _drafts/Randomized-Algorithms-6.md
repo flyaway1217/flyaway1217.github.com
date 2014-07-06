@@ -241,11 +241,192 @@ Pr[X_n - X_0 \ge t] &= Pr[Z_n \ge t] \\
 \end{aligned}
 $$
 
-
+$\Box$
 
 # The Doob martingales
 
+在Martingale中，有一类的Martingale比较重要，称为[Doob Martingale].
+
+首先，我们先定义**Doob Sequence**,其定义如下:
+
+> 定义: **Doob Sequence**
+> 
+> 函数f关于随机变量$X_1,X_2,\cdots$的Doob Sequence定义如下:
+>
+> $$Y_i = E[f(X_1,\cdots,X_n) \vert X_1,\cdots,X_i], 0 \le i \le n$$
+>
+> 特别地，$Y_0=E[f(X_1,\cdots,X_n)]$且$Y_n=f(X_1,\cdots,X_n)$
+
+一个函数的Doob Sequence定义了一个Martingale,也就是说:
+
+$$
+E[Y_i\vert X_1,\cdots,X_{i-1}] = Y_{i-1}
+$$
+
+证明:
+
+$$
+\begin{aligned}
+E[Y_i\vert X_1,\cdots,X_{i-1}] &= E\big[ E[f(X_1,\cdots,X_n) \vert X_1,\cdots,X_i] \vert X_1,\cdots,X_{i-1} \big] \\
+&= E[f(X_1,\cdots,X_n)\vert X_1,\cdots,X_{i-1}] \\
+&= Y_{i-1}
+\end{aligned}
+$$
+
+$\Box$
+
+
+Doob Martingale是一个估计函数值的随机过程，对于关于随机变量$X_1,\cdots,X_n$的函数$f(X_1,\cdots,X_n)$，$Y_0,Y_1,\cdots,Y_n$表示对函数值的一个估计，$Y_i$表示，当已知$X_1,\cdots,X_i$时，函数值$f(X_1,\cdots,X_n)$的期望,
+即$Y_i=E[f(X_1,\cdots,X_n)\vert X_1,\cdots,X_i]$.因此，$Y_0$表示在$X_1,\cdots,X_n$全都未知的情况下，$f(X_1,\cdots,X_n)$的期望,即$Y_0=E[f(X_1,\cdots,X_n)]$;而$Y_n$表示在$X_1,\cdots,X_n$全部已知的情况下，$f(X_1,\cdots,X_n)$的期望，也就是其在自身的函数值，也即$Y_n=f(X_1,\cdots,X_n)$.
+
+## 举例
+
+### Edge Exposure Martingale
+
+令$G$表示一个有$n$个点的随机图，$f$为一个这个随机图的一个函数，这个函数可以是随机图的任意的性质，比如染色数、包含三角的数目等等。令$e_1,e_2,\cdots,e_m,m=\binom{n}{2}$表示图中所有可能出现的边，令:
+
+$$
+X_i=\begin{cases}
+1\quad if e_i\in G\\
+0\quad otherwise
+\end{cases}
+$$
+
+定义$Y_i=E[f(G)\vert X_1,X_2,\cdots,X_i]$，则$Y_0,Y_1,\cdots,Y_n$形成了一个Doob Martingale，通常称为**edge exposure martingale**.
+
+### Vertex Exposure Martingale
+
+在edge exposure martingale中我们是不断暴露出边，其实我们也可以不断暴露点，假设随机图的点集为$[n]$，则令$X_i$表示由点集$[i]$组成的子图.令$Y_i=E[f(G)\vert X_1,\cdots,X_i]$.则$Y_0,Y_1,\cdots,Y_n$也定义了一个Doob Martingale,通常称为**vertex exposure martingale**.
+
+### Chromatic number
+
+> 定理
+>
+> 令$G\sim G(n,p)$，且$\chi(G)$表示图$G$的染色数，则
+>
+> $$ Pr[\vert \chi(G) - E[\chi(G)] \vert \ge t\sqrt{n}] \le 2e^{-\frac{t^2}{2}} $$
+
+
+证明:
+
+考虑图G的vertex exposure martingale,$Y_i=E[\chi(G)\vert X_1,\cdots,X_i]$.
+
+可以想像，每当我们暴露出一个点的时候，我们总可以用一种新的颜色去染色，也就是说它满足**bounded difference condition**：
+
+$$
+\vert Y_i - Y_{i-1} \vert \le 1
+$$
+
+因此，我们对$Y_0,\cdots,Y_n$直接套用Azuma's Inequality，就得到了上述的结论。
+
+$\Box$
+
+### Hoeffding's Inequality
+
+> Hoeffding's Inequality
+>
+> 令$X=\sum\limits_{i=1}^n X_i$,其中$X_1,\cdots,X_n$是独立的随机变量，且$a_i\le X_i\le b_i$,对于所有的$1\le i\le n$，令$\mu=E[X]$，则:
+>
+> $$Pr[\vert X-\mu \vert\ge t]\le 2exp\bigg( -\frac{2}{2\sum\limits_{i=1}^n(b_i-a_i)^2}  \bigg)$$
+
+
+证明:
+
+定义Doob Sequence:$Y_i=E\bigg[ \sum\limits_{j=1}^n X_j\big\vert X_1,\cdots,X_i\bigg]$，很明显我们有$Y_0=\mu$且$Y_n=X$.
+
+同时，$\vert Y_i-Y_{i-1} \vert\le b_i-a_i$，所以，使用一般化的Azuma's Inequality，就能得到上述结论。
+
+$\Box$
+
+
+
+
 # Stoppinng Times
+
+在Martingale中，还有另外一种问题，称为Stoppinng Times，比如在赌博的时候，令$Z_i$表示玩家在第i局之后的赢钱数，很显然$Z_1,Z_2,\cdots$形成了一个Martingale，如果玩家决定在第$k$[^3]局之后就退出赌局，那么这个玩家期望的赢钱数是多少？
+
+
+首先介绍一个引理:
+
+> 引理
+>
+> 假设$Z_0,Z_1,\cdots,Z_n$是关于$X_0,X_1,\cdots,X_n$的一个Martingale,则
+>
+> $$ E[Z_n] = E[Z_0] $$
+
+证明:
+
+根据Martingale的定义，我们有:
+
+$$
+E[Z_{i+1}\vert X_0,\cdots,X_i]  = Z_i
+$$
+两边同时取期望，得到:
+
+$$
+E\big[E[Z_{i+1} \vert X_0,\cdots,X_n]\big] = E[Z_{i+1}] = E[Z_i]
+$$
+
+不断重复上述过程，就能够得到:
+
+$$
+E[Z_n] = E[Z_0]
+$$
+
+$\Box$
+
+有了上述的引理，我们就能说，如果在赌局开始之前就确定玩的轮数的话，那么期望的盈利就是0.
+
+当然，一般在真实的场景中，情况要复杂得多，比如停止轮数是由当前的盈利状况来决定的。为了分析这种情况，我们需要引入Stoppinng Time的定义:
+
+> Stoppinng Time
+>
+> 令$\\{Z_n,n\ge 0\\}$为一个随机变量序列，$T$为一个非负的整数随机变量，如果事件$T=n$只依赖于$Z_0,Z_1,\cdots,Z_n$，则$T$就是$\\{Z_n,n\ge 0\\}$的一个Stoppinng Time.
+
+
+结合上面关于Martingale的引理，如果赌局是公平的话，那么$E[X_T]=E[X_0]=0$一直成立。但是，如果Stoppinng Time $T$定义成第一次$Z_i>B$,其中$B$是一个固定的常量，则此时期望的盈利应该是大于$0$的，然而此时的Stoppinng Time未必是有限的。
+
+> Martingale Stoppinng Theorem
+>
+> 如果$Z_0,Z_1,\cdots$是关于$X_0,X_1,\cdots$的Martingale，且$T$是$X_1,X_2,\cdots$的一个Stoppinng Time，则:
+>
+>当如下三个条件中的任意一个满足时:
+>
+> 1. $Z_i$是有界的，即存在一个常数$c$，使得对任意的$i$，都有$\vert Z_i\vert\le c$
+>
+> 2. $T$是有界的
+>
+> 3. $E[T] < \infty$且存在一个常数$c$使得$E[\vert Z_{i+1}-Z_i\vert \big\vert X_1,\cdots,X_i]<c$
+>
+> 等式
+>
+>$$E[Z_T] = E[Z_0]$$
+>
+> 成立
+
+## 举例
+
+[^4]考虑一个独立且公平的赌局，在每一轮的赌局中，玩家分别以$\frac{1}{2}$的概率赢得1元或输掉1元.令$X_i$表示第i轮所赢的数目,$Z_i$表示第i轮之后一共赢得的数目，其中$Z_0=0$,假设玩家第一次输掉$l_1$元或赢得$l_2$元时退出赌局，那么请问玩家在输掉$l_1$元之前赢得$l_2$元的概率是多少?
+
+分析:
+
+令$T$表示玩家第一次输掉$l_1$元或赢得$l_2$元时的轮数，则$T$是$X_1,X_2,\cdots$的一个Stoppinng Time.而$Z_0,Z_1,\cdots$则是个Martingale.因为$Z_i$是有界的，因此满足Martingale Stoppinng Theorem的条件，因此我们有:
+
+$$
+E[Z_T] = E[Z_0] = 0
+$$
+
+令$q$表示赢得$l_2$元的概率，则:
+
+$$
+E[Z_T] = l_2q - l_1(1-q) = 0
+$$
+
+我们可以得到:
+
+$$
+q = \frac{l_1}{l_1+l_2}
+$$
 
 # Wald's Equation
 
@@ -253,6 +434,8 @@ $$
 
 [^1]: 有点类似于Markov过程，只是依赖于之前所有的状态。
 [^2]: 这里只证明原始的Azuma's Inequality，一般化的证明过程基本类似.
+[^3]: 此处的k在赌局开始之前就已经确定了。
+[^4]: 《Probability and Computing》这本书的12.2.1节有一个更加复杂的例子，这里只举一个比较简单的例子。
 
 [CondtionalExpecation]: http://en.wikipedia.org/wiki/Conditional_expectation
 [Martingales]: http://en.wikipedia.org/wiki/Martingale_(probability_theory)
@@ -261,3 +444,4 @@ $$
 [MarkovInequity]: http://en.wikipedia.org/wiki/Markov_inequality
 [MomentGeneratingFunction]: http://en.wikipedia.org/wiki/Moment-generating_function
 [TaylorSeries]: http://en.wikipedia.org/wiki/Taylor_series
+[Doob Martingale]: http://en.wikipedia.org/wiki/Doob_martingale
