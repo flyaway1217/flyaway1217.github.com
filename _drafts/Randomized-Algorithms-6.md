@@ -406,7 +406,7 @@ $\Box$
 
 ## 举例
 
-[^4]考虑一个独立且公平的赌局，在每一轮的赌局中，玩家分别以$\frac{1}{2}$的概率赢得1元或输掉1元.令$X_i$表示第i轮所赢的数目,$Z_i$表示第i轮之后一共赢得的数目，其中$Z_0=0$,假设玩家第一次输掉$l_1$元或赢得$l_2$元时退出赌局，那么请问玩家在输掉$l_1$元之前赢得$l_2$元的概率是多少?
+考虑一个独立且公平的赌局，在每一轮的赌局中，玩家分别以$\frac{1}{2}$的概率赢得1元或输掉1元.令$X_i$表示第i轮所赢的数目,$Z_i$表示第i轮之后一共赢得的数目，其中$Z_0=0$,假设玩家第一次输掉$l_1$元或赢得$l_2$元时退出赌局，那么请问玩家在输掉$l_1$元之前赢得$l_2$元的概率是多少?[^4]
 
 分析:
 
@@ -429,6 +429,79 @@ q = \frac{l_1}{l_1+l_2}
 $$
 
 # Wald's Equation
+
+我们可以看到，在上述的Martingale Stoppinng Theorem中并没有要求随机变量必须是独立的，这体现出了Martingale的强大力量，但是如果随机变量是独立的，会发生什么呢？对于独立的随机变量的序列，我们有如下的定理:
+
+> Theorem: Wald's Equation
+>
+> 令$X_1,X_2,\cdots$是非负，独立同分布的随机变量序列，且这些随机变量都服从分布$X$.令$T$表示这个序列的一个Stoppinng Time。如果$T$和$X$的期望都是有界的，则:
+>
+> $$ E\bigg[\sum\limits_{i=1}^T X \bigg]  = E[T]E[X]$$
+> 
+
+证明:
+
+对于$i\ge 1$,令$Z_i=\sum\limits_{j=1}^i(X_j-E[X])$,则
+
+$$
+\begin{aligned}
+E\bigg[Z_{i+1}\vert X_1,X_2,\cdots,X_i\bigg] &= E\bigg[\sum\limits_{j=1}^i(X_j-E[X]) +X_{i+1}-E[X] \bigg \vert X_1,X_2,\cdots,X_i\bigg] \\
+&= E\bigg[\sum\limits_{j=1}^i(X_j-E[X])\bigg\vert X_1,X_2,\cdots,X_i\bigg] + E\bigg[X_{i+1}-E[X]\bigg\vert X_1,X_2,\cdots,X_i\bigg] \\
+&= \sum\limits_{j=1}^i(X_j-E[X]) + E[X_{i+1}-E[X]] \\
+&= \sum\limits_{j=1}^i(X_j-E[X]) \\
+&= Z_i
+\end{aligned}
+$$
+
+所以，$Z_1,Z_2,\cdots$形成了一个关于$X_1,X_2,\cdots$的Martingale.又因为$E[T]<\infty$且:
+
+$$
+E[\vert Z_{i+1} - Z_i \vert \big\vert X_1,\cdots,X_i] = E[\vert X_{i+1} - E[X] \vert] \le 2E[X].
+$$
+
+因此，我们可以使用Martingale Stoppinng Theorem:
+
+$$
+E[Z_T] = E[Z_1] = 0
+$$
+
+因为，我们可以做如下计算:
+
+$$
+\begin{aligned}
+E[Z_T] &= E\bigg[\sum\limits_{j=1}^T(X_j-E[X]) \bigg] \\
+&= E\bigg[\bigg(\sum\limits_{j=1}^T X_j\bigg) - TE[X] \bigg] \\
+&= E\bigg[\sum\limits_{j=1}^T X_j\bigg] - E[T]E[X] \\
+&= 0
+\end{aligned}
+$$
+
+即得到:
+
+$$
+ E\bigg[\sum\limits_{j=1}^T\bigg] = E[T]\cdot E[X]
+$$
+
+
+关于独立随机变量序列，还有另外一种Stoppinng Time的定义：
+
+> 定义:
+>
+> 令$Z_0,Z_1,\cdots,Z_n$是一个独立的随机变量序列，$T$是一个非负的，整数随机变量，如果事件$T=n$独立于$Z_{n+1},Z_{n+2},\cdots$,则$T$是当前序列的一个Stoppinng Time
+
+##举例
+
+假设一个玩家参加一个赌局，他首先抛掷一个标准的骰子，得到的点数为$X$，则第二次他同时抛掷$X$个标准的骰子，假设这$X$个骰子所有点数之和为$Z$,问$Z$的期望是多少?
+
+分析:
+
+对于$1\le i\le X$，令$Y_i$表示第$i$个骰子得到的点数，则$E[Z]=E\bigg[\sum\limits_{i=1}^X Y_i\bigg]$，根据上述的定义，$X$是一个Stoppinng Time,因此根据Wald's Equation,我们得到:
+
+$$
+E[Z] = E[X]\cdot E[Y_i] = \bigg(\frac{7}{2}\bigg) = \frac{49}{2}
+$$
+
+
 
 # 总结
 
