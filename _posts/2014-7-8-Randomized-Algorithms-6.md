@@ -1,11 +1,11 @@
 ---
 layout: post
 time: 2014-07-03
-title: 随机算法学习笔记6-Maringales
+title: 随机算法学习笔记6-Martingales
 category: 随机算法
-keywords: 随机算法,Maringales
+keywords: 随机算法,Martingales
 tags: Randomized Algorithm
-description: 随机算法学习笔记6,重点是Maringales模型。
+description: 随机算法学习笔记6,重点是Martingales模型。
 ---
 
 # Continoal Expectation
@@ -504,6 +504,27 @@ $$
 
 
 # 总结
+
+本片文章主要介绍了有关Martingale的有关内容，首先从[条件期望][CondtionalExpecation]开始，引出了[Martingales]的定义，**Martingales**是一个比较有用工具，主要用来分析一个随机变量的序列.**Martingales**的一个优势就是，它不要求独立性，这就比较强大了。
+
+**Martingales**的定义之后，我们介绍[Azuma's inequality],这里比较重要的是**bounded difference condition**,它保证了**Martingales**的序列不会离开初始状态太"远".
+
+接着说明了一类特殊的**Martingales**——[Doob Martingale],它描述了当序列中的随机变量逐渐被确定时，其函数值期望的变化过程。
+
+最后介绍了**Martingales**中的Stoppinng Time相关的内容，描述了序列停止时的性质。
+
+
+# 参考资料
+
+- [Condtional Expecation][CondtionalExpecation]
+- [Martingales]
+- [Azuma's inequality]
+- [Chernoff Bound]
+- [MarkovInequity]
+- [Moment Generating Function][MomentGeneratingFunction]
+- [Taylor Series][TaylorSeries] 
+- [Doob Martingale] 
+- 《Probability and Computing:Randomized Algorithms and Probabilistic Analysis》
 
 [^1]: 有点类似于Markov过程，只是依赖于之前所有的状态。
 [^2]: 这里只证明原始的Azuma's Inequality，一般化的证明过程基本类似.
