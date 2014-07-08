@@ -2,7 +2,7 @@
 layout: post
 time: 2014-07-07
 title: 单链表环问题
-category: Algorithm
+category: 算法
 keywords: 单链表，环问题
 tags: Algorithm,单链表，循问题
 description: 分析了单链表中的环问题，不仅回答了是否存在环，还说明如何计算环的长度以及找出环的起始位置。
