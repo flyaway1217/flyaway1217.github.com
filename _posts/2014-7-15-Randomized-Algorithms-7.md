@@ -54,9 +54,9 @@ Method of bounded differnces可以理解成这样的组合:
 
 它最大一个优势就是不需要知道具体的$f$函数是什么形式的，就能得出其概率集中的结论。
 
-## Applications
+# Applications
 
-### 小球问题
+## 小球问题
 
 假设我们现在有$m$个小球要以独立且均匀的分布投入到$n$个箱子中，我们需要考察小球投掷完成之后，还剩多少个空箱子？根据我们之前期望的线性可加性，我们能比较简单的计算其期望值:
 
@@ -89,7 +89,7 @@ $$
 
 因此，对于小球投掷问题来说，空箱子的数目主要集中在$n(1-\frac{1}{n})^m$附近。
 
-### 模式匹配问题
+## 模式匹配问题
 
 令$\mathbf{X}=(X_1,X_2,\cdots,X_n)$均匀且独立地从字符表$\Sigma$中选取的字符序列，其中$\vert \Sigma \vert =m$。令$\pi \in \Sigma^k$是任意一个固定长度的字符串。我们想要考察$\pi$在$\mathbf{X}$中出现的次数。
 
@@ -112,12 +112,12 @@ $$
 Pr[\vert Y-E[Y] \vert \ge tk\sqrt{n}] \le 2e^{-\frac{t^2}{2}}
 $$
 
-
-# Dimension Reduction
-
-
 # 参考资料
 
+- [Martingales]
+- [Azuma's inequality]
+- [Doob Martingale] 
+- [Lipschitz condition]
 
 [Martingales]: http://en.wikipedia.org/wiki/Martingale_(probability_theory)
 [Azuma's inequality]: http://en.wikipedia.org/wiki/Azuma%27s_inequality
