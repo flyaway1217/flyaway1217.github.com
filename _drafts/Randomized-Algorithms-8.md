@@ -1,16 +1,74 @@
 ---
 layout: post
 time: 2014-05-19
-title: 随机算法学习笔记8-The Probabilistic Method
+title: 随机算法学习笔记8-Random Recurrence
 category: 随机算法
-keywords: 随机算法,Concentraion of Measure
+keywords: 随机算法,Random Recurrence
 tags: Randomized Algorithm
-description: 随机算法学习笔记8,概率法
+description: 随机算法学习笔记8,Random Recurrence
 ---
 
-# The Probabilistic Method
+# Random Quicksort
+
+在排序算法中，最常见的就是快排了，此处我们将介绍快排算法的随机版本，并且对其进行算法分析。
+
+首先，随机版本的快排描述如下:
+
+-----
+
+如果$\vert S \vert > 1$：
+
+1. 均匀地从$S$中选取一个$x$作为中心点
+2. 将$S$分成两个子集$S_1,S_2$，其中$S_1$中的元素都要比$x$小，而$S_2$中的元素都要比$x$大.
+3. 递归地对$S_1,S_2$进行排序
+
+-------
+
+排序算法的复杂度是用比较次数来进行衡量的，因此我们接下来就是要分析在随机版的快排算法中，元素比较次数的期望是多少。
+
+## 分析
+
+分析的基本思路是，任意两个元素发生比较的概率，然后利用期望的线性可加性来估计整个排序过程的比较次数。
+
+假设输入的待排序的序列为$S$，令$a_i$表示序列中第$i$小的元素，令$X_{ij}\in \\{9,1\\}$来指示$a_i$和$a_j$是否发生比较。根据上述的算法描述，我们可以知道，只有当$a_i$或$a_j$被选为中心点时，它们才会发生比较。对于这样的情况，我们有如下的观测:
+
+**观察1**: 任意一对的$a_i$和$a_j$最多只会比较一次。这是因为第一次比较之后，他们就会被分到不同的子集中了，而不同子集中的元素是绝不会再次比较的。正因为这样，对$X_{ij}$进行累加，我们就能够得到整体比较的次数。而比较次数的期望就是$$E\bigg[\sum\limits_{i=1}^n\sum\limits_{j>i}X_{ij}\bigg]$$,而根据期望的**线性可加性**，我们只需要分析$$E[X_{ij}]$$就行了。
+
+**观察2**: $a_i$和$a_j$会发生比较当且仅当$\\{a_i,a_j \\}$仍然属于同一个子集，且其中之一被选为中心点.
+
+**观察3**: 如果$a_i$和$a_j$仍然属于同一个子集，那么所有的$$\{a_i,a_{i+1},\cdots,a_{j-1},a_{j}\}$$都在同一个子集中。
+
+**观察4**: 在每一次的排序中，如果要使得$a_i$和$a_j$分开在两个不同的子集中，那么中心点一定是在$$\{a_i,a_{i+1},\cdots,a_{j-1},a_{j}\}$$之中的。
+
+**观察5**: $$\{a_i,a_{i+1},\cdots,a_{j-1},a_{j}\}$$中的任意一个元素都是以等概率选取的，这是因为在选取中心点的时候，是均匀的。
+
+根据上述的观察，我们能够得到:
+
+$$
+Pr[a_i 和 a_j 发生比较] \le \frac{2}{j-i+1}
+$$
+
+所以$E[X_{ij}]=1\cdot Pr[a_i 和 a_j 发生比较]\le\frac{2}{j-i+1}$
 
 
-# LP Relaxation
+利用期望的现行可加性:
 
-# Lovasz Local Lemma
+$$
+\begin{aligned}
+E\bigg[\sum\limits_{i=1}^n\sum\limits_{j>i} \bigg] &= \sum\limits_{i=1}^n\sum\limits_{j>i}E[X_{ij}] \\
+&\le \sum\limits_{i=1}^n\sum\limits_{j>i} \frac{2}{j-i+1} \\
+&= \sum\limits_{i=1}^n\sum\limits_{k=2}^{n-i+1} \frac{2}{k} (Let k=j-i+1) \\
+&le \sum\limits_{i=1}^n\sum\limits_{i=1}^n \frac{2}{k} \\
+&= 2n\sum\limits_{k=1}^n \frac{1}{k} \\
+&= 2nH(n)
+\end{aligned}
+$$
+
+其中$H(n)$是第$n$个Harmonic number,它满足:
+
+$$
+H(n) = \ln n + O(1)
+$$
+
+因此，对于任意长度为$n$的输入来说，随机版的快排算法的比较次数的期望是$O(n\log n)$
+
