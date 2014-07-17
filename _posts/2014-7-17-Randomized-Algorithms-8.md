@@ -129,6 +129,42 @@ $$
 > 0 \quad n = c
 > \end{cases}
 > $$
+> 
+> 其中$c$是一个常量
+>
+> 如果存在一个非递减的正函数$\mu(x)$对所有$n$满足$E[X(n)]\ge \mu(n)$,则
+>
+> $$ E[T(n)] \le \int_{c}^n \frac{1}{\mu(x)} dx $$
+
+## 应用
+
+根据上述对RandomQS算法的描述，我们可以知道，RandomQS满足如下的递归过程:
+
+$$
+T(n) = 
+\begin{cases}
+1 + T(n-X(n)) \quad n > 1\\
+0 \quad n = 1
+\end{cases}
+$$
+
+其中，$X(n)$可以表示为:
+
+$$
+X(n) = \begin{cases}
+n - \vert S_1 \vert \quad if \vert S_1 \vert \ge k - 1\\
+\vert S_1 \vert \quad if \vert S_1 \vert < k - 1
+\end{cases}
+$$
+
+可以看到，无论$k$取什么值，$X(n)$都满足$X(n)\ge \min(m,n-m)$,其中$m$是从$\\{0,1,\cdots,n-1 \\}$中按均匀分布取出的。
+
+很显然我们可以得到$E[X(n)]\ge \frac{n}{4}$,根据**Karp-Upfal-Wigderson bound**,可以得到:
+
+$$
+E[T(n)] \le \int_{1}^n \frac{4}{x} dx = 4\ln n
+$$
+
 
 
 
