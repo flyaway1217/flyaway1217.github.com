@@ -6,7 +6,7 @@
   <div class="span8">
     {{ content }}
 
-    <!--    {{ content | strip_html | strip_newlines | split: "" | size }}-->
+    字数:{{ content | strip_html | strip_newlines | split: "" | size }}
     <div class="eof">-&nbsp;EOF&nbsp;-</div>
     <p class="declare">声明:本文采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow" title="署名-非商业性使用-相同方式共享">BY-NC-SA</a>协议进行授权.转载请注明: <a href="{{ page.url  }}" title="{{ page.title }} " rel="nofollow">{{ page.title  }}</a></p>
     <hr>
