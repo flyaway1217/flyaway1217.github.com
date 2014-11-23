@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2014-04-24
-title: C语言中的字符串&输入输出
+title: C语言中的字符串and输入输出
 category: Programming Language
 keywords: C,strlen(),printf(),scanf()
 tags: C,字符串

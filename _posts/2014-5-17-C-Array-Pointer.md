@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2014-05-16
-title: C语言中的数组&指针
+title: C语言中的数组and指针
 category: Programming Language
 keywords: Array,Pointer,C,数组,指针
 tags: C,数组,指针

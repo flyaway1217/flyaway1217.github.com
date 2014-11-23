@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2014-03-04
-title: 随机算法学习笔记1-PIT&Min-Cut
+title: 随机算法学习笔记1-PITandMin-Cut
 category: 随机算法
 keywords: 随机算法,多元多项式判定问题,最小割,最大流
 tags: Randomized Algorithm

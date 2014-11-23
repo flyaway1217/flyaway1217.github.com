@@ -1,7 +1,7 @@
 ---
 layout: post
 time: 2014-03-04
-title: 随机算法学习笔记2-随机变量&期望
+title: 随机算法学习笔记2-随机变量and期望
 category: 随机算法
 keywords: 随机算法,Random Varibles,Expectation
 tags: Randomized Algorithm
