@@ -3,7 +3,7 @@ layout: post
 time: 2015-02-06
 title: 一蓑烟雨任平生
 category: words
-keywords: 时间流,漂泊
+keywords: 时间流,漂泊,一蓑烟雨任平生
 tags: 时间流,漂泊
 description: 莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。
 ---
