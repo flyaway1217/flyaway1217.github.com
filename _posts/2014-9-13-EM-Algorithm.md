@@ -2,7 +2,7 @@
 layout: post
 time: 2014-09-12
 title: EM算法的理解
-category: 机器学习
+category: Machine-Learning
 keywords: EM algorthim,Maximum likelihood,Jensen
 tags: EM algorthim
 description: EM算法的基本原理剖析，从极大似然、Jensen不等式到EM算法。

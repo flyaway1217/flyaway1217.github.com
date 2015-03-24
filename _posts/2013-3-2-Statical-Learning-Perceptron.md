@@ -2,7 +2,7 @@
 layout: post
 time: 2013-3-2
 title: 感知机模型
-category: 统计学习
+category: Machine-Learning
 keywords: 感知机,perceptron
 tags: 统计学习方法,监督学习
 description: 感知机(perceptron)是二类分类的线性分类模型，其输入为实例的特征向量，输出为实例的类别，取+1和-1二值。感知机旨在求出将训练数据进行线性划分的分离超平面。为此，导入基于误分类的损失函数，利用梯度下降法对损失函数进行极小化，求得感知机模型。

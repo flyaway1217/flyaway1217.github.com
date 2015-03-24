@@ -2,7 +2,7 @@
 layout: post
 time: 2013-09-05
 title: Normal Equations
-category: 机器学习
+category: Machine-Learning
 keywords: Normal Equations,矩阵,迹
 tags: Normal Equations,矩阵,迹
 description: 基于斯坦福《机器学习》公开的内容，计算得到矩阵形式的Normal Equation。

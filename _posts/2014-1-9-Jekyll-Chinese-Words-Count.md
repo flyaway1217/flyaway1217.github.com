@@ -2,7 +2,7 @@
 layout: post
 time: 2014-01-09
 title: Jekyll中使用中文计数
-category: 网络开发
+category: Web-Developing
 keywords: Jekyll,中文字计数,中文,number_of_words
 tags: Jekyll
 description: Jekyll中统计中文字数

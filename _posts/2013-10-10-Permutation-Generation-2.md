@@ -2,7 +2,7 @@
 layout: post
 time: 2013-10-10
 title: 全排列算法part2
-category: 算法
+category: Algorithm
 keywords: 全排列,递归,字典序
 tags: 算法,递归
 description: 寻找一个序列的所有排列情况是一个非常常见的需求，在很多实际应用中都有这样的需求。本文分析了目前几种常见的求全排列的算法。

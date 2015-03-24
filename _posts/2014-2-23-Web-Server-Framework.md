@@ -2,7 +2,7 @@
 layout: post
 time: 2014-02-23
 title: Web Server 和 Web Framework
-category: 网络开发
+category: Web-Developing
 keywords: Web Server,Web Framework,正向代理,反向代理
 tags: Web Server,Web Framework
 description: 虽然之前做过一些网络的开发，但仅仅停留在表面的，对于web server、web framework全是一知半解的，最近想要自己做一些小应用，本着"系统"学习的原则，在正式开发之前，对现存的各种web架构做了一下调研，理清了web server,web framework等概念,为了巩固知识，现整理成本文。

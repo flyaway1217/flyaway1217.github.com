@@ -2,7 +2,7 @@
 layout: post
 time: 2014-01-12
 title: 朴素贝叶斯分类器
-category: 机器学习
+category: Machine-Learning
 keywords: Naive Bayes Classifier,Text Classification
 tags: Navie Bayes Classifier
 description: 本文分析了朴素贝叶斯分类器的基本原理及其实现方式。

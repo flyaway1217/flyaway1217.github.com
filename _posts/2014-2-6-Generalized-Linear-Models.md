@@ -2,7 +2,7 @@
 layout: post
 time: 2014-02-06
 title: 广义线性模型
-category: 机器学习
+category: Machine-Learning
 keywords: Generalized Linear Models
 tags: Generalized Linear Models
 description: 广义线性模型思考与讨论

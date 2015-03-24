@@ -2,7 +2,7 @@
 layout: post
 time: 2013-09-06
 title: Frog Chess问题
-category: 算法
+category: Algorithm
 keywords: 三只青蛙交换位置,Frog Chess,深度优先搜索,广度优先搜索
 tags: 深度优先搜索,广度优先搜索,算法
 description: 最初是在OSChina上看到的这个题目，觉得蛮有意思的，用两种搜索算法去实现了一下，现在把过程记录下来。

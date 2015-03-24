@@ -2,7 +2,7 @@
 layout: post
 time: 2013-09-04
 title: 商人过河问题
-category: 算法
+category: Algorithm
 keywords: 图,搜索算法,建模
 tags: 图,搜索算法,建模
 description: 商人过河问题常常出现在一些电视剧中作为考察智力的题目，其实这类问题是有迹可循的，本文将从数学建模和算法的角度来分析这一问题，给出具体的解法。

@@ -2,7 +2,7 @@
 layout: post
 title: 统计学习方法概论
 time: 2013-2-27
-category: 统计学习
+category: Machine-Learning
 description: 简要介绍了统计学习方法的一些基本概念，叙述了统计学习方法的大轮廓，为以后更深入的学习做好基础。
 keywords: 统计学习,监督学习,分类器,标注,回归
 tags: 统计学习方法,监督学习

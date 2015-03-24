@@ -2,7 +2,7 @@
 layout: post
 time: 2013-10-13
 title: 矩阵论学习笔记4-线性变换的特征值
-category: 矩阵论
+category: Matrix-theory
 keywords: 矩阵论,数学,线性变换的特征值
 tags: 矩阵论,数学
 description: 矩阵论学习课程笔记 

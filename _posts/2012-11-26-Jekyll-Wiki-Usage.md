@@ -3,7 +3,7 @@ layout: post
 title: 【译文】Jekyll的使用
 description: Jekyll使用方法的官方Wiki文档。希望对大家有所帮助
 keywords: Jekyll,翻译,Usage,使用方式
-category: 翻译
+category: Translation
 tags: Jekyll,Github
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 time: 2013-12-02
 title: 矩阵论学习笔记8-赋范线性空间与范数
-category: 矩阵论
+category: Matrix-theory
 keywords: 矩阵论,数学
 tags: 矩阵论,数学
 description: 矩阵论学习课程笔记 

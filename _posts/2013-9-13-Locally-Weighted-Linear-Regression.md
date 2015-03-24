@@ -2,7 +2,7 @@
 layout: post
 time: 2013-09-13
 title: 局部加权线性回归
-category: 机器学习
+category: Machine-Learning
 keywords: Locally Weighted Linear Regression,局部加权线性回归,线性回归
 tags: Locally Weighted Linear Regression,局部加权线性回归,线性回归
 description: 本文介绍了一种称为局部线性回归的机器学习算法，和传统的线性回归算法相比，它只考虑预测点附近的点，这样能够在一些程度上避免过拟合或欠拟合的情况。

@@ -3,7 +3,7 @@ layout: post
 title: 【译文】Jekyll的YAML前置数据
 description: 这是Jekyll官方Wiki上关于YAML前置数据的说明，希望对大家有所帮助。
 keywords: Jekyll,YAML Front Matter,Wiki
-category: 翻译
+category: Translation
 tags: Jekyll,YAML,Wiki,翻译
 ---
 

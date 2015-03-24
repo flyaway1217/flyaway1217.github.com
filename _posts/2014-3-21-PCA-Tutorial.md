@@ -2,7 +2,7 @@
 layout: post
 time: 2014-03-21
 title: PCA原理分析
-category: 机器学习
+category: Machine-Learning
 keywords: PCA,主城份分析
 tags: PCA,主城份分析
 description: 本文简要阐述了PCA的原理及其算法过程。

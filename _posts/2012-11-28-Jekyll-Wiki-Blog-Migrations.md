@@ -2,7 +2,7 @@
 layout: post
 title: 【译文】Jekyll博客迁移
 description: Jekyll迁移方法的官方Wiki文档，希望对大家有帮助。
-category: 翻译
+category: Translation
 keywords: Jekyll,Migrations,Wiki,Jekyll迁移,翻译
 tags: Jekyll,Github
 ---

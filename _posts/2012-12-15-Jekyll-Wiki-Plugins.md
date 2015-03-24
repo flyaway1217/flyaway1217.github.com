@@ -2,7 +2,7 @@
 layout: post
 title: 【译文】Jekyll插件
 description: Jekyll官方对插件的说明，希望对大家有所帮助。
-category: 翻译
+category: Translation
 tags: Jekyll,Plugins
 keywords: 翻译,Jekyll,Plugins
 ---

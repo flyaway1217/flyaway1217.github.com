@@ -2,7 +2,7 @@
 layout: post
 time: 2013-09-08
 title: 梯度下降法的Python实现
-category: 机器学习
+category: Machine-Learning
 keywords: 梯度下降法,Normal Equation,Python,Numpy,matplotlib
 tags: 机器学习,线性回归
 description: 之前的两篇文章记录梯度下降法的原理及其矩阵形式的Noraml Equation,这次用代码实现起来，以便加深理解。

@@ -2,7 +2,7 @@
 layout: post
 time: 2013-09-13
 title: 最小二乘法的概率解释
-category: 机器学习
+category: Machine-Learning
 keywords: Least Squares,机器学习,Normal Distribution,最小二乘法,正态分布
 tags: 机器学习,Least Squares
 description: 最小二乘法可行性的概率分析，很多时候我们往往直接使用最小二乘法来对拟合函数做评价，而为什么要使用最小二乘法而不是其他的函数，却很少人说得清楚，本文结合斯坦福Andrew Ng教授的《机器学习》公开课，从概率角度给出一个比较合理的解释。

@@ -2,7 +2,7 @@
 layout: post
 time: 2014-02-17
 title: 判别模型、生成模型和高斯判别模型
-category: 机器学习
+category: Machine-Learning
 keywords: Discriminative,Generative,Gaussian Discriminant Analysis
 tags: 判别模型,生成模型
 description: 本文主要说明了判别式模型和生成式模型的差别，然后介绍了一种生成式模型，高斯判别分析(Gaussian Discriminant Analysis)

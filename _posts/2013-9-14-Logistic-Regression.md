@@ -2,7 +2,7 @@
 layout: post
 time: 2013-09-14
 title: Logistic回归
-category: 机器学习
+category: Machine-Learning
 keywords: Logistic回归,机器学习,分类器,Classification
 tags: 机器学习,Logistic回归
 description: 本文根据斯坦福公开课《机器学习》的内容，加上一些其他的资料，对Logistic回归进行了总结和归纳。

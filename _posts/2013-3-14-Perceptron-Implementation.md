@@ -2,7 +2,7 @@
 layout: post
 title: 感知机的Python简单实现(任意维度)
 time: 2013-3-14
-category: 统计学习
+category: Machine-Learning
 tags: Python,统计学习方法,监督学习
 keywords: Python,统计学习方法,监督学习,感知机实现,感知机
 description: 之前写过一篇感知机模型原理的文章，这次用Python具体实现出来，加深对模型的理解。

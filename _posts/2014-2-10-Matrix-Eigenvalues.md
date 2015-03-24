@@ -2,7 +2,7 @@
 layout: post
 time: 2014-02-10
 title: 另一个角度解释特征值与特征向量
-category: 矩阵论
+category: Matrix-theory
 keywords: Eigenvalues,Eigenvectors
 tags: 矩阵论,数学
 description: 矩阵特征值与特征向量的另外一种解释。

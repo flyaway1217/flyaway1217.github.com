@@ -2,7 +2,7 @@
 layout: post
 title: 【译文】Jekyll扩展的Liquid模板
 description: Jekyll官方对扩展了的Liquid的说明，希望对大家有所帮助。
-category: 翻译
+category: Translation
 tags: Liquid Extensions,Jekyll
 keywords: 翻译,Liquid Extensions,Jekyll
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 【译文】Jekyll固定链接
 description: Jekyll固定链接的官方说明文档，希望对大家有所帮助。
-category: 翻译
+category: Translation
 keywords: Jekyll,Permalinks,固定链接
 tags: Jekyll,Github
 ---

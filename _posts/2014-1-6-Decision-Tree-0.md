@@ -2,7 +2,7 @@
 layout: post
 time: 2014-01-06
 title: 决策树0-基本模型
-category: 机器学习
+category: Machine-Learning
 keywords: Decision Tree,Machine Learning,ID3,决策树,机器学习
 tags: DecisionTree
 description: 机器学习中的经典分类方法——决策树的分析与实现。

@@ -2,7 +2,7 @@
 layout: post
 time: 2013-11-25
 title: 矩阵论学习笔记6-矩阵分解
-category: 矩阵论
+category: Matrix-theory
 keywords: 矩阵论,数学,矩阵分解,初等矩阵,满秩分解
 tags: 矩阵论,数学
 description: 矩阵论学习课程笔记

@@ -2,7 +2,7 @@
 layout: post
 time: 2014-07-03
 title: 随机算法学习笔记6-Martingales
-category: 随机算法
+category: Randomized-Algorithm
 keywords: 随机算法,Martingales
 tags: Randomized Algorithm
 description: 随机算法学习笔记6,重点是Martingales模型。

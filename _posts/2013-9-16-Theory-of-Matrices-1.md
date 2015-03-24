@@ -2,7 +2,7 @@
 layout: post
 time: 2013-09-16
 title: 矩阵论学习笔记1-线性子空间
-category: 矩阵论
+category: Matrix-theory
 keywords: 矩阵论,数学,线性子空间,直接和空间
 tags: 矩阵论,数学
 description: 矩阵论学习课程笔记

@@ -2,7 +2,7 @@
 layout: post
 time: 2014-03-08
 title: 随机算法学习笔记外传0-Monty Hall问题
-category: 随机算法
+category: Randomized-Algorithm
 keywords: 随机算法,Monty Hall
 tags: 随机算法,Monty Hall
 description: 本文从概率角度阐述了Monty Hall问题。

@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll个人博客中添加随机文章功能
 time: 2013-3-9
-category: 网络开发
+category: Web-Developing
 description: 首先声明的是，本人不是专业的前端开发者，这里使用的方法肯定不是最好的，但它完全满足了我的需求。它只使用到了jQuery。
 keywords: jQuery,随机文章实现,javascript
 tags: jQuery,javascript,前端

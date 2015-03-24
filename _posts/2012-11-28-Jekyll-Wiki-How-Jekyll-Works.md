@@ -2,7 +2,7 @@
 layout: post
 title: 【译文】Jekyll是如何工作的
 description: Jekyll工作原理的官方Wiki文档，希望对大家有帮助。
-category: 翻译
+category: Translation
 keywords: Jekyll,work,Wiki,Jekyll工作原理,翻译
 tags: Jekyll,Github
 ---

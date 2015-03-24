@@ -2,7 +2,7 @@
 layout: post
 time: 2013-10-28
 title: 矩阵论学习笔记5-特征值与特征向量
-category: 矩阵论
+category: Matrix-theory
 keywords: 矩阵论,数学,特征值,特征向量
 tags: 矩阵论,数学
 description: 矩阵论学习课程笔记 

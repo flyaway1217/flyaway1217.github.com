@@ -2,7 +2,7 @@
 layout: post
 time: 2013-09-20
 title: 矩阵论学习笔记2-线性空间和线性算子
-category: 矩阵论
+category: Matrix-theory
 keywords: 矩阵论,数学,线性空间,线性算子
 tags: 矩阵论,数学
 description: 矩阵论学习课程笔记

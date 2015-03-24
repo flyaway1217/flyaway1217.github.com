@@ -2,7 +2,7 @@
 layout: post
 time: 2013-12-15
 title: 推荐系统算法-KNN
-category: 机器学习
+category: Machine-Learning
 keywords: KNN,推荐系统,相似度计算
 tags: KNN,机器学习,分类器
 description: 推荐系统中KNN分类器算法的使用。

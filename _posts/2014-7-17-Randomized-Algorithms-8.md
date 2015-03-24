@@ -2,7 +2,7 @@
 layout: post
 time: 2014-05-19
 title: 随机算法学习笔记8-Random Recurrence
-category: 随机算法
+category: Randomized-Algorithm
 keywords: 随机算法,Random Recurrence
 tags: Randomized Algorithm
 description: 随机算法学习笔记8,Random Recurrence
