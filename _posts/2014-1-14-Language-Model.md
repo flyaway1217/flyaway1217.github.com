@@ -194,7 +194,7 @@ class LM:
         w_num = 0
         if cond in self.freq:
             for key in self.freq[cond]:
-                cond_num +=  len(self.freq[cond])
+                cond_num +=  len(self.freq[key])
             w_num = self.freq[cond].get(word,0)
         #smooth
         w_num = w_num + self.lam
